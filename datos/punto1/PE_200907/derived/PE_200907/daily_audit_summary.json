@@ -1,0 +1,58 @@
+{
+  "catchment_id": "PE_200907",
+  "station_name": "Racarumi",
+  "source_file": "data/extracted/CAMELS-PE/03_timeseries/by_catchment/PE_200907.csv",
+  "columns_audited": [
+    "date",
+    "prec",
+    "flow_obs"
+  ],
+  "file_records": 16436,
+  "file_date_start": "1981-01-01",
+  "file_date_end": "2025-12-31",
+  "expected_calendar_days": 16436,
+  "chronologically_sorted": true,
+  "duplicate_date_count": 0,
+  "duplicate_dates": [],
+  "missing_calendar_date_count": 0,
+  "missing_calendar_dates": [],
+  "daily_calendar_continuous": true,
+  "variables": {
+    "prec": {
+      "available_start": "1981-01-01",
+      "available_end": "2025-12-31",
+      "total_records": 16436,
+      "valid_records": 16436,
+      "missing_records": 0,
+      "missing_percentage": 0.0,
+      "records_in_availability_period": 16436,
+      "missing_within_availability_period": 0,
+      "missing_percentage_within_availability_period": 0.0,
+      "missing_block_count": 0
+    },
+    "flow_obs": {
+      "available_start": "1981-01-01",
+      "available_end": "2023-08-31",
+      "total_records": 16436,
+      "valid_records": 15533,
+      "missing_records": 903,
+      "missing_percentage": 5.494,
+      "records_in_availability_period": 15583,
+      "missing_within_availability_period": 50,
+      "missing_percentage_within_availability_period": 0.3209,
+      "missing_block_count": 27
+    }
+  },
+  "units": {
+    "prec": "mm/day",
+    "flow_obs": "mm/day"
+  },
+  "units_source": "CAMELS-PE/01_metadata/data_dictionary.csv",
+  "common_period": {
+    "start": "1981-01-01",
+    "end": "2023-08-31",
+    "calendar_days": 15583,
+    "records_in_period": 15583,
+    "days_with_both_variables_valid": 15533
+  }
+}

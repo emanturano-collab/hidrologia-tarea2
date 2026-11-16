@@ -1,0 +1,27 @@
+{
+  "outlet_lat": 48.9181944444,
+  "outlet_lon": 9.9123611111,
+  "osm_elements": 171,
+  "waterways_within_1200m": 51,
+  "roads_within_1200m": 111,
+  "nearest_waterway": {
+    "distance_m": 412.6,
+    "name": "",
+    "type": "stream"
+  },
+  "nearest_road": {
+    "distance_m": 118.1,
+    "name": "",
+    "type": "service"
+  },
+  "named_waterways": [
+    "Algishofen",
+    "Geschwendklinge",
+    "Kocher",
+    "Mühlkanal E-Werk",
+    "Rötenbach",
+    "Suhbach",
+    "Zollklinge"
+  ],
+  "osm_query_radius_m": 1200
+}
