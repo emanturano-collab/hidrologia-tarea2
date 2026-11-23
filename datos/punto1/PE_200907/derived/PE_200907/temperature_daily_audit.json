@@ -1,0 +1,41 @@
+{
+  "period": {
+    "start": "1981-01-01",
+    "end": "2023-08-31"
+  },
+  "variables": {
+    "tmin": {
+      "description": "Minimum air temperature",
+      "unit": "degC",
+      "source": "PISCOt v1.2",
+      "available_start": "1981-01-01",
+      "available_end": "2020-12-31",
+      "records": 15583,
+      "valid_records": 14610,
+      "missing_records": 973,
+      "missing_percentage": 6.244
+    },
+    "tmean": {
+      "description": "Mean air temperature",
+      "unit": "degC",
+      "source": "PISCOt v1.2",
+      "available_start": "1981-01-01",
+      "available_end": "2020-12-31",
+      "records": 15583,
+      "valid_records": 14610,
+      "missing_records": 973,
+      "missing_percentage": 6.244
+    },
+    "tmax": {
+      "description": "Maximum air temperature",
+      "unit": "degC",
+      "source": "PISCOt v1.2",
+      "available_start": "1981-01-01",
+      "available_end": "2020-12-31",
+      "records": 15583,
+      "valid_records": 14610,
+      "missing_records": 973,
+      "missing_percentage": 6.244
+    }
+  }
+}

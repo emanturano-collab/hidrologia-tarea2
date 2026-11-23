@@ -1,0 +1,13 @@
+{
+  "product": "GPM_3IMERGDF_07",
+  "name": "GPM IMERG Final Precipitation L3 1 day 0.1 degree V07",
+  "provider": "NASA GES DISC",
+  "doi": "10.5067/GPM/IMERGDF/DAY/07",
+  "spatial_resolution": "0.1 degree",
+  "temporal_resolution": "daily",
+  "available_period": "1998-01-present",
+  "applicable_overlap_for_PE_200907": "1998-01-01 to 2023-08-31",
+  "dataset_url": "https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGDF_07/summary",
+  "access": "Free Earthdata registration and authentication required for programmatic data download",
+  "status": "Source identified; basin extraction not downloaded pending authentication choice"
+}
