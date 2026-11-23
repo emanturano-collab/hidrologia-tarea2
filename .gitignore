@@ -4,6 +4,7 @@ tmp/
 **/__pycache__/
 *.log
 *.aux
+*.out
 *.synctex.gz
 .miktex-preview-config/
 *.tif
