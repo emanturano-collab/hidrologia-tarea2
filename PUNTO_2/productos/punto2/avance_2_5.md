@@ -31,7 +31,7 @@ independientes.
 | 50 | 46.79 |
 | 100 | 56.35 |
 
-Los resultados se encuentran en `datos/punto2/Abtsgmuend_Untergroeningen/bonificacion_2_5_pot/`.
+Los resultados se encuentran en `PUNTO_2/datos/punto2/Abtsgmuend_Untergroeningen/bonificacion_2_5_pot/`.
 
 ## Interpretación y limitaciones
 

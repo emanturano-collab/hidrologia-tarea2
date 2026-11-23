@@ -1,5 +1,6 @@
 # Datos pesados y temporales: se conservan localmente, pero no se versionan.
 tmp/
+**/tmp/
 **/__pycache__/
 *.log
 *.aux
@@ -11,7 +12,7 @@ tmp/
 *.aux.xml.properties
 *.hgt.gz.properties
 *.zip
-datos/punto2/**/raw/
-datos/punto2/**/abtsgmuend_precipitation_10min.csv
-datos/punto2/**/ams_precipitation.csv
-datos/punto2/GHCNh_*.psv
+PUNTO_2/datos/punto2/**/raw/
+PUNTO_2/datos/punto2/**/abtsgmuend_precipitation_10min.csv
+PUNTO_2/datos/punto2/**/ams_precipitation.csv
+PUNTO_2/datos/punto2/GHCNh_*.psv

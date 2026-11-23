@@ -7,7 +7,7 @@ ponderado. Siguen siendo provisionales `CN=75`, `n=0.013` y la pendiente de
 tubería 0.01, hasta seleccionar la estructura de drenaje y justificar suelo y
 humedad antecedente.
 
-Archivos: `datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/`.
+Archivos: `PUNTO_2/datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/`.
 
 - Problema A: comparación de tres tc, caudal/diámetro provisional, sensibilidad
   Monte Carlo de 5000 iteraciones y riesgo de vida útil.

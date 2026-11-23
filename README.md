@@ -1,39 +1,34 @@
-# Tarea 2 · Hidrología · Semestre 202602
+# Tarea 2 de Hidrología
 
-Este repositorio se organiza para producir el ZIP exigido por el enunciado. El nombre final del ZIP y de la carpeta raíz debe reemplazar `GNN` y los apellidos por los datos reales del grupo:
-
-`T2_202602_GNN_Apellido1_Apellido2_Apellido3.zip`
-
-La estructura de entrega será:
+El repositorio está organizado en los dos componentes de la tarea:
 
 ```text
-T2_202602_GNN_Apellido1_Apellido2_Apellido3/
-├── README.md
-├── T2_202602_GNN_informe.pdf
-├── T2_202602_GNN_presentacion.pdf
-├── codigo/
-│   ├── punto1/
-│   └── punto2/
-├── datos/
-│   ├── punto1/
-│   └── punto2/
-├── productos/
-│   ├── punto1/
-│   └── punto2/
-└── anexos/
+PUNTO_1/
+├── datos/       # Información y productos heredados de la Tarea 1
+├── codigo/      # Espacio reservado para los scripts del punto 1
+└── productos/   # Resultados del punto 1
+
+PUNTO_2/
+├── datos/       # Datos DWD, DEM, coberturas y resultados numéricos
+├── codigo/      # Scripts de preparación, análisis y diseño
+├── productos/   # Productos metodológicos y revisiones de la rúbrica
+├── informe/     # Fuentes LaTeX del informe
+├── output/      # PDFs generados
+├── anexos/      # Material complementario
+└── GUIA_PASO_A_PASO_PUNTO2.md
 ```
 
-Mientras se completa el análisis, este repositorio usa su propia raíz como carpeta de trabajo. Los nombres definitivos se aplicarán al preparar el ZIP.
+El punto 1 conserva la información de la cuenca PE_200907 (Racarumi,
+Chancay–Lambayeque) trabajada en la Tarea 1. El punto 2 utiliza de forma
+independiente la estación DWD 00020 y la microcuenca Abtsgmünd–Untergröningen.
 
-## Estado de los datos
+Las bases brutas de gran tamaño, cachés y archivos temporales se mantienen
+fuera del control de versiones mediante `.gitignore`. Los datos procesados,
+scripts, figuras, tablas y documentación necesarios para reproducir el
+análisis sí están organizados dentro de `PUNTO_1/` y `PUNTO_2/`.
 
-`datos/punto1/PE_200907/` contiene una copia de los datos seleccionados y procesados de la Tarea 1: estación Racarumi, cuenca Chancay–Lambayeque. Esa cuenca tiene 2363.302 km² y la precipitación disponible es diaria; por ello no cumple directamente los requisitos del punto 2 (microcuenca de 0.1–5 km² y serie subdiaria de lluvia). Se conserva como referencia y para documentar la continuidad con la Tarea 1.
+## Informe
 
-Los datos subdiarios, el DEM y la delimitación de la microcuenca que sí se utilicen en el punto 2 se guardarán en `datos/punto2/`, con metadatos de fuente, versión, unidades, fecha de descarga y procesamiento.
-
-## Convenciones
-
-- Rutas relativas únicamente.
-- Archivos internos con ASCII, sin espacios ni tildes.
-- No incluir credenciales, claves API ni archivos como `.cdsapirc`.
-- Cada resultado del informe debe poder rastrearse a un archivo de `datos/`, un script de `codigo/` y un producto de `productos/`.
+El informe LaTeX se encuentra en
+`PUNTO_2/informe/informe_tarea2.tex`. Los PDFs generados están en
+`PUNTO_2/output/pdf/`.

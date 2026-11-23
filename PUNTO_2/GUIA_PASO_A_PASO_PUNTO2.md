@@ -37,7 +37,7 @@ Manning y tránsito en tanque.
 - La guía identifica las ecuaciones que se usarán.
 - La microcuenca está dentro del rango donde el método racional es defendible.
 - La estructura de riesgo nominal frente a riesgo efectivo ya está definida.
-- Se creó `productos/punto2/2_0_conceptos_y_ecuaciones.md` con definiciones,
+- Se creó `PUNTO_2/productos/punto2/2_0_conceptos_y_ecuaciones.md` con definiciones,
   ecuaciones, unidades y supuestos.
 
 ### Lo que falta para cerrarlo
@@ -81,7 +81,7 @@ IDF.
 - Año hidrológico octubre–septiembre definido; quedan 20 años hidrológicos
   completos (2006–2025).
 - Climatología mensual, faltantes por mes y justificación espacial preliminar
-  generados en `datos/punto2/Abtsgmuend_Untergroeningen/control_2_1`.
+  generados en `PUNTO_2/datos/punto2/Abtsgmuend_Untergroeningen/control_2_1`.
 
 Archivos principales:
 
@@ -134,7 +134,7 @@ incertidumbre estadística.
   discutirse como incertidumbre de extrapolación.
 
 Archivos disponibles: `stationarity_tests.csv` y
-`datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2`.
+`PUNTO_2/datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2`.
 
 ### Trabajo obligatorio pendiente
 

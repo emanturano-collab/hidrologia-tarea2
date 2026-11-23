@@ -6,6 +6,7 @@
 \usepackage{siunitx}
 \usepackage{amsmath}
 \usepackage{array}
+\usepackage{float}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{geometry}
@@ -25,7 +26,7 @@
 \begin{center}
 \vspace*{0.8cm}
 % No se encontró un archivo del escudo en el repositorio. Colocar el archivo
-% oficial en informe/escudo_unal.png para activarlo sin modificar el diseño.
+% oficial en PUNTO_2/informe/escudo_unal.png para activarlo sin modificar el diseño.
 \IfFileExists{escudo_unal.png}{\includegraphics[height=2.7cm]{escudo_unal.png}\\[0.65cm]}{\vspace*{2.7cm}}
 {\bfseries UNIVERSIDAD NACIONAL DE COLOMBIA}\par
 \vspace{1.25cm}
@@ -55,9 +56,9 @@ Este informe presenta el análisis del punto 2 de la Tarea 2 para la estación p
 \section{Espacio reservado para el punto 1}
 \textbf{Esta sección debe ser completada por los integrantes responsables del punto 1.} Debe incorporarse aquí el análisis de la cuenca de la Tarea 1, incluyendo delimitación, precipitación, caudales, temperatura, climatología, tendencias, metodología, resultados y conclusiones.\par
 
-Como referencia de los datos del grupo, la Tarea 1 trabajó con la cuenca PE\_200907 (Racarumi, Chancay--Lambayeque), ubicada aproximadamente en $-6.633^\circ$ N y $-79.317^\circ$ W, con área de \SI{2363.302}{km^2}. Los productos originales se conservan en `datos/punto1/` y no se sustituyen por los datos independientes usados en este punto 2.
+Como referencia de los datos del grupo, la Tarea 1 trabajó con la cuenca PE\_200907 (Racarumi, Chancay--Lambayeque), ubicada aproximadamente en $-6.633^\circ$ N y $-79.317^\circ$ W, con área de \SI{2363.302}{km^2}. Los productos originales se conservan en `../PUNTO_1/datos/punto1/` y no se sustituyen por los datos independientes usados en este punto 2.
 
-% El cuerpo fluye de forma continua; no se fuerza una página nueva tras el espacio reservado para el punto 1.
+\newpage
 \section{Punto 2: análisis hidrológico independiente}
 \subsection{Objetivos y alcance}
 El objetivo es caracterizar extremos de precipitación subdiaria y emplearlos en el diseño preliminar de obras de drenaje. El punto 2 es independiente del punto 1; por ello se seleccionó la estación DWD 00020, cuya serie histórica satisface la resolución temporal requerida.
@@ -67,7 +68,7 @@ La estación Abtsgmünd--Untergröningen se ubica en Alemania y dispone de preci
 
 La cuenca sintética fue delimitada sobre el MDE SRTM. Su área es \SI{0.123154}{km^2}; la longitud del cauce principal es \SI{382.69}{m} y su pendiente media es \SI{0.1254}{m/m}. La estación queda fuera del polígono de drenaje, por lo que representa la lluvia regional y no un punto de aforo dentro de la microcuenca.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=0.92\linewidth]{mapa_revision_visual.png}
 \caption{Contexto topográfico, límite de microcuenca, estación, outlet y cauces cartografiados.}
 \label{fig:mapa}
@@ -78,7 +79,7 @@ Se construyeron máximos anuales hidrológicos para duraciones de 10 minutos a 2
 
 El bootstrap de cuantiles muestra incertidumbre creciente para periodos de retorno altos y duraciones largas. En 12--24 horas aparecen intervalos muy amplios, por lo que esas extrapolaciones deben interpretarse con cautela. Las pruebas de Kendall no detectaron tendencias significativas al 5\%; esto se expresa como ``no se detectó tendencia'', no como garantía de estacionariedad futura.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=0.95\linewidth]{graficas_probabilidad_2_2.png}
 \caption{Gráficos de probabilidad para las distribuciones evaluadas.}
 \end{figure}
@@ -88,7 +89,7 @@ La IDF local se construyó con GEV-MLE. Las intensidades aumentan al disminuir l
 
 El máximo de 1 hora del año hidrológico 2021 fue \SI{48.27}{mm}, con periodo de retorno GEV-MLE aproximado de 17.4 años. Este evento no se interpreta por sí solo como evidencia de cambio climático.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=0.86\linewidth]{idf_gev_mle.png}
 \caption{Curvas IDF basadas en GEV-MLE.}
 \end{figure}
@@ -97,7 +98,7 @@ El máximo de 1 hora del año hidrológico 2021 fue \SI{48.27}{mm}, con periodo 
 \subsubsection{Outlet y delimitación}
 El outlet adoptado es $(48.9181944^\circ\ \mathrm{N},\ 9.9123611^\circ\ \mathrm{E})$. Coincide con el extremo aguas abajo del cauce principal derivado del MDE y queda dentro del polígono. La revisión con OpenStreetMap no encontró coincidencia exacta con una línea OSM; por tanto se declara como outlet sintético, no como obra existente ni punto de aforo real (véase la ampliación en la Figura~\ref{fig:detalle}).
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=0.9\linewidth]{mapa_revision_visual_detalle.png}
 \caption{Detalle del outlet y comparación entre cauce DEM y geometrías OSM.}
 \label{fig:detalle}
@@ -118,7 +119,7 @@ Se aplicó Peaks Over Threshold a acumulados horarios derivados de la serie de 1
 La recomendación depende de la IDF GEV-MLE, del outlet sintético, del coeficiente $C$, del tiempo de concentración y de los supuestos de Manning y tránsito. La mayor incertidumbre aparece en la extrapolación de retornos largos y en la representación espacial del outlet. Cambios en cobertura o humedad antecedente modificarían $C$ y, por tanto, el caudal racional. El riesgo efectivo de 21.9\% a 30 años debe guiar una eventual medida adicional de seguridad, como mayor diámetro, alivio de emergencia o control operativo.
 
 \section{Reproducibilidad y declaración de uso de IA}
-Los datos procesados, scripts y resultados se encuentran en `datos/punto2/`, `codigo/punto2/` y `productos/punto2/`. La auditoría previa obtuvo 10/10 controles OK. La asistencia de IA se utilizó para organizar código, revisar consistencia, generar mapas estáticos y redactar borradores; las decisiones metodológicas, revisión de resultados y responsabilidad académica corresponden al grupo.
+Los datos procesados, scripts y resultados se encuentran en `../datos/punto2/`, `../codigo/punto2/` y `../productos/punto2/`. La auditoría previa obtuvo 10/10 controles OK. La asistencia de IA se utilizó para organizar código, revisar consistencia, generar mapas estáticos y redactar borradores; las decisiones metodológicas, revisión de resultados y responsabilidad académica corresponden al grupo.
 
 \section{Conclusiones}
 La estación DWD 00020 permite un análisis subdiario reproducible. La GEV-MLE se seleccionó como distribución de referencia y la comparación KOSTRA evidenció mayor severidad local en la cola. El diseño preliminar consta de una alcantarilla de \SI{1.50}{m} y un tanque de \SI{1056}{m^3}, con riesgo residual explícito. POT confirma la sensibilidad del análisis de extremos, pero no reemplaza la IDF principal. La interpretación debe conservar la limitación del outlet sintético.
