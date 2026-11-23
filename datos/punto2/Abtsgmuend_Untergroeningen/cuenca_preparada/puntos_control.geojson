@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"tipo": "estacion", "id": "00020"}, "geometry": {"type": "Point", "coordinates": [9.912916666666666, 48.92180555555556]}}, {"type": "Feature", "properties": {"tipo": "salida", "area_km2": 0.12315398805842746}, "geometry": {"type": "Point", "coordinates": [9.91236111111111, 48.918194444444445]}}]}
