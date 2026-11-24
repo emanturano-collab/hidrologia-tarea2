@@ -1,11 +1,24 @@
-# Punto 2
+# Punto 2 — paquete final
 
-Este directorio contiene el análisis hidrológico independiente desarrollado
-para la estación DWD 00020 y la microcuenca Abtsgmünd–Untergröningen.
+Análisis hidrológico independiente de la estación DWD 00020 y la microcuenca
+Abtsgmünd–Untergröningen. Se conserva únicamente la versión final y la
+evidencia necesaria para integrarla posteriormente con el punto 1.
 
-- `datos/punto2/`: datos, geometría, extremos, IDF, KOSTRA y diseño.
-- `codigo/`: scripts reproducibles de los apartados 2.1–2.5.
-- `productos/punto2/`: revisiones, discusiones y cierres de cada fase.
-- `informe/`: fuentes LaTeX.
-- `PUNTO_2/output/pdf/`: versiones PDF generadas.
-- `GUIA_PASO_A_PASO_PUNTO2.md`: guía de trabajo y trazabilidad de la rúbrica.
+## Entregables
+
+- `output/pdf/informe_tarea2_humano.pdf`: informe definitivo.
+- `output/pdf/T2_202602_G00_presentacion.pdf`: presentación oral.
+- `output/T2_202602_G00_Idrobo_Irpanoca_Manturano.zip`: paquete de entrega.
+- `informe/informe_tarea2.tex`: fuente LaTeX conservada como referencia.
+
+## Reproducibilidad y evidencia
+
+- `codigo/`: generación del informe, auditoría y bonificaciones.
+- `datos/punto2/Abtsgmuend_Untergroeningen/`: datos procesados de 2.1–2.5,
+  WorldCover con metadatos/checksum, AMS/IDF, KOSTRA y diseños A/B.
+- `productos/punto2/`: matriz de calificación, referencias APA 7, declaración
+  de IA, validaciones y resultados de los bonos.
+- `anexos/tarea2_enunciado.pdf`: fuente normativa oficial.
+
+El número `G00` es un marcador pendiente de sustituirse por el número oficial
+del grupo antes de la entrega final.
