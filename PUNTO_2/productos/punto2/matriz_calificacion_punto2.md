@@ -61,3 +61,19 @@ No se suman automáticamente. POT es una sensibilidad útil, pero los bonos del 
 | **2.5.5** | Cópula gaussiana paramétrica con márgenes empíricos; retornos conjuntos de 31.8, 85.4 y 311.1 años. | **0.0 provisional** hasta añadir incertidumbre y contraste de familias de cópula. |
 
 **Bonificación técnicamente sustentable hoy:** `+0.3` por 2.5.1 y 2.5.2. Los bonos 2.5.3–2.5.5 siguen pendientes. La nota obligatoria del trabajo completo permanece `3.18/5.0` porque el punto 1 continúa incompleto; el componente técnico del punto 2 puede llegar a `5.0` al validar los cinco bonos.
+
+## 5. Calificación exclusiva del punto 2 después de las validaciones
+
+| Componente del punto 2 | Nota actual |
+|---|---:|
+| Requisitos obligatorios 2.0–2.4B, con tablas, incertidumbre, diseño y sensibilidad | **4.6/5.0** |
+| Bono 2.5.1 mínimo costo esperado | **+0.2** |
+| Bono 2.5.2 POT–AMS–Langbein con bootstrap GPD | **+0.1** |
+| Bonos 2.5.3–2.5.5 | **+0.0 provisional** |
+| **Resultado defendible actual del punto 2** | **4.9/5.0** |
+
+Para alcanzar exactamente **5.0/5.0 en el punto 2**, falta cerrar al menos uno de
+los bonos restantes con rigor completo: temperatura observada para 2.5.3,
+métricas de desempeño y recuperación para 2.5.4, o intervalos y contraste de
+familias para 2.5.5. La calificación global del trabajo sigue dependiendo del
+punto 1 y no se sustituye por esta calificación exclusiva del punto 2.
