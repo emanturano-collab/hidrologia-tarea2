@@ -16,7 +16,7 @@ evidencia reconstruida y están marcados con esa limitación.
   bootstrap y pruebas KS/Cramér–von Mises.
 - 2.3: IDF GEV-MLE y comparación con KOSTRA-DWD-2020; archivos de comparación
   y gráfica incluidos.
-- 2.4A: C=0.33239, tc de Kirpich=9.436 min, Qp=3.55778 m³/s, alcantarilla
+- 2.4A: C=0.33239, tc de Kirpich=4.226 min, Qp=3.55778 m³/s, alcantarilla
   de 1.50 m y capacidad 7.076 m³/s.
 - 2.4B: tanque de 24 × 22 m, 1056 m³ útiles, requerimiento 1014.75 m³,
   profundidad máxima 1.92 m y margen 41.25 m³.
