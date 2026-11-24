@@ -1,3 +1,5 @@
+> Nota de actualización: consultar `cierre_final_punto2.md` para los valores finales y la auditoría reproducible. Este archivo conserva el estado previo.
+
 # Cierre técnico del apartado 2.4 y puerta de entrada a 2.5
 
 ## Correcciones realizadas

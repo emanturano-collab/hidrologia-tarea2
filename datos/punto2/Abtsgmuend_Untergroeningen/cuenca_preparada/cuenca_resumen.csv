@@ -1,0 +1,20 @@
+campo,valor
+station_id,00020
+station_lat,48.9219
+station_lon,9.9129
+station_elev_m,432.0
+outlet_lat,48.918194444444445
+outlet_lon,9.91236111111111
+outlet_distance_m,414.4
+station_snap_lat,48.92263888888889
+station_snap_lon,9.91375
+station_snap_distance_m,103.1
+area_km2,0.12315
+elev_min_m,387.0
+elev_max_m,435.0
+elev_mean_m,417.09
+slope_mean_pct,13.679
+main_channel_length_m,382.69
+main_channel_slope_m_m,0.12543
+station_inside_drainage,False
+dem_source,SRTM N48E009.hgt

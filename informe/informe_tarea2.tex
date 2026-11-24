@@ -63,7 +63,7 @@ Como referencia de los datos del grupo, la Tarea 1 trabajó con la cuenca PE\_20
 El objetivo es caracterizar extremos de precipitación subdiaria y emplearlos en el diseño preliminar de obras de drenaje. El punto 2 es independiente del punto 1; por ello se seleccionó la estación DWD 00020, cuya serie histórica satisface la resolución temporal requerida.
 
 \subsection{Datos y control de calidad (2.1)}
-La estación Abtsgmünd--Untergröningen se ubica en Alemania y dispone de precipitación cada 10 minutos entre 2004 y 2025. Se conservaron los datos originales, metadatos, códigos de calidad y una serie procesada reproducible. Los valores faltantes y códigos inválidos se transformaron en datos ausentes; no se imputaron sin una decisión metodológica explícita. La serie se auditó por intervalos temporales, cobertura mensual y año hidrológico.
+La estación Abtsgmünd--Untergröningen se ubica en Alemania y dispone de precipitación cada 10 minutos entre 2005 y 2025. Se conservaron los datos originales, metadatos, códigos de calidad y una serie procesada reproducible. Los valores faltantes y códigos inválidos se transformaron en datos ausentes; no se imputaron sin una decisión metodológica explícita. La serie se auditó por intervalos temporales, cobertura mensual y año hidrológico.
 
 La cuenca sintética fue delimitada sobre el MDE SRTM. Su área es \SI{0.123154}{km^2}; la longitud del cauce principal es \SI{382.69}{m} y su pendiente media es \SI{0.1254}{m/m}. La estación queda fuera del polígono de drenaje, por lo que representa la lluvia regional y no un punto de aforo dentro de la microcuenca.
 
@@ -109,7 +109,7 @@ La cobertura ESA WorldCover 2021 se resumió en árboles (56.17\%), pastizal (32
 Para $T=25$ años y el tiempo de concentración de Kirpich se obtuvo $Q_p=\SI{3.57}{m^3/s}$. La alcantarilla circular adoptada tiene diámetro \SI{1.50}{m}, pendiente \SI{0.010}{m/m}, Manning $n=0.013$ y capacidad \SI{7.08}{m^3/s}. El factor de seguridad respecto al caudal mediano es 1.98. El Monte Carlo estima falla anual de 0.82\% y riesgo acumulado de 21.9\% en 30 años; este riesgo residual no se presenta como riesgo bajo.
 
 \subsubsection{Tanque de detención}
-Se evaluaron hietogramas de 30, 60 y 90 minutos con tres posiciones del pico. El escenario crítico requiere \SI{1019.15}{m^3} y alcanza \SI{1.93}{m} de profundidad. El tanque rectangular propuesto mide $24\times22$ m, tiene \SI{2.0}{m} de profundidad útil y \SI{0.5}{m} de borde libre, para un volumen útil de \SI{1056}{m^3}. El margen volumétrico es \SI{36.85}{m^3}.
+Se evaluaron hietogramas de 30, 60 y 90 minutos con tres posiciones del pico. El escenario crítico requiere \SI{1019.29}{m^3} y alcanza \SI{1.93}{m} de profundidad. El tanque rectangular propuesto mide $24\times22$ m, tiene \SI{2.0}{m} de profundidad útil y \SI{0.5}{m} de borde libre, para un volumen útil de \SI{1056}{m^3}. El margen volumétrico es \SI{36.71}{m^3}.
 
 \subsection{Bonificación POT (2.5)}
 Se aplicó Peaks Over Threshold a acumulados horarios derivados de la serie de 10 minutos. Con umbral P95 (\SI{0.530}{mm/h}) y declustering de 24 horas se obtuvieron 1523 picos y una tasa de 71.22 eventos/año. La Generalizada de Pareto produjo \SI{56.35}{mm} para 1 hora y $T=100$ años. La sensibilidad P90--P98 varió entre \SI{52.87}{mm} y \SI{61.10}{mm}; la GEV-MLE da \SI{93.36}{mm} para el mismo escenario. POT se conserva como análisis complementario y no sustituye la IDF principal.
