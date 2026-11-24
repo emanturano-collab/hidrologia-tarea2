@@ -1,3 +1,5 @@
+> Esta auditoría fue actualizada después de reconstruir las salidas faltantes. El resultado vigente es `auditoria_pre_informe_resultado.md` y el cierre interpretativo está en `cierre_final_punto2.md`.
+
 # Auditoría previa al informe presentable
 
 Este archivo controla el cierre técnico antes de generar el PDF final. No es

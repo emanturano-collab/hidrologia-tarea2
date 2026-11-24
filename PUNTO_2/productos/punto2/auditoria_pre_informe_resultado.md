@@ -7,8 +7,8 @@ Checks OK: 10/10
        Outlet–extremo cauce DEM     OK outlet=[9.91236111111111, 48.918194444444445], extremo=[9.91236111111111, 48.918194444444445]
                  Diámetro final     OK                                                                                      D=1.50 m
      Capacidad > caudal mediano     OK                                                                         Qc=7.08, Qp=3.57 m³/s
-               Riesgo reportado     OK                                                                          riesgo 30 años=0.219
-     Volumen tanque > requerido     OK                                                                         1056.00 vs 1019.15 m³
+               Riesgo reportado     OK                                                                          riesgo 30 años=0.000
+     Volumen tanque > requerido     OK                                                                         1056.00 vs 1019.29 m³
           Profundidad bajo útil     OK                                                                                1.93 vs 2.00 m
                POT sensibilidad     OK                                                            archivos de sensibilidad presentes
              2.2–2.3 resultados     OK                                                              bootstrap e IDF–KOSTRA presentes

@@ -1,5 +1,9 @@
 # Cierre final del apartado 2.4
 
+> Nota de actualización: los valores de referencia para la entrega son los
+> del archivo `cierre_final_punto2.md`, generado después de reconstruir las
+> salidas auditables. Este documento conserva el cierre anterior como registro.
+
 ## 1. Declaración del outlet
 
 El punto de salida adoptado para los cálculos es:
