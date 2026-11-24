@@ -49,3 +49,15 @@ No se suman automáticamente. POT es una sensibilidad útil, pero los bonos del 
 3. Mostrar bandas IDF y comparación cuantitativa trapezoidal–hietograma para 2.4B.
 4. Sustituir `G00` por el número oficial e incorporar el punto 1 al ZIP final.
 5. Desarrollar cada bono 2.5.1–2.5.5 con cálculo, incertidumbre y referencia verificable.
+
+## 4. Actualización después de la Fase 2 — 24 de noviembre de 2026
+
+| Bono | Evidencia nueva | Dictamen de calificación |
+|---|---|---|
+| **2.5.1** | Curva de costo esperado para T=2–100 años. El mínimo preliminar es T=2, pero el daño esperado resultó cero por una incompatibilidad entre la escala subhoraria de diseño y los máximos horarios usados como muestra. | **0.0 provisional** hasta corregir la muestra de carga y ejecutar sensibilidad de `Dmax` y tasa. |
+| **2.5.2** | POT P95, declustering 24 h, ajuste GPD y comparación con AMS mediante Langbein. | **0.05 provisional**; puede subir a +0.1 tras verificar la equivalencia de periodos y la incertidumbre GPD. |
+| **2.5.3** | Escenario 7 %/°C con diámetros equivalentes de 1.50–1.62 m y periodo efectivo de 25.0 a 14.8 años para 0–3 °C. | **0.0 provisional** hasta contrastar el escenario con temperatura observada y justificar la elección climática. |
+| **2.5.4** | Serie horaria completa convertida a caudal; 0 horas exceden la capacidad de 7.076 m³/s. | **0.0 provisional**: un resultado nulo no demuestra por sí solo confiabilidad, resiliencia y vulnerabilidad; falta validar racional tiempo–área y periodo de desempeño. |
+| **2.5.5** | Cópula gaussiana exploratoria entre intensidad y duración. Los umbrales conjuntos no registran excedencias en 21 años. | **0.0 provisional** hasta ajustar márgenes continuos, seleccionar cópula formal y estimar incertidumbre. |
+
+**Bonificación reconocible hoy:** `+0.00` segura; `+0.05` potencial por 2.5.2 después de revisión. **Nota obligatoria actual:** `3.18/5.0`, porque el punto 1 continúa incompleto. Incluso concediendo provisionalmente +0.05, la nota sería aproximadamente `3.23/5.0`. Con el punto 1 completo y los cinco bonos validados, el techo queda limitado por 5.0.

@@ -43,9 +43,10 @@ fit=pd.read_csv(BASE/'extremos_2_2'/'fit_summary_mle.csv')
 par=fit[(fit.duration=='1h')&(fit.model=='gev_mle')].iloc[0].parameters.split(';')
 cgev, loc, scale = map(float,par)
 base=float(qdesign[list(Tvals).index(25)])
+base_i=float(amsq[(amsq.T_years==25)].quantile_mm.iloc[0]) if 'amsq' in globals() else float(pd.read_csv(BASE/'extremos_2_2'/'quantiles_mle.csv').query("duration=='1h' and model=='gev_mle' and T_years==25").quantile_mm.iloc[0])
 climate=[]
 for delta in [0,1,2,3]:
-    factor=1.07**delta; q=base*factor; d=(1.5*factor**(3/8)); p=1-genextreme.cdf(q,cgev,loc=loc,scale=scale); climate.append([delta,factor,q,d,1/p])
+    factor=1.07**delta; q=base*factor; d=(1.5*factor**(3/8)); warmed_i=base_i/factor; p=1-genextreme.cdf(warmed_i,cgev,loc=loc,scale=scale); climate.append([delta,factor,q,d,1/p])
 pd.DataFrame(climate,columns=['warming_degC','rain_factor','Qp_m3s','diameter_equiv_m','effective_T_years']).to_csv(OUT/'bono_2_5_3_cambio_climatico.csv',index=False)
 
 # 2.5.4: reliability/resilience/vulnerability from the complete 10-min series.
