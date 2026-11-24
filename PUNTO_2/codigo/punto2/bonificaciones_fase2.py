@@ -17,7 +17,11 @@ d_h = tc_min/60
 qdesign = C * idf.a.to_numpy() * d_h**(-idf.eta.to_numpy()) * A/3.6
 q2 = float(qdesign[0])
 ams = pd.read_csv(BASE/'ams_precipitation.csv')
-qsample = C * ams.max_1h_mm.to_numpy() / 3.6 * A
+eta25 = float(idf.loc[idf.T_years==25,'eta'].iloc[0])
+# Carga compatible con tc: los máximos de 10 minutos se expresan como
+# intensidad y se escalan a tc con la ley IDF usada en el punto 2.3.
+sample_i_tc = (ams.max_10min_mm.to_numpy()*6.0) * (d_h/(10/60))**(-eta25)
+qsample = C * sample_i_tc / 3.6 * A
 r, nlife = 0.06, 30
 frc = r*(1+r)**nlife/((1+r)**nlife-1)
 rows=[]
@@ -28,6 +32,18 @@ for T, Q in zip(Tvals, qdesign):
 cost=pd.DataFrame(rows,columns=['T_years','Q_design_m3s','construction_C0','annualized_construction_C0','expected_damage_C0','expected_total_C0'])
 cost.to_csv(OUT/'bono_2_5_1_costo_esperado.csv',index=False)
 best=cost.loc[cost.expected_total_C0.idxmin()]
+# Sensibilidades exigidas por el enunciado: Dmax/2 y 2Dmax, y tasas de
+# descuento de 3 %, 6 % y 9 %.
+sens=[]
+for dmax in [10,20,40]:
+    for rate in [0.03,0.06,0.09]:
+        frc_s=rate*(1+rate)**nlife/((1+rate)**nlife-1)
+        totals=[]
+        for Q in qdesign:
+            damage=np.where(qsample>Q,dmax*(1-np.exp(-(qsample-Q)/(0.5*Q))),0).mean()
+            totals.append(frc_s*(Q/q2)**0.6+damage)
+        j=int(np.argmin(totals)); sens.append([dmax,rate,Tvals[j],totals[j]])
+pd.DataFrame(sens,columns=['Dmax_C0','discount_rate','T_opt_years','min_expected_cost_C0']).to_csv(OUT/'bono_2_5_1_sensibilidad.csv',index=False)
 
 # 2.5.2: POT versus AMS through Langbein's relation.
 pot=pd.read_csv(BASE/'bonificacion_2_5_pot'/'pot_return_levels.csv')

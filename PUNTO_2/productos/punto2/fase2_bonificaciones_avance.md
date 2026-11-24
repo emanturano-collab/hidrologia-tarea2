@@ -2,7 +2,7 @@
 
 | Bono | Producto | Estado de rigor |
 |---|---|---|
-| 2.5.1 mínimo costo esperado | `bono_2_5_1_costo_esperado.csv` | Calculado; falta sensibilidad completa de `Dmax` y tasa de descuento para reclamar +0.2. |
+| 2.5.1 mínimo costo esperado | `bono_2_5_1_costo_esperado.csv`, `bono_2_5_1_sensibilidad.csv` | Carga compatible con `tc`, FRC, daño esperado y sensibilidad `Dmax/2`, `Dmax`, `2Dmax` y tasas 3/6/9 % ya calculados. Requiere revisión final de supuestos económicos para reclamar +0.2. |
 | 2.5.2 POT–AMS–Langbein | `bono_2_5_2_pot_langbein.csv` | Calculado con umbral y declustering documentados; falta revisión de equivalencia de periodos para reclamar +0.1. |
 | 2.5.3 no estacionariedad/cambio climático | `bono_2_5_3_cambio_climatico.csv` | Escenario 7 %/°C calculado; falta justificar escenario y contrastar con temperatura observada para reclamar +0.1. |
 | 2.5.4 confiabilidad–resiliencia–vulnerabilidad | `bono_2_5_4_reliability_summary.csv` | La serie horaria no supera la capacidad; no hay eventos de recuperación. Es evidencia de resultado nulo, pero falta validar la conversión tiempo–área para reclamar +0.1. |

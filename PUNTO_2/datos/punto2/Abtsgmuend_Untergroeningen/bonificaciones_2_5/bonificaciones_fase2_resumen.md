@@ -1,6 +1,6 @@
 # Bonificaciones Fase 2
 
-- **2.5.1 mínimo costo:** T óptimo empírico = 2 años; se comparó construcción anualizada y daño esperado con FRC=0.07265.
+- **2.5.1 mínimo costo:** T óptimo empírico = 10 años; se comparó construcción anualizada y daño esperado con FRC=0.07265.
 - **2.5.2 POT–AMS:** se aplicó Langbein a POT P90–P98 y se comparó con GEV-AMS.
 - **2.5.3 clima:** se evaluó escalamiento 7 % por °C para 1–3 °C; el diámetro equivalente se obtiene con Manning y el periodo efectivo con GEV 1 h.
 - **2.5.4 desempeño:** se convirtió la serie completa a caudal horario con racional; los eventos, recuperación y vulnerabilidad están en CSV.
