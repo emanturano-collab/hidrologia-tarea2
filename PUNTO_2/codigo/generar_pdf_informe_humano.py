@@ -8,6 +8,7 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageBreak
+import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'datos'/'punto2'/'Abtsgmuend_Untergroeningen'
@@ -39,6 +40,20 @@ story += [P('2.4 Diseño de obras','H2'),P('El outlet se ubicó en 48.9181944° 
 story += [P('2.5 Bonificación POT','H2'),P('Como análisis adicional se aplicó Peaks Over Threshold. Se acumularon los datos de 10 minutos a una hora, se eligió el percentil 95 como umbral (0.530 mm/h) y se separaron los eventos por 24 horas para no contar dos veces la misma tormenta. Se obtuvieron 1523 picos independientes y se ajustó una Generalizada de Pareto. Para T=100 años el resultado POT-P95 es 56.35 mm; al cambiar el umbral entre P90 y P98 el resultado varía entre 52.87 y 61.10 mm. La GEV-MLE entrega 93.36 mm, por lo que POT se conserva como sensibilidad y no reemplaza la IDF principal.'),tbl([['T','POT-P90','POT-P95','POT-P98','GEV-MLE'],['2','18.02','18.08','18.29','18.45'],['10','29.04','29.76','30.88','38.81'],['25','37.18','38.67','40.79','55.55'],['100','52.87','56.35','61.10','93.36']])]
 story += [P('Discusión y conclusiones','H1'),P('El resultado final no debe leerse como un único número aislado. La lluvia de diseño depende de la GEV-MLE, el caudal depende además de C y del tiempo de concentración, y la respuesta de las obras depende de Manning, la pendiente y el tránsito en el tanque. La mayor incertidumbre está en los retornos largos y en que el outlet es sintético. Con los supuestos actuales, la alternativa calculada es una alcantarilla de 1.50 m y un tanque de 1056 m³, pero el riesgo de 0 % a 30 años debe discutirse y, si el criterio del proyecto lo exige, reducirse con una obra mayor o un alivio de emergencia.'),P('Reproducibilidad y uso de IA','H2'),P('Los datos y scripts están en datos/punto2 y codigo/punto2. La IA ayudó a organizar el código, revisar consistencia y redactar borradores; el grupo debe revisar la versión final y asumir la responsabilidad académica.')]
 story += [P('Referencias','H2'),P('Chow, V. T., Maidment, D. R., & Mays, L. W. (1988). Applied hydrology. McGraw-Hill.'),P('Deutscher Wetterdienst. (2026). Datos historicos de precipitacion de la estacion 00020.'),P('European Space Agency. (2021). ESA WorldCover 10 m 2021.') ]
+
+# Anexo visible: tablas y evidencias exigidas explícitamente por la rúbrica de 2.2.
+q22 = pd.read_csv(BASE/'extremos_2_2'/'quantiles_3methods.csv')
+b22 = pd.read_csv(BASE/'extremos_2_2'/'bootstrap_ci_gev.csv')
+q10 = q22[q22.duration=='10min'].drop_duplicates(['distribution','method'])
+qtable = [['Distribución-método','T=2','T=5','T=10','T=25','T=50','T=100']]
+for _, row in q10.iterrows():
+    z = q22[(q22.duration=='10min')&(q22.distribution==row.distribution)&(q22.method==row.method)].set_index('T_years')
+    qtable.append([f"{row.distribution}-{row.method}"] + [f"{float(z.loc[T,'quantile_mm']):.2f}" for T in [2,5,10,25,50,100]])
+b10 = b22[b22.duration=='10min']
+btable = [['T','P2.5','Mediana','P97.5','Ancho relativo']]
+for _, row in b10.iterrows():
+    btable.append([str(int(row.T_years)),f'{row.q025:.2f}',f'{row["median"]:.2f}',f'{row.q975:.2f}',f'{(row.q975-row.q025)/row["median"]:.2f}'])
+story += [PageBreak(), P('Anexo estadístico del apartado 2.2','H1'), P('La siguiente tabla muestra, para la duración de 10 minutos, los seis periodos de retorno solicitados para Gumbel, GEV y Log-Pearson III ajustados por momentos (mom), L-momentos (lmom) y máxima verosimilitud (mle). La tabla completa para todas las duraciones se conserva en quantiles_3methods.csv.','Body'), tbl(qtable), Spacer(1,.25*cm), P('Intervalos bootstrap GEV-MLE para 10 minutos','H2'), tbl(btable), Spacer(1,.25*cm), I(BASE/'extremos_2_2'/'diagrama_lmomentos_2_2.png',11.8*cm,8.8*cm), P('El diagrama de razones de L-momentos se interpreta conjuntamente con KS, Cramér–von Mises, gráficos de probabilidad y estabilidad de cuantiles. La GEV-MLE se seleccionó porque presentó el mejor compromiso de ajuste y flexibilidad de cola; los intervalos bootstrap muestran que los retornos altos son inciertos y no deben presentarse como cifras exactas.','Body')]
 doc=SimpleDocTemplate(str(PDF),pagesize=A4,rightMargin=2.15*cm,leftMargin=2.15*cm,topMargin=1.8*cm,bottomMargin=1.8*cm,title='Informe Tarea 2')
 doc.build(story,onFirstPage=footer,onLaterPages=footer)
 print(PDF)
