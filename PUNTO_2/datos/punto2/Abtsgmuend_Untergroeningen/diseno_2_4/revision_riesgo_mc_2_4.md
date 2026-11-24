@@ -2,9 +2,9 @@
 
 - Semilla: `20261123`; iteraciones: **5000**; réplicas bootstrap GEV válidas: **200**.
 - Periodo de retorno nominal: **T = 25 años**, por lo que 1/T = **0.0400**.
-- Probabilidad anual efectiva (promedio de CDF GEV por réplica): **0.009569**.
-- Riesgo acumulado en 30 años: **0.250570 (25.057 %)**.
-- Fracción diagnóstica de cargas que superan la capacidad en los sorteos: **0.0978**.
+- Probabilidad anual efectiva (promedio de CDF GEV por réplica): **0.009482**.
+- Riesgo acumulado en 30 años: **0.248601 (24.860 %)**.
+- Fracción diagnóstica de cargas que superan la capacidad en los sorteos: **0.0956**.
 
 La fracción de indicadores no sustituye la probabilidad anual efectiva: el diseño
 usa la probabilidad de excedencia de cada réplica GEV y luego la promedia. Por eso

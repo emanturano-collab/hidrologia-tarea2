@@ -9,3 +9,4 @@ datos/punto2/**/abtsgmuend_precipitation_10min.csv
 datos/punto2/**/GHCNh_*.psv
 datos/punto2/**/N48E009.hgt.gz
 datos/punto2/**/*.tif
+!datos/punto2/Abtsgmuend_Untergroeningen/cobertura_2_4/ESA_WorldCover_10m_2021_v200_N48E009_Map.tif

@@ -6,10 +6,10 @@ Checks OK: 10/10
           Área polígono–resumen     OK                                           0.123150000 vs 0.123153988 km² (resumen redondeado)
        Outlet–extremo cauce DEM     OK outlet=[9.91236111111111, 48.918194444444445], extremo=[9.91236111111111, 48.918194444444445]
                  Diámetro final     OK                                                                                      D=1.50 m
-     Capacidad > caudal mediano     OK                                                                         Qc=7.08, Qp=3.57 m³/s
-               Riesgo reportado     OK                                                                          riesgo 30 años=0.251
-     Volumen tanque > requerido     OK                                                                         1056.00 vs 1019.29 m³
-          Profundidad bajo útil     OK                                                                                1.93 vs 2.00 m
+     Capacidad > caudal mediano     OK                                                                         Qc=7.08, Qp=3.56 m³/s
+               Riesgo reportado     OK                                                                          riesgo 30 años=0.249
+     Volumen tanque > requerido     OK                                                                         1056.00 vs 1014.75 m³
+          Profundidad bajo útil     OK                                                                                1.92 vs 2.00 m
                POT sensibilidad     OK                                                            archivos de sensibilidad presentes
              2.2–2.3 resultados     OK                                                              bootstrap e IDF–KOSTRA presentes
 Compilación scripts principales     OK     finalizar_2_4.py, geometria_obra_2_4.py, bonificacion_pot_2_5.py, sensibilidad_pot_2_5.py

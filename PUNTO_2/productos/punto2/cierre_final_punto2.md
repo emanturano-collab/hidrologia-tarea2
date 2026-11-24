@@ -16,17 +16,17 @@ evidencia reconstruida y están marcados con esa limitación.
   bootstrap y pruebas KS/Cramér–von Mises.
 - 2.3: IDF GEV-MLE y comparación con KOSTRA-DWD-2020; archivos de comparación
   y gráfica incluidos.
-- 2.4A: C=0.33421, tc de Kirpich=9.436 min, Qp=3.57173 m³/s, alcantarilla
+- 2.4A: C=0.33239, tc de Kirpich=9.436 min, Qp=3.55778 m³/s, alcantarilla
   de 1.50 m y capacidad 7.076 m³/s.
-- 2.4B: tanque de 24 × 22 m, 1056 m³ útiles, requerimiento 1019.29 m³,
-  profundidad máxima 1.93 m y margen 36.71 m³.
+- 2.4B: tanque de 24 × 22 m, 1056 m³ útiles, requerimiento 1014.75 m³,
+  profundidad máxima 1.92 m y margen 41.25 m³.
 - 2.5: POT con umbrales P90, P95 y P98, declustering de 24 h y comparación
   reproducible contra GEV-MLE.
 
 La auditoría automática reporta 10/10 comprobaciones internas correctas. El
 Monte Carlo corregido usa 5000 iteraciones y 200 réplicas bootstrap GEV, con
-semilla 20261123. La probabilidad anual efectiva es 0.009569 y el riesgo
-acumulado en 30 años es 0.250570 (25.057 %). La fracción diagnóstica de cargas
+semilla 20261123. La probabilidad anual efectiva es 0.009482 y el riesgo
+acumulado en 30 años es 0.248601 (24.860 %). La fracción diagnóstica de cargas
 que superan directamente la capacidad es 0.0978; no sustituye la probabilidad
 integrada de excedencia de la CDF GEV.
 
