@@ -24,8 +24,11 @@ evidencia reconstruida y están marcados con esa limitación.
   reproducible contra GEV-MLE.
 
 La auditoría automática reporta 10/10 comprobaciones internas correctas. El
-riesgo empírico de la simulación disponible fue 0/5000 excedencias; no debe
-interpretarse como riesgo físico absoluto igual a cero.
+Monte Carlo corregido usa 5000 iteraciones y 200 réplicas bootstrap GEV, con
+semilla 20261123. La probabilidad anual efectiva es 0.009569 y el riesgo
+acumulado en 30 años es 0.250570 (25.057 %). La fracción diagnóstica de cargas
+que superan directamente la capacidad es 0.0978; no sustituye la probabilidad
+integrada de excedencia de la CDF GEV.
 
 ## Pendientes de entrega
 

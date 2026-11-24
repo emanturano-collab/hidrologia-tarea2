@@ -59,10 +59,10 @@ el promedio ponderado.
 Para la alcantarilla circular de 1.50 m se obtuvo:
 
 - Capacidad Manning: **7.08 m³/s**
-- Falla anual estimada por Monte Carlo: **0.82 %**
-- Riesgo acumulado de excedencia durante 30 años: **21.9 %**
+- Probabilidad anual efectiva estimada por Monte Carlo: **0.9569 %**
+- Riesgo acumulado de excedencia durante 30 años: **25.057 %**
 
-El riesgo de 21.9 % no se presenta como riesgo bajo. Significa que, bajo las
+El riesgo de 25.057 % no se presenta como riesgo bajo. Significa que, bajo las
 distribuciones y supuestos utilizados, existe aproximadamente una probabilidad
 de 0.219 de que al menos un evento durante la vida de 30 años supere la
 capacidad modelada. La cifra depende del outlet sintético, del C adoptado, del

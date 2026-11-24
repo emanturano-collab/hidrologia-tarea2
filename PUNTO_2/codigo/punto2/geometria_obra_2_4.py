@@ -13,8 +13,8 @@ def main():
     D, n, S = 1.50, 0.013, 0.010
     Qc = 0.312 / n * D ** (8 / 3) * math.sqrt(S)
     Qp = float(base["Qp_m3s"])
-    mc = pd.read_csv(OUT / "monte_carlo_A.csv")
-    annual_failure = float((mc["Qp_m3s"] > Qc).mean())
+    mc_summary = pd.read_csv(OUT / "riesgo_A.csv").iloc[0]
+    annual_failure = float(mc_summary["annual_effective_failure_probability"])
     life_risk = 1 - (1 - annual_failure) ** 30
     pipe = {"obra":"alcantarilla circular", "diameter_m":D, "length_m":30,
             "slope_m_m":S, "manning_n":n, "capacity_m3s":Qc,

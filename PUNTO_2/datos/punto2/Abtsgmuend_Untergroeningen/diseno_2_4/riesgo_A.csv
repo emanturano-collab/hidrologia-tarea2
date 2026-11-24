@@ -1,2 +1,2 @@
-iterations,Qp_p50,Qp_p025,Qp_p975,D_p50,D_p975,annual_effective_failure,life_risk_30yr,capacity_Qc_m3s
-5000,1.990839,1.054258,3.528101,0.933325,1.191516,0.440600,1.000000,2.096101
+seed,iterations,bootstrap_replicas,duration_reference_min,T_design_years,nominal_annual_probability,annual_effective_failure_probability,life_years,life_risk,empirical_indicator_fraction,Q_capacity_design_m3s,Q_load_p50_m3s,Q_load_p025_m3s,Q_load_p975_m3s,safety_factor_design,method_note
+20261123,5000,200,10,25,0.04000000,0.00956869,30,0.25057038,0.09780000,7.07600176,4.08865250,1.93847793,10.07095510,2.04166382,"p_fail is averaged from each bootstrap GEV CDF; indicator fraction is diagnostic, not the risk estimator"

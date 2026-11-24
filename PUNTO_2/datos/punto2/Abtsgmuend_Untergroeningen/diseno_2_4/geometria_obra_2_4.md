@@ -4,7 +4,7 @@
 - Diámetro comercial adoptado: **1.50 m**.
 - Capacidad Manning: 7.08 m³/s; caudal T=25: 3.57 m³/s.
 - Factor de seguridad frente al caudal mediano: 1.98.
-- Falla anual Monte Carlo: 0.0000; riesgo acumulado 30 años: 0.000.
+- Falla anual Monte Carlo: 0.0096; riesgo acumulado 30 años: 0.251.
 
 ## Tanque
 - Planta: **24 m × 22 m**; profundidad útil 2.0 m; borde libre 0.5 m.
