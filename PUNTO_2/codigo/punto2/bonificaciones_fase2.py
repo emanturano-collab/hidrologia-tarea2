@@ -2,7 +2,7 @@
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from scipy.stats import genextreme, norm
+from scipy.stats import genextreme, norm, genpareto, multivariate_normal
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / 'datos' / 'punto2' / 'Abtsgmuend_Untergroeningen'
@@ -53,6 +53,16 @@ amsq=amsq[(amsq.duration=='1h')&(amsq.model=='gev_mle')].copy()
 pot['AMS_GEV_at_T_equiv_mm']=np.interp(pot.T_equiv_Langbein,amsq.T_years,amsq.quantile_mm)
 pot['difference_POT_minus_AMS_mm']=pot.return_level_mm_1h-pot.AMS_GEV_at_T_equiv_mm
 pot.to_csv(OUT/'bono_2_5_2_pot_langbein.csv',index=False)
+# Bootstrap GPD uncertainty for the P95 POT sample.
+peaks=pd.read_csv(BASE/'bonificacion_2_5_pot'/'pot_declustered_peaks.csv').peak_1h_mm.to_numpy(float)
+u0=0.530; excess=peaks[peaks>u0]-u0; rng=np.random.default_rng(20261124); boot=[]
+for _ in range(500):
+    sample=rng.choice(excess,size=len(excess),replace=True)
+    xi,beta=genpareto.fit(sample,floc=0)[0:3:2]
+    lam=len(excess)/21.38
+    z=u0+beta/xi*((lam*100)**xi-1) if abs(xi)>1e-8 else u0+beta*np.log(lam*100)
+    boot.append([xi,beta,z])
+pd.DataFrame(boot,columns=['xi','beta','return_level_T100_mm']).to_csv(OUT/'bono_2_5_2_gpd_bootstrap.csv',index=False)
 
 # 2.5.3: 7% per degree warming scenario.
 fit=pd.read_csv(BASE/'extremos_2_2'/'fit_summary_mle.csv')
@@ -82,19 +92,31 @@ if len(events_df):
     events_df.to_csv(OUT/'bono_2_5_4_exceedance_events.csv',index=False)
 summary=pd.DataFrame([['hours_valid',len(q)],['hours_exceeding',int(ex.sum())],['annual_exceedance_frequency',float(ex.sum()/((hour.index.max()-hour.index.min()).days/365.25))],['events',len(events_df)],['mean_recovery_hours',float(events_df.recovery_hours.dropna().mean()) if len(events_df) else np.nan],['max_vulnerability_ratio',float(events_df.vulnerability_ratio.max()) if len(events_df) else np.nan]],columns=['metric','value'])
 summary.to_csv(OUT/'bono_2_5_4_reliability_summary.csv',index=False)
+# Time-area approximation at the native 10-minute resolution. For tc<10 min
+# the latest complete interval is the conservative available approximation.
+native=raw.set_index('timestamp')['p'].resample('10min').sum(min_count=1).dropna()
+q_ta=native*6*C*A/3.6
+ex_ta=q_ta>Qc
+pd.DataFrame([['native_intervals',len(q_ta)],['exceeding_intervals',int(ex_ta.sum())],['frequency_per_year',float(ex_ta.mean())],['max_Q_m3s',float(q_ta.max())]],columns=['metric','value']).to_csv(OUT/'bono_2_5_4_time_area_validation.csv',index=False)
 
 # 2.5.5: exploratory Gaussian copula on annual maximum intensity-duration pairs.
 amsw=pd.read_csv(BASE/'ams_precipitation.csv')
 durcols=[('max_10min_mm',10),('max_30min_mm',30),('max_1h_mm',60),('max_3h_mm',180),('max_6h_mm',360),('max_12h_mm',720),('max_24h_mm',1440)]
-vals=amsw[[c for c,_ in durcols]].to_numpy(float); idx=np.nanargmax(vals,axis=1)
-pair=pd.DataFrame({'year':amsw.year,'intensity_1h_mm_h':amsw.max_1h_mm,'duration_of_max_depth_min':[durcols[i][1] for i in idx]})
+vals=amsw[[c for c,_ in durcols]].to_numpy(float); intens=vals/np.array([m/60 for _,m in durcols]); idx=np.nanargmax(intens,axis=1)
+# Continuous duration proxy from the 1-h to 10-min depth ratio; avoids a
+# degenerate discrete duration margin when every annual intensity maximum is
+# recorded at 10 minutes.
+dur_proxy=np.clip(10*amsw.max_1h_mm/amsw.max_10min_mm,10,60)
+pair=pd.DataFrame({'year':amsw.year,'intensity_1h_mm_h':amsw.max_1h_mm,'duration_of_max_depth_min':dur_proxy})
 u=pair[['intensity_1h_mm_h','duration_of_max_depth_min']].rank(pct=True)
 z=pd.DataFrame(norm.ppf(np.clip(u,0.001,0.999)),columns=u.columns)
 rho=float(z.corr().iloc[0,1])
 joint=[]
 for threshold in [0.90,0.95,0.98]:
-    exceed=((u.iloc[:,0]>threshold)&(u.iloc[:,1]>threshold)).sum(); p=exceed/len(pair); joint.append([threshold,exceed,p,1/p if p else np.inf])
+    zt=norm.ppf(threshold); p=1-2*threshold+multivariate_normal.cdf([zt,zt],mean=[0,0],cov=[[1,rho],[rho,1]])
+    exceed=((u.iloc[:,0]>threshold)&(u.iloc[:,1]>threshold)).sum(); joint.append([threshold,exceed,p,1/p if p else np.inf])
 pair.to_csv(OUT/'bono_2_5_5_event_pairs.csv',index=False)
 pd.DataFrame(joint,columns=['marginal_quantile','joint_exceedances','joint_probability','joint_return_years']).to_csv(OUT/'bono_2_5_5_copula_return_periods.csv',index=False)
+(OUT/'bono_2_5_3_climate_audit.md').write_text('''# Auditoría climática\n\nEl escalamiento 7 % por °C fue calculado como escenario de sensibilidad. La estación DWD usada para este punto no contiene temperatura observada; por tanto, no se afirma una tendencia térmica ni se otorga automáticamente el bono 2.5.3. Para cerrarlo se requiere una serie térmica coincidente o una fuente oficial independiente y una justificación del ΔT.\n''',encoding='utf-8')
 (OUT/'bonificaciones_fase2_resumen.md').write_text(f'''# Bonificaciones Fase 2\n\n- **2.5.1 mínimo costo:** T óptimo empírico = {best.T_years:.0f} años; se comparó construcción anualizada y daño esperado con FRC={frc:.5f}.\n- **2.5.2 POT–AMS:** se aplicó Langbein a POT P90–P98 y se comparó con GEV-AMS.\n- **2.5.3 clima:** se evaluó escalamiento 7 % por °C para 1–3 °C; el diámetro equivalente se obtiene con Manning y el periodo efectivo con GEV 1 h.\n- **2.5.4 desempeño:** se convirtió la serie completa a caudal horario con racional; los eventos, recuperación y vulnerabilidad están en CSV.\n- **2.5.5 cópula:** se ajustó una cópula gaussiana exploratoria a intensidad horaria y duración del máximo anual; los periodos conjuntos están en CSV.\n\nLos bonos 2.5.4 y 2.5.5 son resultados exploratorios: requieren revisión del grupo sobre definición de recuperación, dependencia temporal y selección de eventos antes de declararse plenamente obtenidos.\n''',encoding='utf-8')
 print(OUT)

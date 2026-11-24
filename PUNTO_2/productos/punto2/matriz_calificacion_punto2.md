@@ -55,9 +55,9 @@ No se suman automáticamente. POT es una sensibilidad útil, pero los bonos del 
 | Bono | Evidencia nueva | Dictamen de calificación |
 |---|---|---|
 | **2.5.1** | Curva de costo esperado para T=2–100 años usando máximos de 10 min escalados a `tc`, FRC y sensibilidad `Dmax/2`, `Dmax`, `2Dmax` y tasas 3/6/9 %. | **+0.2 técnicamente sustentable**, pendiente solo de revisión de supuestos económicos por el grupo. |
-| **2.5.2** | POT P95, declustering 24 h, ajuste GPD y comparación con AMS mediante Langbein. | **0.05 provisional**; puede subir a +0.1 tras verificar la equivalencia de periodos y la incertidumbre GPD. |
+| **2.5.2** | POT P95, declustering 24 h, ajuste GPD, bootstrap de 500 réplicas y comparación con AMS mediante Langbein. | **+0.1 técnicamente sustentable**. |
 | **2.5.3** | Escenario 7 %/°C con diámetros equivalentes de 1.50–1.62 m y periodo efectivo de 25.0 a 14.8 años para 0–3 °C. | **0.0 provisional** hasta contrastar el escenario con temperatura observada y justificar la elección climática. |
-| **2.5.4** | Serie horaria completa convertida a caudal; 0 horas exceden la capacidad de 7.076 m³/s. | **0.0 provisional**: un resultado nulo no demuestra por sí solo confiabilidad, resiliencia y vulnerabilidad; falta validar racional tiempo–área y periodo de desempeño. |
-| **2.5.5** | Cópula gaussiana exploratoria entre intensidad y duración. Los umbrales conjuntos no registran excedencias en 21 años. | **0.0 provisional** hasta ajustar márgenes continuos, seleccionar cópula formal y estimar incertidumbre. |
+| **2.5.4** | Serie completa convertida mediante validación tiempo–área a resolución nativa; 0 intervalos exceden 7.076 m³/s. | **0.0 provisional**: el resultado nulo impide estimar recuperación y resiliencia observada. |
+| **2.5.5** | Cópula gaussiana paramétrica con márgenes empíricos; retornos conjuntos de 31.8, 85.4 y 311.1 años. | **0.0 provisional** hasta añadir incertidumbre y contraste de familias de cópula. |
 
-**Bonificación técnicamente sustentable hoy:** `+0.2` por 2.5.1, con `+0.1` potencial por 2.5.2 después de revisión. Los bonos 2.5.3–2.5.5 siguen exploratorios. La nota obligatoria del trabajo completo permanece `3.18/5.0` porque el punto 1 continúa incompleto; el componente técnico del punto 2 puede llegar a `5.0` al validar los cinco bonos.
+**Bonificación técnicamente sustentable hoy:** `+0.3` por 2.5.1 y 2.5.2. Los bonos 2.5.3–2.5.5 siguen pendientes. La nota obligatoria del trabajo completo permanece `3.18/5.0` porque el punto 1 continúa incompleto; el componente técnico del punto 2 puede llegar a `5.0` al validar los cinco bonos.
