@@ -1,70 +1,52 @@
-# Matriz de análisis y calificación del Punto 2
+# Matriz de análisis y calificación — Punto 2
 
-## Alcance de la revisión
+## 1. Base de la revisión
 
-Esta matriz compara los requisitos disponibles del trabajo con la evidencia
-actual del repositorio. El PDF original del enunciado no está disponible en el
-entorno, por lo que la calificación es **provisional** y no sustituye la
-rúbrica oficial. Los porcentajes usados en la matriz corresponden a los
-criterios registrados en las auditorías previas del proyecto.
+La fuente normativa utilizada es `anexos/tarea2_enunciado.pdf`, páginas 18–21 (requisitos 2.1–2.5), y página 4 (rúbrica del trabajo escrito). El enunciado establece que los puntos 1 y 2 son independientes, por lo que esta matriz evalúa el avance del punto 2 sin atribuirle resultados de evapotranspiración del punto 1.
 
-## Escala utilizada
+La escala del profesor es de 0 a 5: **Excelente** 4.5–5.0, **Sólido** 3.5–4.4, **Básico** 3.0–3.4, **Insuficiente** 0.1–2.9 y **Sin evidencia** 0. La nota ponderada se calcula como \(N=\sum (w_i/100)n_i\). Las bonificaciones de 2.5 son adicionales y solo aplican si el trabajo escrito obligatorio alcanza 3.0.
 
-| Nota | Significado |
-|---:|---|
-| 1 | No desarrollado o sin evidencia verificable |
-| 2 | Desarrollo inicial, incompleto y con riesgos importantes |
-| 3 | Desarrollo parcial; permite demostrar el método, pero faltan cierres |
-| 4 | Desarrollo sólido, reproducible y casi completo; quedan limitaciones explícitas |
-| 5 | Cumplimiento completo, consistente y verificable contra la rúbrica |
+## 2. Verificación de requisitos del punto 2
 
-## Matriz por apartado
+| Apartado del enunciado | Evidencia localizada | Estado actual | Nota de avance (1–5) | Qué falta para 5.0 |
+|---|---|---|---:|---|
+| **2.0 Riesgo y diseño** | `2_0_conceptos_y_ecuaciones.md`, `cierre_final_punto2.md`, escenarios y discusión de riesgo | Cumplido con reservas | 4.0 | Integrar en el informe una justificación explícita de vida útil, consecuencias de falla, riesgo aceptable y práctica de Chow; corregir la cifra de riesgo inconsistente entre el informe y el cierre final. |
+| **2.1 Serie subdiaria y control de calidad** | DWD 00020, 10 min (2005–2025), metadatos, coordenadas, auditorías de intervalos, códigos, faltantes y años hidrológicos | Sólido | 4.2 | Mostrar explícitamente años válidos y criterio de completitud por año/temporada; documentar la corrección de intervalos fijos de Weiss o justificar que no aplica; incluir una ejecución limpia desde cero. |
+| **2.2 Extremos y ajustes** | AMS 10 min–24 h; Gumbel, GEV y Log-Pearson III; métodos y pruebas KS/CvM; bootstrap; tendencia | Sólido | 4.0 | Incorporar en el informe la tabla completa para T = 2, 5, 10, 25, 50 y 100 años por distribución y método, diagrama de razones de L-momentos y la justificación física/estadística de GEV-MLE. |
+| **2.3 IDF y evento/anomalía** | IDF GEV-MLE, bandas, comparación KOSTRA-DWD-2020, evento 2021 y retorno estimado | Sólido con reservas | 3.8 | Añadir parámetros y error de la expresión analítica, rango válido, evento intenso con intervalo de incertidumbre, fuente oficial verificable de KOSTRA y una discusión física de anomalía que no confunda evento aislado con tendencia. |
+| **2.4A Alcantarilla/colector** | DEM, microcuenca 0.123154 km², cauce, cobertura ponderada, C=0.33421, tres tc, Qp, Manning, diámetro 1.50 m, sensibilidad, Monte Carlo y escala | Parcial alto | 3.4 | Versionar el raster ESA WorldCover original (o URL/versión reproducible), documentar suelo/humedad antecedente, completar el argumento numérico de escala y usar una sola cifra validada para riesgo efectivo. El outlet sigue siendo sintético y debe mantenerse como supuesto. |
+| **2.4B Tanque** | Hietogramas de bloques alternos con tres posiciones, hidrogramas, tránsito, duración crítica, 1019.29 m³ requeridos, tanque 24×22 m y 1056 m³ útiles | Sólido | 3.8 | Añadir figura esquemática, ecuación/curva de salida y parámetros del orificio/vertedero, pasos de integración y comparación explícita de volúmenes para cada duración y posición del pico. |
+| **2.5 Bonificaciones** | POT P90/P95/P98, declustering 24 h, GPD, niveles de retorno y comparación POT–GEV | Evidencia de análisis; bono condicionado | 3.6 | Para obtener bonos, incluir referencias y justificación del umbral/independencia, incertidumbre GPD y el análisis específico de cada ítem 2.5.1–2.5.5. Actualmente no hay evidencia completa de mínimo costo, no estacionariedad, confiabilidad/resiliencia/vulnerabilidad ni cópula. |
 
-| Requisito | Qué solicita el trabajo | Evidencia actual | Estado | Nota 1–5 | Pendiente para nota 5 |
-|---|---|---|---|---:|---|
-| 2.0 Conceptos y ecuaciones | Definir variables, periodo de retorno, extremos, IDF, racional, Manning, tanque e incertidumbre | `2_0_conceptos_y_ecuaciones.md`; informe LaTeX | Alto | 4 | Integrar todas las fuentes metodológicas con citas autor-fecha y vincular cada ecuación a su salida |
-| 2.1 Datos subdiarios y control de calidad | Serie ≤6 h, metadatos, coordenadas, faltantes, códigos, completitud y año hidrológico | DWD 00020; auditorías de calidad, intervalos, climatología y años hidrológicos | Alto | 4 | Adjuntar las fuentes brutas o una prueba limpia de reconstrucción desde cero |
-| 2.2 Extremos y distribuciones | AMS, varias distribuciones y métodos, pruebas de ajuste, bootstrap, tendencia e interpretación | Gumbel, GEV, Log-Pearson III, KS, Cramér–von Mises, bootstrap, figuras y cuantiles | Alto | 4 | Explicar con mayor detalle la inestabilidad de retornos altos y la selección final |
-| 2.3 Curvas IDF y fenómenos de lluvia | Curvas por duración y retorno, comparación externa, evento/anomalía e interpretación física | IDF GEV-MLE, KOSTRA, evento 2021, comparación CSV y gráfica | Alto | 4 | Añadir citas verificables para KOSTRA y desarrollar más la discusión de anomalías |
-| 2.4A Alcantarilla/colector | Outlet, cuenca, C/CN, tc, caudal, diámetro, capacidad, incertidumbre y recomendación | DEM, outlet, WorldCover resumido, C=0.33421, Q=3.57173 m³/s, D=1.50 m, Manning y sensibilidad | Parcial alto | 3 | Versionar el raster WorldCover original y justificar completamente C, suelo y humedad antecedente |
-| 2.4B Tanque de detención | Hietogramas, tránsito, salida, duración crítica, volumen, profundidad, borde libre y sensibilidad | Escenarios 30/60/90 min, posiciones del pico, tanque 24×22 m, 1056 m³, CSV de geometría | Alto | 4 | Añadir una figura esquemática y documentar con mayor detalle la ley de salida y sus supuestos |
-| 2.5 Bonificación POT | Umbral, declustering, GPD, niveles de retorno y sensibilidad | P90/P95/P98, 24 h, CSV de niveles y comparación POT–GEV | Alto | 4 | Completar referencias bibliográficas y explicar la incertidumbre del ajuste GPD |
+## 3. Calificación de la rúbrica del trabajo escrito
 
-## Matriz por criterios generales de la rúbrica disponible
-
-| Criterio | Peso registrado en auditorías previas | Evidencia | Nota 1–5 | Justificación |
+| Criterio oficial (página 4) | Peso | Evidencia y juicio | Nota 1–5 | Estado |
 |---|---:|---|---:|---|
-| Diseño e incertidumbre | 24 % | Riesgo, sensibilidad de C/Manning/pendiente, Monte Carlo, tanque y alcantarilla | 3 | El diseño está calculado, pero el outlet es sintético, el riesgo empírico fue 0/5000 y falta el raster WorldCover original |
-| Calidad de datos y metodología | 20 % | Serie DWD, metadatos, calidad, intervalos, año hidrológico y ventanas | 4 | La trazabilidad de lluvia es sólida; la corrección Weiss y la fuente de cobertura requieren documentación adicional |
-| Resultados y cálculos | 12 % | CSV de AMS, ajustes, IDF, KOSTRA, geometrías y POT | 4 | Los resultados principales están disponibles y auditados; aún debe verificarse una ejecución limpia completa |
-| Reproducibilidad y entrega | 12 % | Scripts, README, auditoría 10/10 y archivos derivados | 4 | La estructura es reproducible, pero el raster de cobertura no está incluido y el PDF LaTeX no se pudo recompilar en este entorno |
-| Comunicación y transparencia de IA | 6 % | Declaración de uso de IA y PDF narrativo | 4 | La declaración existe; faltan citas autor-fecha sistemáticas y una comprobación APA 7 completa |
+| Interpretación física (punto 1) | 26 % | El informe conserva un espacio reservado, pero no contiene el análisis de evapotranspiración, Budyko, atribución ni proceso propio de la cuenca. Este criterio no puede considerarse entregado en la revisión del punto 2. | **0.0** | Pendiente del equipo del punto 1 |
+| Criterio de diseño e incertidumbre (punto 2) | 24 % | Hay diseño completo de A y B, sensibilidad, Monte Carlo y recomendación. Restan el raster de cobertura, la escala cuantificada, cierre del riesgo y consistencia documental. | **3.4** | Parcial alto |
+| Calidad de datos y metodología | 20 % | Serie DWD y auditorías sólidas; metadatos, periodos, faltantes y métodos están trazados. Faltan completar completitud anual, Weiss y evidencia WorldCover original. | **3.8** | Sólido |
+| Resultados y cálculos | 12 % | CSV, figuras, IDF, KOSTRA, Qp, Manning, tanque y POT auditados (10/10 controles internos). La discrepancia de riesgo y el reporte incompleto de tablas exigidas impiden 4.5–5.0. | **3.5** | Sólido bajo |
+| Reproducibilidad y entrega | 12 % | Código, datos y README existen, pero todavía no se ha generado/verificado el ZIP con el nombre y la estructura exactos exigidos; falta el raster WorldCover y una prueba limpia completa. | **3.0** | Básico |
+| Comunicación y transparencia de IA | 6 % | Hay informe, referencias y declaración general de IA. La declaración aún no enumera de forma completa versión de herramientas, tareas, resultados verificados, propuestas rechazadas y contribución individual; las citas autor–fecha son incompletas. | **3.2** | Básico alto |
 
-### Promedio provisional de los criterios ponderados disponibles
+### Nota calculable con la evidencia actual
 
-Con los pesos que sí aparecen documentados en el proyecto, la valoración
-provisional es aproximadamente **3.6/5**. No es una nota oficial porque el PDF
-de la rúbrica no está disponible para confirmar si existen criterios
-adicionales o una ponderación distinta.
+- **Avance normalizado del punto 2 (sin el criterio de punto 1):** 3.44/5 sobre el 74 % evaluable (criterios de diseño, datos, resultados, reproducibilidad y transparencia).
+- **Nota del trabajo escrito completo si se cerrara hoy y el punto 1 siguiera vacío:** 2.55/5, porque el criterio de interpretación física vale 26 %. Esta no es una predicción de la nota final: cambiará al incorporar y verificar el punto 1.
+- **Bonos:** no se suman todavía. El POT documentado puede sustentar el bono de excedencias solo después de cumplir el rigor y la trazabilidad exigidos; los bonos 2.5.1–2.5.5 requieren evidencia adicional específica.
 
-## Auditoría de citas y referencias
+## 4. Auditoría de referencias y citas
 
-| Fuente o afirmación | ¿Está citada? | ¿Es verificable? | Acción |
-|---|---|---|---|
-| DWD estación 00020 y serie RWS_10 | Parcial | Sí, por archivos y metadatos locales | Añadir referencia bibliográfica completa del producto DWD |
-| SRTM DEM | Sí en referencias | Parcial | Añadir versión, resolución, fecha y enlace de descarga |
-| ESA WorldCover 2021 | Sí en referencias | Parcial | Adjuntar el raster original o su URL/versionado; actualmente solo queda la tabla reconstruida |
-| KOSTRA-DWD-2020 | Mencionada | Parcial | Añadir referencia oficial completa y enlace a la versión utilizada |
-| OpenStreetMap | Sí en LaTeX | Sí | Mantener fecha de consulta y URL |
-| Chow et al. (1988) | Mencionada | Sí | Completar formato APA 7 y usar cita autor-fecha en el cuerpo |
-| Métodos estadísticos y Weiss | Insuficiente | Parcial | Incorporar las referencias metodológicas recomendadas por el enunciado |
-| Uso de IA | Sí | Sí como declaración | Especificar herramientas, tareas y verificaciones humanas sin atribuir resultados a la IA |
+| Fuente/afirmación | Verificabilidad actual | Acción requerida |
+|---|---|---|
+| DWD 00020 y serie de 10 minutos | Archivos brutos y metadatos locales; verificable | Añadir referencia DWD completa, URL, versión y fecha de descarga en APA 7. |
+| SRTM DEM | Archivo local y referencia general | Especificar producto, resolución, versión, URL y fecha de descarga. |
+| ESA WorldCover 2021 | Tabla reconstruida; raster original ausente | Incluir el raster usado o un procedimiento reproducible de descarga y checksum. |
+| KOSTRA-DWD-2020 | Archivos ASC y comparación local | Citar publicación/portal oficial, versión, celda y fecha de consulta. |
+| OSM, Chow, Kirpich, Manning y métodos estadísticos | Parcialmente listados | Usar citas autor–fecha en el texto y completar referencias APA 7. |
+| POT, GEV, bootstrap y Weiss | Código y productos disponibles | Vincular cada método a una fuente metodológica y reportar decisiones, no solo resultados. |
+| Uso de IA | Declaración general presente | Añadir las cinco partes solicitadas por el enunciado y responsabilidades individuales. |
 
-## Dictamen
+## 5. Dictamen
 
-El Punto 2 está **bien desarrollado y técnicamente avanzado**, con evidencia
-para todos los apartados 2.0–2.5. Sin embargo, no puede calificarse como 5/5 ni
-como 100 % cerrado mientras no se resuelvan tres aspectos: (1) disponer del
-PDF oficial para verificar literalmente la rúbrica, (2) adjuntar/versionar el
-raster WorldCover original y (3) completar las citas APA 7 y la comprobación de
-compilación final del informe.
+El punto 2 tiene una base técnica sólida y evidencia para 2.1–2.5, pero **no alcanza aún 5/5 ni puede declararse entrega final**. Las tres correcciones prioritarias son: (1) resolver la discrepancia del riesgo efectivo y dejar una cifra única trazable; (2) incorporar el raster/metadata reproducible de WorldCover y completar las justificaciones de cobertura, escala y outlet; y (3) preparar el ZIP con nombre/estructura exactos, tablas exigidas, citas APA 7 completas y declaración de IA detallada. El PDF oficial queda conservado en `anexos` como fuente normativa de esta revisión.
