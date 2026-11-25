@@ -19,6 +19,8 @@ D11 = ROOT / "datos" / "punto1" / "procesados" / "1_1_d_explicacion_fisica"
 
 
 def fmt(v, nd):
+    if abs(v) < 0.5 * 10 ** -nd:
+        v = 0.0
     return f"{v:.{nd}f}".replace(".", "{,}").replace("-", "$-$")
 
 
@@ -105,6 +107,22 @@ m["SigmaP"], m["SigmaQ"], m["SigmaET"] = fmt(pm["sigmaP_interproduct_dispersion_
 m["SigmaETpct"] = fmt(100 * pm["sigmaET_mm_year"] / pm["ET_balance_mean_mm_year"], 0)
 fe = pd.read_csv(P / "punto_1_2_3_fraccion_evaporativa_resumen.csv").iloc[0]
 m["RnLambda"], m["FEbal"] = fmt(fe["mean_rn_lambda_mm_year"], 0), fmt(fe["f_et_l_multiyear_dimensionless"], 2)
+
+# 1.2: correccion por trasvases (correccion_trasvases_1_2.py)
+tr = pd.read_csv(P / "punto_1_2_correccion_trasvases.csv").set_index("escenario")
+for k, e in (("Cen", "central"), ("Inf", "inferior"), ("Sup", "superior")):
+    m[f"TrHm{k}"] = fmt(tr.loc[e, "trasvase_hm3_anio"], 0)
+    m[f"TrMm{k}"] = fmt(tr.loc[e, "trasvase_mm_anio"], 0)
+    m[f"ETcorr{k}"] = fmt(tr.loc[e, "ET_balance_corregido_mm"], 0)
+m["TrGleam"], m["TrMod"] = fmt(tr.loc["central", "GLEAM_sobre_balance_pct"], 0), fmt(tr.loc["central", "MOD16_sobre_balance_pct"], 0)
+m["TrFE"], m["TrCoefNat"] = fmt(tr.loc["central", "fraccion_evaporativa"], 2), fmt(tr.loc["central", "coef_escorrentia_natural"], 2)
+m["TrQnat"] = fmt(tr.loc["central", "Q_natural_mm"], 0)
+m["TrPctP"] = fmt(100 * tr.loc["central", "trasvase_mm_anio"] / pm["P_mean_mm_year"], 1)
+tb = pd.read_csv(P / "punto_1_2_correccion_trasvases_budyko.csv")
+sel = lambda prod, of, col: tb[(tb.producto == prod) & (tb.oferta == of)][col].iloc[0]
+m["TrPhi"], m["TrEIg"], m["TrEIm"] = fmt(sel("GLEAM", "P + T", "phi"), 2), fmt(sel("GLEAM", "P + T", "EI"), 2), fmt(sel("MOD16", "P + T", "EI"), 2)
+m["TrOmG"], m["TrOmM"] = fmt(sel("GLEAM", "P + T", "omega_Fu"), 2), fmt(sel("MOD16", "P + T", "omega_Fu"), 2)
+m["TrBudy"] = fmt(sel("GLEAM", "P + T", "Budyko1974"), 2)
 
 # 1.3
 c13 = pd.read_csv(T13 / "1_3_integracion_1_3_1_climatologia_ET_ETo_ET_P.csv")

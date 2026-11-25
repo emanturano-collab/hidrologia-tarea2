@@ -37,7 +37,7 @@ def fu(phi: np.ndarray | float, omega: float) -> np.ndarray | float:
 
 
 def budyko_1974(phi: np.ndarray | float) -> np.ndarray | float:
-    return phi * np.tanh(1 / phi) * np.power(1 - np.exp(-phi), 0.5)
+    return np.sqrt(phi * np.tanh(1 / phi) * (1 - np.exp(-phi)))  # Budyko (1974); antes la raiz solo cubria un factor
 
 
 def fit_fu(phi: float, ei: float) -> tuple[float, float]:

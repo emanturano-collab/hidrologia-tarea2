@@ -1,0 +1,71 @@
+caso,variable,n_dias,media_cds,media_openmeteo,sesgo,sesgo_pct,MAE,r
+control ERA5L_12 sin correccion,tmin_c,1094,14.5558,14.5805,0.0248,0.1701,0.0312,0.9996
+control ERA5L_12 sin correccion,tmax_c,1094,22.0980,22.1240,0.0261,0.1181,0.0316,0.9997
+control ERA5L_12 sin correccion,ea_kpa,1094,1.4057,1.4080,0.0023,0.1661,0.0023,1.0000
+control ERA5L_12 sin correccion,u2_ms,1094,0.6596,1.2555,0.5960,90.3548,0.6049,0.6331
+control ERA5L_12 sin correccion,rs_mj_m2_d,1094,19.0415,18.9451,-0.0964,-0.5063,0.4538,0.9771
+control ERA5L_12 sin correccion,eto_fao56_mm_d,1094,3.4257,3.6244,0.1987,5.8007,0.2118,0.9391
+control ERA5L_12 sin correccion,eto_mensual_mm,36,104.1026,110.1413,6.0387,5.8007,6.0387,0.9304
+control ERA5L_10 sin correccion,tmin_c,1094,18.3344,18.3590,0.0246,0.1343,0.0305,0.9997
+control ERA5L_10 sin correccion,tmax_c,1094,25.6492,25.6742,0.0250,0.0976,0.0311,0.9997
+control ERA5L_10 sin correccion,ea_kpa,1094,2.0080,2.0112,0.0031,0.1561,0.0031,1.0000
+control ERA5L_10 sin correccion,u2_ms,1094,0.7882,0.7596,-0.0285,-3.6212,0.0807,0.4823
+control ERA5L_10 sin correccion,rs_mj_m2_d,1094,19.2631,19.2106,-0.0525,-0.2727,0.2857,0.9926
+control ERA5L_10 sin correccion,eto_fao56_mm_d,1094,3.5828,3.5686,-0.0143,-0.3980,0.0461,0.9944
+control ERA5L_10 sin correccion,eto_mensual_mm,36,108.8780,108.4446,-0.4333,-0.3980,0.7732,0.9984
+control ERA5L_05 sin correccion,tmin_c,1094,14.3748,14.4000,0.0252,0.1750,0.0315,0.9995
+control ERA5L_05 sin correccion,tmax_c,1094,22.3161,22.3397,0.0236,0.1056,0.0302,0.9996
+control ERA5L_05 sin correccion,ea_kpa,1094,1.5417,1.5443,0.0025,0.1644,0.0025,1.0000
+control ERA5L_05 sin correccion,u2_ms,1094,0.5764,0.7596,0.1833,31.7965,0.1834,0.8936
+control ERA5L_05 sin correccion,rs_mj_m2_d,1094,19.1899,19.2106,0.0207,0.1077,0.1878,0.9964
+control ERA5L_05 sin correccion,eto_fao56_mm_d,1094,3.3619,3.4049,0.0430,1.2799,0.0493,0.9969
+control ERA5L_05 sin correccion,eto_mensual_mm,36,102.1650,103.4725,1.3076,1.2799,1.3295,0.9984
+control ERA5L_23 sin correccion,tmin_c,1094,6.8674,6.8931,0.0257,0.3737,0.0316,0.9997
+control ERA5L_23 sin correccion,tmax_c,1094,14.0820,14.1069,0.0250,0.1772,0.0313,0.9994
+control ERA5L_23 sin correccion,ea_kpa,1094,1.0240,1.0257,0.0017,0.1693,0.0017,1.0000
+control ERA5L_23 sin correccion,u2_ms,1094,1.0013,1.3226,0.3213,32.0829,0.3213,0.9830
+control ERA5L_23 sin correccion,rs_mj_m2_d,1094,18.9882,19.0622,0.0740,0.3897,0.2305,0.9952
+control ERA5L_23 sin correccion,eto_fao56_mm_d,1094,2.9130,2.9284,0.0154,0.5280,0.0341,0.9952
+control ERA5L_23 sin correccion,eto_mensual_mm,36,88.5231,88.9905,0.4674,0.5280,0.6537,0.9946
+control ERA5L_12 corregido (validacion cruzada),tmin_c,1094,14.5558,14.5805,0.0248,0.1701,0.0312,0.9996
+control ERA5L_12 corregido (validacion cruzada),tmax_c,1094,22.0980,22.1240,0.0261,0.1181,0.0316,0.9997
+control ERA5L_12 corregido (validacion cruzada),ea_kpa,1094,1.4057,1.4080,0.0023,0.1661,0.0023,1.0000
+control ERA5L_12 corregido (validacion cruzada),u2_ms,1094,0.6596,1.0426,0.3830,58.0675,0.4088,0.6150
+control ERA5L_12 corregido (validacion cruzada),rs_mj_m2_d,1094,19.0415,18.9451,-0.0964,-0.5063,0.4538,0.9771
+control ERA5L_12 corregido (validacion cruzada),eto_fao56_mm_d,1094,3.4257,3.5538,0.1281,3.7408,0.1471,0.9632
+control ERA5L_12 corregido (validacion cruzada),eto_mensual_mm,36,104.1026,107.9969,3.8943,3.7408,3.8943,0.9672
+control ERA5L_10 corregido (validacion cruzada),tmin_c,1094,18.3344,18.3590,0.0246,0.1343,0.0305,0.9997
+control ERA5L_10 corregido (validacion cruzada),tmax_c,1094,25.6492,25.6742,0.0250,0.0976,0.0311,0.9997
+control ERA5L_10 corregido (validacion cruzada),ea_kpa,1094,2.0080,2.0112,0.0031,0.1561,0.0031,1.0000
+control ERA5L_10 corregido (validacion cruzada),u2_ms,1094,0.7882,0.5119,-0.2763,-35.0527,0.2763,0.5742
+control ERA5L_10 corregido (validacion cruzada),rs_mj_m2_d,1094,19.2631,19.2106,-0.0525,-0.2727,0.2857,0.9926
+control ERA5L_10 corregido (validacion cruzada),eto_fao56_mm_d,1094,3.5828,3.5031,-0.0797,-2.2252,0.0926,0.9918
+control ERA5L_10 corregido (validacion cruzada),eto_mensual_mm,36,108.8780,106.4553,-2.4227,-2.2252,2.5228,0.9939
+control ERA5L_05 corregido (validacion cruzada),tmin_c,1094,14.3748,14.4000,0.0252,0.1750,0.0315,0.9995
+control ERA5L_05 corregido (validacion cruzada),tmax_c,1094,22.3161,22.3397,0.0236,0.1056,0.0302,0.9996
+control ERA5L_05 corregido (validacion cruzada),ea_kpa,1094,1.5417,1.5443,0.0025,0.1644,0.0025,1.0000
+control ERA5L_05 corregido (validacion cruzada),u2_ms,1094,0.5764,0.5622,-0.0141,-2.4537,0.0502,0.7690
+control ERA5L_05 corregido (validacion cruzada),rs_mj_m2_d,1094,19.1899,19.2106,0.0207,0.1077,0.1878,0.9964
+control ERA5L_05 corregido (validacion cruzada),eto_fao56_mm_d,1094,3.3619,3.3570,-0.0049,-0.1454,0.0328,0.9961
+control ERA5L_05 corregido (validacion cruzada),eto_mensual_mm,36,102.1650,102.0164,-0.1486,-0.1454,0.7205,0.9972
+control ERA5L_23 corregido (validacion cruzada),tmin_c,1094,6.8674,6.8931,0.0257,0.3737,0.0316,0.9997
+control ERA5L_23 corregido (validacion cruzada),tmax_c,1094,14.0820,14.1069,0.0250,0.1772,0.0313,0.9994
+control ERA5L_23 corregido (validacion cruzada),ea_kpa,1094,1.0240,1.0257,0.0017,0.1693,0.0017,1.0000
+control ERA5L_23 corregido (validacion cruzada),u2_ms,1094,1.0013,0.9598,-0.0415,-4.1482,0.0846,0.9410
+control ERA5L_23 corregido (validacion cruzada),rs_mj_m2_d,1094,18.9882,19.0622,0.0740,0.3897,0.2305,0.9952
+control ERA5L_23 corregido (validacion cruzada),eto_fao56_mm_d,1094,2.9130,2.9356,0.0226,0.7756,0.0313,0.9970
+control ERA5L_23 corregido (validacion cruzada),eto_mensual_mm,36,88.5231,89.2096,0.6866,0.7756,0.6878,0.9986
+Chiclayo 2010-2022 sin correccion,tmin_c,4748,18.9012,18.9266,0.0255,0.1347,0.0316,0.9999
+Chiclayo 2010-2022 sin correccion,tmax_c,4748,26.1293,26.1539,0.0247,0.0944,0.0310,0.9999
+Chiclayo 2010-2022 sin correccion,ea_kpa,4748,1.9517,1.9548,0.0031,0.1582,0.0031,1.0000
+Chiclayo 2010-2022 sin correccion,u2_ms,4748,2.6782,2.3386,-0.3396,-12.6794,0.3397,0.9670
+Chiclayo 2010-2022 sin correccion,rs_mj_m2_d,4748,21.0007,20.9776,-0.0231,-0.1098,0.2295,0.9954
+Chiclayo 2010-2022 sin correccion,eto_fao56_mm_d,4748,4.3967,4.3010,-0.0956,-2.1754,0.0979,0.9947
+Chiclayo 2010-2022 sin correccion,eto_mensual_mm,156,133.8165,130.9055,-2.9110,-2.1754,2.9110,0.9955
+Chiclayo 2010-2022 corregido,tmin_c,4748,18.9012,18.9266,0.0255,0.1347,0.0316,0.9999
+Chiclayo 2010-2022 corregido,tmax_c,4748,26.1293,26.1539,0.0247,0.0944,0.0310,0.9999
+Chiclayo 2010-2022 corregido,ea_kpa,4748,1.9517,1.9548,0.0031,0.1582,0.0031,1.0000
+Chiclayo 2010-2022 corregido,u2_ms,4748,2.6782,1.7327,-0.9455,-35.3044,0.9455,0.9350
+Chiclayo 2010-2022 corregido,rs_mj_m2_d,4748,21.0007,20.9776,-0.0231,-0.1098,0.2295,0.9954
+Chiclayo 2010-2022 corregido,eto_fao56_mm_d,4748,4.3967,4.1317,-0.2649,-6.0261,0.2651,0.9891
+Chiclayo 2010-2022 corregido,eto_mensual_mm,156,133.8165,125.7525,-8.0640,-6.0261,8.0640,0.9888

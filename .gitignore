@@ -4,3 +4,4 @@ anexos/informe_fuente/*.log
 anexos/informe_fuente/*.out
 anexos/informe_fuente/*.toc
 __pycache__/
+datos/punto1/originales/openmeteo_era5land/_partes_*/

@@ -1,0 +1,4 @@
+escenario,trasvase_hm3_anio,trasvase_mm_anio,ET_balance_sin_trasvase_mm,ET_balance_corregido_mm,Q_natural_mm,coef_escorrentia_natural,GLEAM_sobre_balance_pct,MOD16_sobre_balance_pct,fraccion_evaporativa,sigma_ET_mm
+inferior,133,56.277192,603.165263,659.442455,444.749951,0.402782,12.288827,20.639601,0.378403,179.899355
+central,200,84.627356,603.165263,687.792619,416.399787,0.377107,7.660388,15.666950,0.394671,179.899355
+superior,230,97.321460,603.165263,700.486723,403.705683,0.365611,5.709384,13.570853,0.401955,179.899355
