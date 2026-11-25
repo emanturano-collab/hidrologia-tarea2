@@ -1,5 +1,5 @@
 {
-  "status": "PENDIENTE POR DATOS: no hay humedad del suelo, ET real ni Rn superficial real en el proyecto.",
+  "status": "HISTORICO (etapa inicial, superada): solicitud registrada antes de la descarga. La humedad del suelo se descargo y proceso despues en 02_humedad_suelo/process_1_3_2_humedad_suelo.py; ET real y Rn superficial se integraron en 06_integracion_1_2_pacho.",
   "dataset": "reanalysis-era5-land-monthly-means",
   "variables": [
     "volumetric_soil_water_layer_1",

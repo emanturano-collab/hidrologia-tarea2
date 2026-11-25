@@ -1,4 +1,4 @@
-# Apartado 1.3 — estado técnico preliminar
+# Apartado 1.3 — estado técnico de la etapa inicial (superado por 02_humedad_suelo y 06_integracion_1_2_pacho)
 
 ETo es FAO-56 preliminar (20 celdas ERA5-Land, cobertura espacial 90.1264 %), no ET real ni PET observada.
 

@@ -1,0 +1,5 @@
+scale,area_km2,FRA_illustrative,length_proxy_m,tc_kirchich_min,intensity_T25_mm_h,rational_Q_with_FRA_m3s,rational_assumption_warning
+microcuenca,0.12315,1.00000,382.69000,4.22613,312.89882,3.55778,valid_small_area
+10 km2,10.00000,0.85000,3448.49742,22.96810,94.36831,74.06041,not_accepted_as_design
+100 km2,100.00000,0.60000,10905.10636,55.73463,50.37446,279.06325,not_accepted_as_design
+cuenca_punto1,2363.30200,0.20000,53013.87101,188.33455,21.26999,928.23421,not_accepted_as_design

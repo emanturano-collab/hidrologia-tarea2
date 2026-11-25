@@ -1,0 +1,2 @@
+event_hydro_year,duration_h,depth_mm,point_estimate_T_years,T_q025,T_median,T_q975,p_q025,p_median,p_q975,bootstrap_replicas,seed
+2021,1,48.27000000,17.36239471,5.61112825,17.37372798,1000000000000.00000000,0.00000000,0.05755821,0.17821762,1000,20261124
