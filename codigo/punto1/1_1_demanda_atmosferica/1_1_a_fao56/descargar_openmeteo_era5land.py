@@ -40,7 +40,9 @@ grid = pd.read_csv(GRID).set_index("cell_id")
 FALTANTES = ["ERA5L_01", "ERA5L_03", "ERA5L_04", "ERA5L_08", "ERA5L_09", "ERA5L_16", "ERA5L_17",
              "ERA5L_18", "ERA5L_24", "ERA5L_29", "ERA5L_30", "ERA5L_32", "ERA5L_33"]
 GRUPOS = {
-    "faltantes": [(c, grid.loc[c, "latitude"], grid.loc[c, "longitude"], "1981-01-01", "2023-08-31") for c in FALTANTES],
+    # Ventana de 10 anios: suficiente para medir el efecto de la cobertura sobre la ETo de la cuenca
+    # dentro de los limites diarios de la API gratuita (la serie 1981-2023 completa supera ese limite).
+    "faltantes": [(c, grid.loc[c, "latitude"], grid.loc[c, "longitude"], "2001-01-01", "2010-12-31") for c in FALTANTES],
     "control": [("ERA5L_12", grid.loc["ERA5L_12", "latitude"], grid.loc["ERA5L_12", "longitude"], "2001-01-01", "2003-12-31")],
     "chiclayo": [("Chiclayo_SPHI", -6.8, -79.8, "2010-01-01", "2023-01-01")],
     # Celdas adicionales con datos CDS para estimar la correccion del viento (ERA5 frente a ERA5-Land)

@@ -119,13 +119,14 @@ if len(disponibles) == len(faltan):
     todas = todas[(todas.date >= "1981-01-01") & (todas.date <= "2022-12-31")]
     w = grid["spatial_weight"]
     pivot = todas.pivot(index="date", columns="point", values="eto_fao56_mm_d")
+    pivot = pivot.dropna(subset=faltan)  # solo los dias con las 33 celdas (ventana 2001-2010)
     def cuenca(celdas):
         ww = w[celdas] / w[celdas].sum()
         return (pivot[celdas] * ww).sum(axis=1, min_count=len(celdas))
     s90 = cuenca(list(cds.point.unique()))
     s100 = cuenca(list(grid.index))
     s_falt = cuenca(faltan)
-    pivot_sc = sin_corr.pivot(index="date", columns="point", values="eto_fao56_mm_d")
+    pivot_sc = sin_corr.pivot(index="date", columns="point", values="eto_fao56_mm_d").loc[pivot.index]
     s100_sc = (pivot_sc[list(grid.index)] * (w / w.sum())).sum(axis=1, min_count=len(grid))
     diaria = pd.DataFrame({"eto_20_celdas_mm_d": s90, "eto_33_celdas_mm_d": s100, "eto_13_celdas_mm_d": s_falt,
                            "eto_33_celdas_sin_corr_viento_mm_d": s100_sc})

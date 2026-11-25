@@ -97,15 +97,15 @@ Microcuenca de \AreaMicro\ km$^2$ a 414 m de la estación
 \end{minipage}
 
 % ---------------------------------------------------------------- 5
-\slide{Punto 1 · Evapotranspiración real}{La cuenca devuelve algo más de la mitad de su lluvia}
+\slide{Punto 1 · Evapotranspiración real}{La cuenca devuelve unas seis décimas de su lluvia}
 \begin{minipage}[c]{0.4\linewidth}
-\cifra{\ETbalL\ $\pm$ \SigmaET\ mm/año}{Balance $P-Q$ con PISCOp (\SigmaETpct\,\% de incertidumbre)}\\[12pt]
+\cifra{\ETcorrCen\ $\pm$ \SigmaET\ mm/año}{Balance $P+T-Q$ con PISCOp y el trasvase}\\[12pt]
 \large
 \begin{itemize}
-\item La lluvia aporta \SigmaP\ de los \SigmaET\ mm de error
-\item IMERG da \DifPLPI\ mm/año menos: inservible aquí
-\item GLEAM \ETgleam\ y MOD16 \ETmod: +\SobreGleam\ a +\SobreMod\,\%
-\item Hipótesis: lluvia subestimada en las cumbres y trasvases Chotano--Conchano
+\item Trasvase Chotano--Conchano: \TrHmCen\ hm$^3$/año = \TrMmCen\ mm/año, aguas arriba de Racarumi
+\item Sin corregirlo, $P-Q$ = \ETbalL\ mm/año
+\item GLEAM \ETgleam\ y MOD16 \ETmod: +\TrGleam\ y +\TrMod\,\% sobre el balance corregido
+\item El error viene de la lluvia: \SigmaP\ de los \SigmaET\ mm
 \end{itemize}
 \end{minipage}\hfill
 \begin{minipage}[c]{0.56\linewidth}
@@ -122,7 +122,7 @@ Microcuenca de \AreaMicro\ km$^2$ a 414 m de la estación
 \begin{itemize}
 \item Ene--abr: $ET/\mathrm{ETo}$ = \EToHumMin--\EToHumMax
 \item Jun--sep: \EToSecMin--\EToSecMax, con $ET>P$; el agua sale del suelo (0,39 $\to$ 0,26 m$^3$/m$^3$)
-\item Budyko: $\phi$ = \PhiAr, en la transición; $\omega$ = \OmG--\OmM
+\item Budyko: $\phi$ = \PhiAr; la cuenca queda sobre o bajo la curva ($\omega$ = \OmG--\OmM), por la lluvia fuera de fase con la demanda
 \item Años secos: más demanda (relación complementaria)
 \end{itemize}
 \end{minipage}
@@ -222,9 +222,9 @@ Monte Carlo con \Dcom\ m: $T$ efectivo $\approx$ \Teff\ años\\[10pt]
 \Large
 \begin{itemize}[itemsep=12pt]
 \item La \textbf{radiación} controla la demanda; un método solo térmico exagera el calentamiento.
-\item La cuenca devuelve \textbf{algo más de la mitad} de su lluvia, y el error viene de la lluvia.
+\item La cuenca devuelve \textbf{unas seis décimas} de su lluvia; el trasvase explicaba casi toda la diferencia con los productos.
 \item \textbf{Energía} en la temporada húmeda, \textbf{agua} en la seca: el suelo sostiene la ET.
 \item Con 20 años de registro, el \textbf{riesgo efectivo} debe guiar el diseño, no el nominal.
-\item Límites: 90\,\% de cobertura de ERA5-Land, trasvases sin cuantificar, salida sintética.
+\item Límites: trasvase sin serie anual, caudal sin incertidumbre medida, salida sintética.
 \end{itemize}
 \end{document}
