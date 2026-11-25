@@ -58,5 +58,12 @@ Se ejecutaron desde cero 15 scripts del punto 1 que en la verificación prefinal
 - El radar y los pluviómetros independientes confirman una celda convectiva local centrada en la estación (radar: 33,8 mm/h en su celda; Bühlerzell, a 9 km: 59,5 mm en el día). El evento es real y se conserva.
 - Las vecinas dan un cuantil de 1 h y 100 años de unos 59,5 mm, entre el local (69,8 mm) y KOSTRA (45,9 mm).
 - Scripts: `codigo/punto2/descargar_vecinas_2013.py` y `codigo/punto2/contraste_evento_2013.py`. Datos: `datos/punto2/vecinas_2013/`.
-- Se leyó la sección 7 de las notas del curso. El árbol de decisión no coincide con lo que afirmaba el informe en 1.1.d (ver la respuesta al interventor); la marca en rojo se mantiene hasta que el grupo decida.
+- Se leyó la sección 7 de las notas del curso; su árbol de decisión no coincidía con lo que afirmaba el informe en 1.1.d (ver la sección 7 de este registro).
 - La presentación se rehízo: 13 diapositivas con títulos que enuncian la conclusión, figuras más grandes y la verificación del evento de 2013.
+
+## 7. Arreglos del apartado 1.1.d según las notas del curso
+
+- El párrafo del método simple cita ahora el paso 4 del árbol de decisión (Hargreaves–Samani con Tmáx y Tmín, calibrado) y el paso 6 (Thornthwaite u Oudin con solo temperatura media). Se quitó la marca en rojo correspondiente.
+- Nuevo `codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/calibrar_hargreaves_1_1d.py`: coeficiente calibrado con muestra dividida (1981–2001 / 2002–2022). En validación, el MAE baja de 6,6 a 3,3 mm/mes.
+- Se explica la subestimación de Hargreaves: su sesgo mensual está ligado a la fracción aerodinámica de FAO-56 (ρ = −0,81).
+- Makkink: se declara que se usó la variante de de Bruin (1987) y se añade la forma original de Makkink (1957) como sensibilidad (−5 % frente a +5 %). Dos referencias nuevas (35 en total).
