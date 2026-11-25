@@ -51,3 +51,12 @@ Se ejecutaron desde cero 15 scripts del punto 1 que en la verificación prefinal
 
 - `run_1_1c_metodos_alternativos.py` necesitaba `tabulate`, que no estaba en `requirements.txt`; se agregó.
 - `run_1_1b_station_vs_era5_chiclayo.py` falla porque el ZIP de ERA5-Land de Chiclayo no está en el repositorio (ver README).
+
+## 6. Contraste del evento del 24/07/2013 y verificación de las notas del curso
+
+- Se buscaron en el DWD las estaciones de 10 minutos a menos de 40 km. Schwäbisch Gmünd-Weiler (06262, 17 km) y Ellwangen-Rindelbach (01197, 18 km) cumplen los requisitos de 2.1: 23 años válidos y completitud mínima de 98,9 y 99,5 %. Se sumaron 6 pluviómetros diarios a menos de 15 km y el radar RADOLAN RW.
+- El radar y los pluviómetros independientes confirman una celda convectiva local centrada en la estación (radar: 33,8 mm/h en su celda; Bühlerzell, a 9 km: 59,5 mm en el día). El evento es real y se conserva.
+- Las vecinas dan un cuantil de 1 h y 100 años de unos 59,5 mm, entre el local (69,8 mm) y KOSTRA (45,9 mm).
+- Scripts: `codigo/punto2/descargar_vecinas_2013.py` y `codigo/punto2/contraste_evento_2013.py`. Datos: `datos/punto2/vecinas_2013/`.
+- Se leyó la sección 7 de las notas del curso. El árbol de decisión no coincide con lo que afirmaba el informe en 1.1.d (ver la respuesta al interventor); la marca en rojo se mantiene hasta que el grupo decida.
+- La presentación se rehízo: 13 diapositivas con títulos que enuncian la conclusión, figuras más grandes y la verificación del evento de 2013.

@@ -1,0 +1,4 @@
+id,nombre,resolucion_min,anios_validos,primer_anio,ultimo_anio,completitud_min_pct,ams1h_mediana_mm,ams1h_max_mm,anio_max,q25_1h_mm,q100_1h_mm,forma_c,cumple_2_1
+00020,Abtsgmund-Untergroningen,10,20,2006,2025,98.541,17.653,82.989,2013,47.678,69.750,-0.216,True
+06262,Schwäbisch Gmünd-Weiler,10,23,2003,2025,98.887,20.517,43.894,2013,44.584,59.739,-0.145,True
+01197,Ellwangen-Rindelbach,10,23,2003,2025,99.482,17.678,55.946,2016,41.955,59.309,-0.201,True

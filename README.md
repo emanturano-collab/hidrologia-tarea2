@@ -38,6 +38,7 @@ Los archivos `T2_202602_GNN_*.pdf` solo existen dentro del ZIP: `codigo/crear_zi
 | DEM | SRTM 1'' (N48E009) | Microcuenca |
 | Cobertura | ESA WorldCover 10 m 2021 v200 (SHA-256 en `cobertura_2_4/worldcover_sha256.txt`) | Coeficiente C |
 | IDF de referencia | KOSTRA-DWD-2020 (DOI 10.5676/DWD/KOSTRA-DWD-2020) | 2.3 |
+| Contraste del evento del 24/07/2013 | DWD: lluvia de 10 min de 06262, 01197, 01538 y 02485; lluvia diaria de 7 pluviómetros; radar RADOLAN RW (horario, 1 km) | 2.1.5 y 2.3 (`datos/punto2/vecinas_2013/`) |
 
 Las fechas de descarga, unidades y procesamientos de cada archivo están en `datos/punto1/METADATOS.md` y `datos/punto2/METADATOS.md`.
 
@@ -77,6 +78,8 @@ python codigo/punto1/cifras_punto1.py
 
 # Punto 2 (unos 10 minutos por el bootstrap y el Monte Carlo):
 python codigo/punto2/analisis_final_punto2.py
+python codigo/punto2/descargar_vecinas_2013.py   # solo si se quieren volver a descargar las vecinas
+python codigo/punto2/contraste_evento_2013.py
 python codigo/punto2/tablas_latex_punto2.py
 
 # Informe y presentación:

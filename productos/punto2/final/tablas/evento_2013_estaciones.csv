@@ -1,0 +1,11 @@
+id,nombre,distancia_km,altura_m,lluvia_diaria_mm,radar_3h_mm,radar_max1h_mm,max10min_mm,max1h_mm,hora_max10_utc,total_dia_10min_mm
+00020,Abtsgmund-Untergroningen,0.00,432.00,110.70,45.80,33.80,21.25,81.26,12:10,110.69
+00019,Abtsgmünd-Neubronn,6.35,471.00,34.60,24.60,13.40,,,,
+01674,Göggingen,6.92,496.00,27.70,25.00,14.20,,,,
+00774,Bühlerzell,8.96,388.00,59.50,42.30,33.20,,,,
+02194,Heubach/Ostalb,14.10,450.00,11.50,23.30,10.00,,,,
+00006,Aalen-Unterrombach,14.37,455.00,12.90,20.80,9.30,,,,
+01538,Gaildorf-Hägenau,16.47,351.00,,11.10,6.90,2.45,7.50,13:00,8.79
+02485,Kaisersbach-Cronhütte,16.51,489.00,,11.20,6.90,3.22,9.95,12:40,11.92
+06262,Schwäbisch Gmünd-Weiler,17.19,412.00,22.20,19.20,8.20,8.56,17.09,12:10,22.24
+01197,Ellwangen-Rindelbach,17.62,463.00,,18.90,9.90,3.72,7.58,12:40,16.39
