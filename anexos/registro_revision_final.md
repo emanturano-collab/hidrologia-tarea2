@@ -47,7 +47,7 @@ Están en `codigo/punto2/config_diseno_2_4.json` (claves `REVISAR_GRUPO`) y en r
 
 ## 5. Verificación de reproducibilidad del punto 1
 
-Se ejecutaron desde cero 16 scripts del punto 1 que en la verificación prefinal solo estaban compilados (1.1.c, 1.1.d, 1.2.2, 1.2.3, 1.2.4, 1.3, 1.4 y 1.5). Todas sus tablas coinciden con las versiones guardadas, con diferencias relativas menores de 10⁻⁷. Solo cambiaron los inventarios y registros de fuentes, que antes guardaban rutas con el prefijo `tarea 02\` y ahora usan rutas relativas.
+Se ejecutaron desde cero 15 scripts del punto 1 que en la verificación prefinal solo estaban compilados (1.1.c, 1.1.d, 1.2.2, 1.2.3, 1.2.4, 1.3, 1.4 y 1.5). Todas sus tablas coinciden con las versiones guardadas, con diferencias relativas menores de 10⁻⁷. Solo cambiaron los inventarios y registros de fuentes, que antes guardaban rutas con el prefijo `tarea 02\` y ahora usan rutas relativas.
 
 - `run_1_1c_metodos_alternativos.py` necesitaba `tabulate`, que no estaba en `requirements.txt`; se agregó.
 - `run_1_1b_station_vs_era5_chiclayo.py` falla porque el ZIP de ERA5-Land de Chiclayo no está en el repositorio (ver README).
