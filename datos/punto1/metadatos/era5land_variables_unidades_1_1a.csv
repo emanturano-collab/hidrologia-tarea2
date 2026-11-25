@@ -1,0 +1,49 @@
+point,role,member,variable,units,long_name,step_type,records,missing_values
+P1,original,reanalysis-era5-land-timeseries-sfc-wind0gm5893x.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P1,original,reanalysis-era5-land-timeseries-sfc-wind0gm5893x.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P1,original,reanalysis-era5-land-timeseries-sfc-2m-temperatureqejstwj6.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P1,original,reanalysis-era5-land-timeseries-sfc-2m-temperatureqejstwj6.nc,t2m,K,2 metre temperature,instant,373992,0
+P1,original,reanalysis-era5-land-timeseries-sfc-radiation-heattlggw213.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P1,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitationxbmoh2pz.nc,sp,Pa,Surface pressure,instant,373992,0
+P2,original,reanalysis-era5-land-timeseries-sfc-windyada1idw.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P2,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturebnmsm5kh.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P2,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturebnmsm5kh.nc,t2m,K,2 metre temperature,instant,373992,0
+P2,original,reanalysis-era5-land-timeseries-sfc-radiation-heatvy_3t8lw.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P2,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitationz721d_gq.nc,sp,Pa,Surface pressure,instant,373992,0
+P2,complemento_v10,reanalysis-era5-land-timeseries-sfc-wind3oxm_430.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P3,original,reanalysis-era5-land-timeseries-sfc-windo022mmtk.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P3,original,reanalysis-era5-land-timeseries-sfc-windo022mmtk.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P3,original,reanalysis-era5-land-timeseries-sfc-2m-temperatureo2f89oel.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P3,original,reanalysis-era5-land-timeseries-sfc-2m-temperatureo2f89oel.nc,t2m,K,2 metre temperature,instant,373992,0
+P3,original,reanalysis-era5-land-timeseries-sfc-radiation-heatibzmy994.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P3,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitationmvjoa0k_.nc,sp,Pa,Surface pressure,instant,373992,0
+P4,original,reanalysis-era5-land-timeseries-sfc-windsvzl8m22.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P4,original,reanalysis-era5-land-timeseries-sfc-windsvzl8m22.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P4,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturexbalpoy5.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P4,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturexbalpoy5.nc,t2m,K,2 metre temperature,instant,373992,0
+P4,original,reanalysis-era5-land-timeseries-sfc-radiation-heatiu70tkue.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P4,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitation8g9e1wzf.nc,sp,Pa,Surface pressure,instant,373992,0
+P5,original,reanalysis-era5-land-timeseries-sfc-windjwiyaidq.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P5,original,reanalysis-era5-land-timeseries-sfc-windjwiyaidq.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P5,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturef60830rk.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P5,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturef60830rk.nc,t2m,K,2 metre temperature,instant,373992,0
+P5,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitation_ylyo7ml.nc,sp,Pa,Surface pressure,instant,373992,0
+P5,complemento_ssrd_correcto,reanalysis-era5-land-timeseries-sfc-radiation-heatkwiai0c6.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P6,original,reanalysis-era5-land-timeseries-sfc-wind3o5rlwuk.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P6,original,reanalysis-era5-land-timeseries-sfc-wind3o5rlwuk.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P6,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturefi9z9zpl.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P6,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturefi9z9zpl.nc,t2m,K,2 metre temperature,instant,373992,0
+P6,original,reanalysis-era5-land-timeseries-sfc-radiation-heatb2s0_c9k.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P6,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitation3dw18_jn.nc,sp,Pa,Surface pressure,instant,373992,0
+P7,original,reanalysis-era5-land-timeseries-sfc-wind2we6hhad.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P7,original,reanalysis-era5-land-timeseries-sfc-wind2we6hhad.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P7,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturep2o4fbzh.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P7,original,reanalysis-era5-land-timeseries-sfc-2m-temperaturep2o4fbzh.nc,t2m,K,2 metre temperature,instant,373992,0
+P7,original,reanalysis-era5-land-timeseries-sfc-radiation-heat7qjwz605.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P7,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitation_c3cie1o.nc,sp,Pa,Surface pressure,instant,373992,0
+P8,original,reanalysis-era5-land-timeseries-sfc-wind3ws01uxb.nc,u10,m s**-1,10 metre U wind component,instant,373992,0
+P8,original,reanalysis-era5-land-timeseries-sfc-wind3ws01uxb.nc,v10,m s**-1,10 metre V wind component,instant,373992,0
+P8,original,reanalysis-era5-land-timeseries-sfc-2m-temperature4dfoj6au.nc,d2m,K,2 metre dewpoint temperature,instant,373992,0
+P8,original,reanalysis-era5-land-timeseries-sfc-2m-temperature4dfoj6au.nc,t2m,K,2 metre temperature,instant,373992,0
+P8,original,reanalysis-era5-land-timeseries-sfc-radiation-heat1rnu3yp1.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,373992,0
+P8,original,reanalysis-era5-land-timeseries-sfc-pressure-precipitationyiz9uifc.nc,sp,Pa,Surface pressure,instant,373992,0

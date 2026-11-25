@@ -1,0 +1,10 @@
+{
+  "month": "2021-09",
+  "formula_net_energy": "rn_monthly_energy_j_m2 = ssr_monthly_energy_j_m2 + str_monthly_energy_j_m2",
+  "formula_water_equivalent": "energy_equivalent_mm_month = rn_monthly_energy_j_m2 / 2450000",
+  "ssr_monthly_energy_j_m2": 534978581.6305614,
+  "str_monthly_energy_j_m2": -156575561.7041749,
+  "rn_monthly_energy_j_m2": 378403019.92638654,
+  "energy_equivalent_mm_month": 154.45021221485166,
+  "identity_error_j_m2": 2.9802322387695312e-08
+}

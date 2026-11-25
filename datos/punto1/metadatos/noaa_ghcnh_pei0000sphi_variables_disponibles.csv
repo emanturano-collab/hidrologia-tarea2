@@ -1,0 +1,6 @@
+variable,units,role,available_records
+temperature,degC,"Tmax, Tmin y Tmedia diaria",100633
+dew_point_temperature,degC,presión real de vapor,100606
+station_level_pressure,hPa,gamma; eq. 7 si faltante/no físico,29659
+wind_speed,m/s,viento; altura local no documentada en PSV,100512
+solar_radiation,no disponible,estimada con FAO-56 eq. 50,0

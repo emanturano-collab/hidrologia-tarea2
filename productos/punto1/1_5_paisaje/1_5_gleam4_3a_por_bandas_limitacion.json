@@ -1,0 +1,5 @@
+{
+  "units": "mm.month-1 original; sums in mm/year",
+  "resolution": "0.1 degree",
+  "warning": "Cada celda GLEAM puede abarcar m\u00e1s de una banda: los resultados son un contraste de grilla gruesa, no evidencia de un gradiente fino independiente."
+}

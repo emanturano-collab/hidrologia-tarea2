@@ -1,0 +1,9 @@
+point,latitude,longitude,elevation_dem_mean_m,available_variables,missing_required_variables,unexpected_variables,status,issues,era5land_weight_from_tarea1
+P1,-6.6,-79.3,565.1556319281345,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.0242002945572432
+P2,-6.5,-79.2,1325.948282852179,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.041032250707326
+P3,-6.4,-79.2,2820.506889007909,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.0330135288923619
+P4,-6.6,-79.1,1754.516086382256,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.0517653359513223
+P5,-6.6,-78.9,1909.6992895194148,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.0517653359513223
+P6,-6.7,-78.7,3422.9582267120554,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.043862196004175
+P7,-6.8,-78.8,3115.1373111851035,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.051744113484069
+P8,-6.9,-78.9,3487.0215569607453,d2m;sp;ssrd;t2m;u10;v10,,,validado_para_fao56,,0.0284532961910149

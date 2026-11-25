@@ -1,0 +1,2 @@
+obra,length_m,width_m,effective_depth_m,freeboard_m,total_depth_m,available_volume_m3,required_volume_from_scenario_m3,volume_margin_m3,max_routed_depth_m,orifice_diameter_m,Cd,outflow_at_effective_depth_m3s,status
+tanque rectangular,24.00000,22.00000,2.00000,0.50000,2.50000,1056.00000,1019.28755,36.71245,1.93047,0.30000,0.65000,0.28781,validated_preliminary

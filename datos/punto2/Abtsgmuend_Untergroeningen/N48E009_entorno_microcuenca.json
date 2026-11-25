@@ -1,0 +1,22 @@
+﻿{
+    "source_tile":  "N48E009.hgt.gz",
+    "source_sha256":  "7b6635e972f9f0a8e74f65f12f4aab3ce0c4bd4e4fe66d828d3e877ca86e28ac",
+    "source_uncompressed_sha256":  "8b8f210ddd7adab996b3471c45fb36530608460445de913680921aed62e6dda3",
+    "crs":  "EPSG:4326",
+    "cell_size_degrees":  0.00027777777777777778,
+    "source_window":  {
+                          "column_offset":  3016,
+                          "row_offset":  83,
+                          "width":  541,
+                          "height":  397
+                      },
+    "lon_first_center":  9.8379166666666666,
+    "lat_first_center":  48.976805555555558,
+    "west":  9.8377777777777773,
+    "east":  9.9880555555555564,
+    "north":  48.976944444444442,
+    "south":  48.866666666666667,
+    "procedure":  "Descompresion byte a byte del HGT y recorte por ventana usada por preparar_cuenca.py; sin remuestreo.",
+    "download_date":  "2026-11-24",
+    "download_source":  "https://s3.amazonaws.com/elevation-tiles-prod/skadi/N48/N48E009.hgt.gz"
+}

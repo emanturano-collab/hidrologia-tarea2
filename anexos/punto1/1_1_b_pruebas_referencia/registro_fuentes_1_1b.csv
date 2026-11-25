@@ -1,0 +1,7 @@
+source_id,resource,use,temporal_resolution,notes
+CAMELS_PE_local,tarea 01\ENTREGA FINAL HIDROLOGIA\ENTREGA PREFINAL HIDROLOGIA\03_DATOS_UTILIZADOS\CAMELS_PE_y_IMERG\selected\PE_200907\timeseries\PE_200907.csv,"precipitación P, caudal observado Q y pet",diaria,"CAMELS-PE entrega PISCOp, caudal observado SENAMHI y pet PISCOeo_pm."
+PISCOeo_pm,https://doi.org/10.1038/s41597-022-01373-8,producto comparativo de demanda,diaria,ETo FAO Penman-Monteith grillada; 1981-2016; metodología distinta pero no independiente del método FAO-56.
+FAO56_preliminar,tarea 02\datos\punto1\procesados\1_1_a_fao56_preliminar_90pct\fao56_eto_diaria_preliminar_90pct.csv,ETo de referencia para comparación y P-Q,diaria,"ERA5-Land ponderada sobre 20 celdas; cobertura espacial 90.1264 %, no final."
+FAO56_manual,https://www.fao.org/4/X0490E/x0490e06.htm,definición de ETo FAO Penman-Monteith,no aplica,Fuente metodológica de la ecuación de referencia.
+SENAMHI_portal,https://tendhis.sispac.net.pe/investigadores/datos/,"verificar y, si procede, obtener estación meteorológica candidata",según estación,El portal permite consulta y descarga por estación; no se descargaron series en este flujo.
+NOAA_GHCND_inventory,https://gis.ncdc.noaa.gov/arcgis/rest/services/cdo/ghcnd/MapServer/0,cribado de estaciones GHCN-D cercanas,diaria,"Consulta espacial 2026-11-21: cero estaciones GHCN-D en -79.8..-78.5, -7.1..-6.1. No infiere ausencia en GHCN-Hourly."

@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-22T05:31:51.005708+00:00",
+  "source": "productos\\punto1\\punto_1_2_3_techo_energetico_vs_balance_anual.csv",
+  "formula": "f_ET = ET / (Rn/lambda) = lambda*ET/Rn",
+  "number_of_common_hydrological_years": 21,
+  "multiyear_method": "ratio of the matching 21-year means",
+  "checks": {
+    "all_energy_ceilings_positive": true,
+    "negative_f_et_l": [],
+    "f_et_l_greater_than_1": [],
+    "negative_f_et_i": [
+      "AH 2009",
+      "AH 2012",
+      "AH 2019",
+      "AH 2021",
+      "AH 2022"
+    ],
+    "f_et_i_greater_than_1": []
+  }
+}

@@ -1,0 +1,11 @@
+variable,meaning,source,unit,first_valid_date,last_valid_date,n_valid_daily_records,usable_in_1_1b
+prec,Precipitación de cuenca,PISCOp v2.1 / CAMELS-PE,mm/day,1981-01-01,2025-12-31,16436,"Sí, balance P-Q"
+flow_obs,Caudal observado como lámina,SENAMHI / CAMELS-PE,mm/day,1981-01-01,2023-08-31,15533,"Sí, balance P-Q"
+pet,ETo/PET de referencia,PISCOeo_pm v1.0 / CAMELS-PE,mm/day,1981-01-01,2016-12-31,13149,"Sí, contraste de producto"
+tmin,Temperatura mínima grillada,PISCOt v1.2 / CAMELS-PE,degC,1981-01-01,2020-12-31,14610,"No, no es estación"
+tmean,Temperatura media grillada,PISCOt v1.2 / CAMELS-PE,degC,1981-01-01,2020-12-31,14610,"No, no es estación"
+tmax,Temperatura máxima grillada,PISCOt v1.2 / CAMELS-PE,degC,1981-01-01,2020-12-31,14610,"No, no es estación"
+srad,Radiación solar grillada,ERA5-Land / CAMELS-PE,MJ/m2/day,1981-01-01,2025-12-31,16436,"No, no es estación"
+vprp,Presión de vapor grillada,ERA5-Land / CAMELS-PE,hPa,1981-01-01,2025-12-31,16436,"No, no es estación"
+pan_evaporation,Evaporación de tanque,No localizada en Tarea 1/2,no disponible,,,0,No; requeriría observación y coeficiente de tanque justificado
+meteorological_station_FAO56,"Tmax/Tmin, humedad, viento, radiación/presión observadas",No localizada en archivos locales,no disponible,,,0,No; consultar candidatas SENAMHI/GHCNh

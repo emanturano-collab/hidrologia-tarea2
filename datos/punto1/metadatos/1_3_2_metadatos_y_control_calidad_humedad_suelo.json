@@ -1,0 +1,60 @@
+{
+  "swvl1": {
+    "units": "m**3 m**-3",
+    "min": 0.0528411865234375,
+    "max": 0.45306396484375,
+    "missing_values": 0,
+    "total_values": 17408,
+    "physically_admissible_0_1": true
+  },
+  "swvl2": {
+    "units": "m**3 m**-3",
+    "min": 0.073883056640625,
+    "max": 0.455841064453125,
+    "missing_values": 0,
+    "total_values": 17408,
+    "physically_admissible_0_1": true
+  },
+  "swvl3": {
+    "units": "m**3 m**-3",
+    "min": 0.119354248046875,
+    "max": 0.464569091796875,
+    "missing_values": 0,
+    "total_values": 17408,
+    "physically_admissible_0_1": true
+  },
+  "swvl4": {
+    "units": "m**3 m**-3",
+    "min": 0.1710968017578125,
+    "max": 0.470062255859375,
+    "missing_values": 0,
+    "total_values": 17408,
+    "physically_admissible_0_1": true
+  },
+  "source_zip_sha256": "4117526c0d189bd25c35111c2bbe06cfd36d2297acf22d72c91b9eac84ed5501",
+  "netcdf_member": "data_stream-moda.nc",
+  "zip_test": "passed",
+  "analysis_period": "1981-01 to 2023-08",
+  "n_months": 512,
+  "temporal_continuity": true,
+  "grid_shape": [
+    8,
+    10
+  ],
+  "resolution_degrees": [
+    0.09999999999999964,
+    0.09999999999999432
+  ],
+  "bounds_W_S_E_N": [
+    -79.4,
+    -7.0,
+    -78.5,
+    -6.3
+  ],
+  "intersecting_cells": 34,
+  "basin_coverage_fraction": 0.9999999999430895,
+  "polygon_crs": "EPSG:4326",
+  "method": "intersection of 0.1° cells with basin polygon; areas calculated EPSG:6933",
+  "root_zone": "0–100 cm: 0.07 swvl1 + 0.21 swvl2 + 0.72 swvl3; not an observed rooting depth",
+  "deep_sensitivity": "0–289 cm: (100/289)*theta_0_100 + (189/289)*swvl4"
+}

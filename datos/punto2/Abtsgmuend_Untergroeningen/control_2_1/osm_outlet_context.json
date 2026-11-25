@@ -1,0 +1,2129 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-24T11:04:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1474939008,
+  "lat": 48.9213271,
+  "lon": 9.9237131,
+  "tags": {
+    "name": "Rötenbach",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 1474939013,
+  "lat": 48.9175319,
+  "lon": 9.9152916,
+  "tags": {
+    "name": "Vorderer Rötenbach",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 1474939020,
+  "lat": 48.9219484,
+  "lon": 9.9132020,
+  "tags": {
+    "name": "Rötenberg",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 1624214381,
+  "lat": 48.9098001,
+  "lon": 9.9107089,
+  "tags": {
+    "name": "Algishofen",
+    "place": "hamlet",
+    "wikidata": "Q112861221",
+    "wikipedia": "de:Algishofen"
+  }
+},
+{
+  "type": "node",
+  "id": 2277741836,
+  "lat": 48.9169668,
+  "lon": 9.9146990,
+  "tags": {
+    "name": "Rötenbach",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 2277741837,
+  "lat": 48.9160196,
+  "lon": 9.9118570,
+  "tags": {
+    "name": "Wahlenhalden",
+    "place": "isolated_dwelling"
+  }
+},
+{
+  "type": "node",
+  "id": 2941913995,
+  "lat": 48.9099710,
+  "lon": 9.9129482,
+  "tags": {
+    "name": "Brand",
+    "place": "isolated_dwelling",
+    "wikidata": "Q116480552"
+  }
+},
+{
+  "type": "node",
+  "id": 2941913996,
+  "lat": 48.9114092,
+  "lon": 9.9039054,
+  "tags": {
+    "name": "Brandhof",
+    "place": "isolated_dwelling",
+    "wikidata": "Q116527366"
+  }
+},
+{
+  "type": "node",
+  "id": 2941915703,
+  "lat": 48.9141271,
+  "lon": 9.9006846,
+  "tags": {
+    "name": "Herrenfeld",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "way",
+  "id": 25689122,
+  "center": {
+    "lat": 48.9215389,
+    "lon": 9.9015206
+  },
+  "tags": {
+    "name": "Kocher",
+    "waterway": "river",
+    "width": "26"
+  }
+},
+{
+  "type": "way",
+  "id": 25831612,
+  "center": {
+    "lat": 48.9121151,
+    "lon": 9.9206809
+  },
+  "tags": {
+    "highway": "footway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 25831766,
+  "center": {
+    "lat": 48.9121573,
+    "lon": 9.9211732
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed:backward": "100",
+    "ref": "B 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37885095,
+  "center": {
+    "lat": 48.9111136,
+    "lon": 9.9093650
+  },
+  "tags": {
+    "highway": "unclassified",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 37885096,
+  "center": {
+    "lat": 48.9099015,
+    "lon": 9.9105712
+  },
+  "tags": {
+    "highway": "unclassified"
+  }
+},
+{
+  "type": "way",
+  "id": 37885097,
+  "center": {
+    "lat": 48.9108081,
+    "lon": 9.9097661
+  },
+  "tags": {
+    "bridge": "yes",
+    "covered": "yes",
+    "cycleway:both": "no",
+    "highway": "unclassified",
+    "layer": "1",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 38000405,
+  "center": {
+    "lat": 48.9249686,
+    "lon": 9.9186891
+  },
+  "tags": {
+    "highway": "unclassified",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42722123,
+  "center": {
+    "lat": 48.9170761,
+    "lon": 9.8994908
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Rötenbergstraße",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42722132,
+  "center": {
+    "lat": 48.9149565,
+    "lon": 9.8959871
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Langäckerstraße"
+  }
+},
+{
+  "type": "way",
+  "id": 42722217,
+  "center": {
+    "lat": 48.9165953,
+    "lon": 9.8957931
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Sonnenhalde"
+  }
+},
+{
+  "type": "way",
+  "id": 42722335,
+  "center": {
+    "lat": 48.9172755,
+    "lon": 9.8979351
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Höhenstraße"
+  }
+},
+{
+  "type": "way",
+  "id": 42722357,
+  "center": {
+    "lat": 48.9176648,
+    "lon": 9.8967764
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Am Hang"
+  }
+},
+{
+  "type": "way",
+  "id": 42722409,
+  "center": {
+    "lat": 48.9177031,
+    "lon": 9.8988724
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Im Gschöll"
+  }
+},
+{
+  "type": "way",
+  "id": 42722427,
+  "center": {
+    "lat": 48.9180810,
+    "lon": 9.8984061
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Im Gschöll"
+  }
+},
+{
+  "type": "way",
+  "id": 42723045,
+  "center": {
+    "lat": 48.9168579,
+    "lon": 9.8978630
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Höhenstraße",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 42723046,
+  "center": {
+    "lat": 48.9164317,
+    "lon": 9.8971258
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Höhenstraße"
+  }
+},
+{
+  "type": "way",
+  "id": 42723054,
+  "center": {
+    "lat": 48.9162198,
+    "lon": 9.8960090
+  },
+  "tags": {
+    "foot": "yes",
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 42723099,
+  "center": {
+    "lat": 48.9186305,
+    "lon": 9.8954647
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Forststeige"
+  }
+},
+{
+  "type": "way",
+  "id": 88220999,
+  "center": {
+    "lat": 48.9240779,
+    "lon": 9.9076462
+  },
+  "tags": {
+    "highway": "unclassified",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 88436852,
+  "center": {
+    "lat": 48.9179086,
+    "lon": 9.9233866
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Kohlackerweg",
+    "surface": "gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 88436860,
+  "center": {
+    "lat": 48.9229855,
+    "lon": 9.9070187
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436862,
+  "center": {
+    "lat": 48.9183759,
+    "lon": 9.9002076
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 88436866,
+  "center": {
+    "lat": 48.9129311,
+    "lon": 9.9180438
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 88436867,
+  "center": {
+    "lat": 48.9181978,
+    "lon": 9.9090435
+  },
+  "tags": {
+    "highway": "unclassified",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 88436871,
+  "center": {
+    "lat": 48.9171670,
+    "lon": 9.9138736
+  },
+  "tags": {
+    "highway": "residential",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 88436872,
+  "center": {
+    "lat": 48.9136605,
+    "lon": 9.9097518
+  },
+  "tags": {
+    "highway": "track",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 88436877,
+  "center": {
+    "lat": 48.9192274,
+    "lon": 9.9137460
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436878,
+  "center": {
+    "lat": 48.9145395,
+    "lon": 9.9217714
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Südlicher Brastelweg",
+    "surface": "gravel",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436880,
+  "center": {
+    "lat": 48.9185753,
+    "lon": 9.9282272
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Kirnhardshofweg",
+    "surface": "gravel",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436888,
+  "center": {
+    "lat": 48.9122897,
+    "lon": 9.9177981
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 88436889,
+  "center": {
+    "lat": 48.9224000,
+    "lon": 9.9036949
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 88436893,
+  "center": {
+    "lat": 48.9126430,
+    "lon": 9.9084090
+  },
+  "tags": {
+    "highway": "track",
+    "surface": "asphalt",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 88436894,
+  "center": {
+    "lat": 48.9216020,
+    "lon": 9.9123036
+  },
+  "tags": {
+    "highway": "track"
+  }
+},
+{
+  "type": "way",
+  "id": 88436896,
+  "center": {
+    "lat": 48.9212839,
+    "lon": 9.9255601
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436898,
+  "center": {
+    "lat": 48.9226191,
+    "lon": 9.9308368
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436901,
+  "center": {
+    "lat": 48.9235897,
+    "lon": 9.9218565
+  },
+  "tags": {
+    "highway": "track",
+    "surface": "gravel",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 88436906,
+  "center": {
+    "lat": 48.9107233,
+    "lon": 9.9114257
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 88436910,
+  "center": {
+    "lat": 48.9165611,
+    "lon": 9.9303768
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Südlicher Brastelweg",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 116002790,
+  "center": {
+    "lat": 48.9138753,
+    "lon": 9.9250545
+  },
+  "tags": {
+    "highway": "track",
+    "surface": "gravel",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 133960298,
+  "center": {
+    "lat": 48.9227013,
+    "lon": 9.9121595
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Rötenberg",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 133960300,
+  "center": {
+    "lat": 48.9258342,
+    "lon": 9.9072080
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 133960303,
+  "center": {
+    "lat": 48.9259402,
+    "lon": 9.9107587
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 133960307,
+  "center": {
+    "lat": 48.9233458,
+    "lon": 9.8979449
+  },
+  "tags": {
+    "highway": "unclassified"
+  }
+},
+{
+  "type": "way",
+  "id": 133960309,
+  "center": {
+    "lat": 48.9218210,
+    "lon": 9.8970331
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 136298374,
+  "center": {
+    "lat": 48.9152851,
+    "lon": 9.9119349
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 136298375,
+  "center": {
+    "lat": 48.9143451,
+    "lon": 9.9111406
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 136298377,
+  "center": {
+    "lat": 48.9144261,
+    "lon": 9.9101222
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 136298378,
+  "center": {
+    "lat": 48.9116734,
+    "lon": 9.9090598
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 136298873,
+  "center": {
+    "lat": 48.9167133,
+    "lon": 9.9126059
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 136384306,
+  "center": {
+    "lat": 48.9187606,
+    "lon": 9.9007843
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 155399578,
+  "center": {
+    "lat": 48.9081698,
+    "lon": 9.9012632
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade3"
+  }
+},
+{
+  "type": "way",
+  "id": 155399585,
+  "center": {
+    "lat": 48.9092578,
+    "lon": 9.9101099
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 212332159,
+  "center": {
+    "lat": 48.9097024,
+    "lon": 9.9106608
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Algishofen"
+  }
+},
+{
+  "type": "way",
+  "id": 212332187,
+  "center": {
+    "lat": 48.9112172,
+    "lon": 9.9107064
+  },
+  "tags": {
+    "name": "Mühlkanal E-Werk",
+    "waterway": "canal"
+  }
+},
+{
+  "type": "way",
+  "id": 212332188,
+  "center": {
+    "lat": 48.9119582,
+    "lon": 9.9114756
+  },
+  "tags": {
+    "waterway": "canal"
+  }
+},
+{
+  "type": "way",
+  "id": 212332190,
+  "center": {
+    "lat": 48.9098694,
+    "lon": 9.9110250
+  },
+  "tags": {
+    "layer": "-1",
+    "name": "Suhbach",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 212332191,
+  "center": {
+    "lat": 48.9116748,
+    "lon": 9.9114616
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "yes",
+    "waterway": "canal"
+  }
+},
+{
+  "type": "way",
+  "id": 212332213,
+  "center": {
+    "lat": 48.9078716,
+    "lon": 9.9082368
+  },
+  "tags": {
+    "name": "Suhbach",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 212332216,
+  "center": {
+    "lat": 48.9104346,
+    "lon": 9.9107450
+  },
+  "tags": {
+    "name": "Suhbach",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 212332217,
+  "center": {
+    "lat": 48.9092916,
+    "lon": 9.9110371
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Suhbachweg",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 219158154,
+  "center": {
+    "lat": 48.9140025,
+    "lon": 9.9006885
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Herrenfeld"
+  }
+},
+{
+  "type": "way",
+  "id": 219826214,
+  "center": {
+    "lat": 48.9113180,
+    "lon": 9.9035672
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 219922375,
+  "center": {
+    "lat": 48.9139608,
+    "lon": 9.9006801
+  },
+  "tags": {
+    "highway": "service",
+    "source": "survey, bing"
+  }
+},
+{
+  "type": "way",
+  "id": 219922381,
+  "center": {
+    "lat": 48.9139066,
+    "lon": 9.9003204
+  },
+  "tags": {
+    "highway": "path",
+    "source": "survey, bing"
+  }
+},
+{
+  "type": "way",
+  "id": 245169532,
+  "center": {
+    "lat": 48.9130461,
+    "lon": 9.9136140
+  },
+  "tags": {
+    "layer": "-1",
+    "name": "Rötenbach",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 245169533,
+  "center": {
+    "lat": 48.9213131,
+    "lon": 9.9232459
+  },
+  "tags": {
+    "layer": "-1",
+    "name": "Rötenbach",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 245169540,
+  "center": {
+    "lat": 48.9235247,
+    "lon": 9.9224853
+  },
+  "tags": {
+    "name": "Rötenbach",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 245169541,
+  "center": {
+    "lat": 48.9213455,
+    "lon": 9.9234272
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rötenbach"
+  }
+},
+{
+  "type": "way",
+  "id": 245169542,
+  "center": {
+    "lat": 48.9128166,
+    "lon": 9.9132795
+  },
+  "tags": {
+    "name": "Rötenbach",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 245169543,
+  "center": {
+    "lat": 48.9172006,
+    "lon": 9.9185051
+  },
+  "tags": {
+    "name": "Rötenbach",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 251361860,
+  "center": {
+    "lat": 48.9169981,
+    "lon": 9.8962545
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Am Hang",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 268876916,
+  "center": {
+    "lat": 48.9096831,
+    "lon": 9.9121746
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 268876917,
+  "center": {
+    "lat": 48.9109405,
+    "lon": 9.9039634
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Brandhof"
+  }
+},
+{
+  "type": "way",
+  "id": 268876924,
+  "center": {
+    "lat": 48.9097606,
+    "lon": 9.9072104
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 268876926,
+  "center": {
+    "lat": 48.9138244,
+    "lon": 9.9011705
+  },
+  "tags": {
+    "highway": "unclassified",
+    "name": "Herrenfeld",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 268876928,
+  "center": {
+    "lat": 48.9137986,
+    "lon": 9.8998836
+  },
+  "tags": {
+    "highway": "path",
+    "source": "survey, bing"
+  }
+},
+{
+  "type": "way",
+  "id": 268876929,
+  "center": {
+    "lat": 48.9138921,
+    "lon": 9.9010200
+  },
+  "tags": {
+    "highway": "unclassified",
+    "name": "Herrenfeld",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 268876938,
+  "center": {
+    "lat": 48.9077269,
+    "lon": 9.9168332
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade4"
+  }
+},
+{
+  "type": "way",
+  "id": 268876941,
+  "center": {
+    "lat": 48.9119452,
+    "lon": 9.8984664
+  },
+  "tags": {
+    "highway": "unclassified"
+  }
+},
+{
+  "type": "way",
+  "id": 268876946,
+  "center": {
+    "lat": 48.9133975,
+    "lon": 9.8987178
+  },
+  "tags": {
+    "highway": "path",
+    "source": "survey, bing",
+    "surface": "grass",
+    "trail_visibility": "horrible"
+  }
+},
+{
+  "type": "way",
+  "id": 268876958,
+  "center": {
+    "lat": 48.9089517,
+    "lon": 9.9105510
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Suhbachweg",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 268876960,
+  "center": {
+    "lat": 48.9049371,
+    "lon": 9.9025841
+  },
+  "tags": {
+    "highway": "track",
+    "name": "Suhbachweg",
+    "tracktype": "grade2"
+  }
+},
+{
+  "type": "way",
+  "id": 308250224,
+  "center": {
+    "lat": 48.9131590,
+    "lon": 9.9068478
+  },
+  "tags": {
+    "access": "agricultural",
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "oneway": "no",
+    "segregated": "no",
+    "surface": "asphalt",
+    "traffic_sign": "DE:240,1026-36"
+  }
+},
+{
+  "type": "way",
+  "id": 315582807,
+  "center": {
+    "lat": 48.9052534,
+    "lon": 9.9140453
+  },
+  "tags": {
+    "highway": "unclassified"
+  }
+},
+{
+  "type": "way",
+  "id": 430804356,
+  "center": {
+    "lat": 48.9156135,
+    "lon": 9.9011445
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 430804358,
+  "center": {
+    "lat": 48.9154083,
+    "lon": 9.9002754
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 430804359,
+  "center": {
+    "lat": 48.9143802,
+    "lon": 9.8954964
+  },
+  "tags": {
+    "access": "agricultural",
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "oneway": "no",
+    "segregated": "no",
+    "surface": "asphalt",
+    "traffic_sign": "DE:240,1026-36"
+  }
+},
+{
+  "type": "way",
+  "id": 430804360,
+  "center": {
+    "lat": 48.9154863,
+    "lon": 9.9007269
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 430804362,
+  "center": {
+    "lat": 48.9154187,
+    "lon": 9.9001441
+  },
+  "tags": {
+    "highway": "service",
+    "lanes": "1",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 545325868,
+  "center": {
+    "lat": 48.9226803,
+    "lon": 9.9257029
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328409,
+  "center": {
+    "lat": 48.9257288,
+    "lon": 9.9214693
+  },
+  "tags": {
+    "layer": "-1",
+    "name": "Rötenbach",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328411,
+  "center": {
+    "lat": 48.9294479,
+    "lon": 9.9206093
+  },
+  "tags": {
+    "name": "Rötenbach",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328412,
+  "center": {
+    "lat": 48.9254495,
+    "lon": 9.9201715
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328413,
+  "center": {
+    "lat": 48.9232293,
+    "lon": 9.9227766
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328414,
+  "center": {
+    "lat": 48.9233734,
+    "lon": 9.9224983
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328415,
+  "center": {
+    "lat": 48.9244305,
+    "lon": 9.9225535
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545328416,
+  "center": {
+    "lat": 48.9236825,
+    "lon": 9.9210043
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545335662,
+  "center": {
+    "lat": 48.9289383,
+    "lon": 9.9113799
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545335663,
+  "center": {
+    "lat": 48.9277211,
+    "lon": 9.9166256
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545335664,
+  "center": {
+    "lat": 48.9287951,
+    "lon": 9.9150941
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545335665,
+  "center": {
+    "lat": 48.9283568,
+    "lon": 9.9135451
+  },
+  "tags": {
+    "name": "Geschwendklinge",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545510403,
+  "center": {
+    "lat": 48.9193035,
+    "lon": 9.9190658
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545510404,
+  "center": {
+    "lat": 48.9193250,
+    "lon": 9.9189713
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545510405,
+  "center": {
+    "lat": 48.9203759,
+    "lon": 9.9169209
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545510406,
+  "center": {
+    "lat": 48.9216100,
+    "lon": 9.9165646
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545510408,
+  "center": {
+    "lat": 48.9200812,
+    "lon": 9.9284086
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545515276,
+  "center": {
+    "lat": 48.9135181,
+    "lon": 9.9129416
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545515277,
+  "center": {
+    "lat": 48.9135277,
+    "lon": 9.9127700
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545515278,
+  "center": {
+    "lat": 48.9134158,
+    "lon": 9.9133268
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545518081,
+  "center": {
+    "lat": 48.9119014,
+    "lon": 9.9152821
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545540096,
+  "center": {
+    "lat": 48.9078667,
+    "lon": 9.9117454
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545540097,
+  "center": {
+    "lat": 48.9081763,
+    "lon": 9.9108383
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545540098,
+  "center": {
+    "lat": 48.9086243,
+    "lon": 9.9098429
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545540099,
+  "center": {
+    "lat": 48.9085545,
+    "lon": 9.9099769
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545540100,
+  "center": {
+    "lat": 48.9069515,
+    "lon": 9.9119305
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 545540101,
+  "center": {
+    "lat": 48.9060888,
+    "lon": 9.9144652
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 546201267,
+  "center": {
+    "lat": 48.9203036,
+    "lon": 9.9270929
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 546201270,
+  "center": {
+    "lat": 48.9207460,
+    "lon": 9.9253096
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398206,
+  "center": {
+    "lat": 48.9188262,
+    "lon": 9.8969290
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398207,
+  "center": {
+    "lat": 48.9207227,
+    "lon": 9.9016199
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398208,
+  "center": {
+    "lat": 48.9214745,
+    "lon": 9.8989327
+  },
+  "tags": {
+    "name": "Zollklinge",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398209,
+  "center": {
+    "lat": 48.9240544,
+    "lon": 9.9019500
+  },
+  "tags": {
+    "layer": "-1",
+    "name": "Zollklinge",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398210,
+  "center": {
+    "lat": 48.9249535,
+    "lon": 9.9022105
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398211,
+  "center": {
+    "lat": 48.9249569,
+    "lon": 9.9009463
+  },
+  "tags": {
+    "intermittent": "yes",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549398212,
+  "center": {
+    "lat": 48.9243846,
+    "lon": 9.9037645
+  },
+  "tags": {
+    "name": "Zollklinge",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 549400379,
+  "center": {
+    "lat": 48.9120647,
+    "lon": 9.9114089
+  },
+  "tags": {
+    "name": "Algishofen",
+    "waterway": "weir"
+  }
+},
+{
+  "type": "way",
+  "id": 609672482,
+  "center": {
+    "lat": 48.9112828,
+    "lon": 9.9211452
+  },
+  "tags": {
+    "highway": "service",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 703461156,
+  "center": {
+    "lat": 48.9122446,
+    "lon": 9.9027136
+  },
+  "tags": {
+    "highway": "track"
+  }
+},
+{
+  "type": "way",
+  "id": 824145181,
+  "center": {
+    "lat": 48.9074229,
+    "lon": 9.9051262
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade5"
+  }
+},
+{
+  "type": "way",
+  "id": 824145182,
+  "center": {
+    "lat": 48.9074686,
+    "lon": 9.9071136
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade5"
+  }
+},
+{
+  "type": "way",
+  "id": 824145184,
+  "center": {
+    "lat": 48.9087609,
+    "lon": 9.9096752
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade5"
+  }
+},
+{
+  "type": "way",
+  "id": 826219827,
+  "center": {
+    "lat": 48.9127236,
+    "lon": 9.9121540
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed:backward": "70",
+    "ref": "B 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 826219828,
+  "center": {
+    "lat": 48.9119516,
+    "lon": 9.9102583
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed:backward": "50",
+    "ref": "B 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 826219829,
+  "center": {
+    "lat": 48.9137881,
+    "lon": 9.9007671
+  },
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed:backward": "100",
+    "ref": "B 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 881131427,
+  "center": {
+    "lat": 48.9180556,
+    "lon": 9.9034359
+  },
+  "tags": {
+    "check_date": "2020-12-03",
+    "highway": "residential",
+    "name": "Am Martinswald",
+    "note": "Freihandzeichnung ohne Luftbilder. Sobald diese verfügbar sind, bitte Lage korrigieren.",
+    "source": "survey",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 896407980,
+  "center": {
+    "lat": 48.9162996,
+    "lon": 9.9117909
+  },
+  "tags": {
+    "access": "private",
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 896407981,
+  "center": {
+    "lat": 48.9178586,
+    "lon": 9.9108294
+  },
+  "tags": {
+    "highway": "service",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 1149596739,
+  "center": {
+    "lat": 48.9225734,
+    "lon": 9.8992604
+  },
+  "tags": {
+    "highway": "unclassified",
+    "name": "Limpurger Straße",
+    "source": "GPS-Track",
+    "source:name": "LGL"
+  }
+},
+{
+  "type": "way",
+  "id": 1149596742,
+  "center": {
+    "lat": 48.9149267,
+    "lon": 9.9136482
+  },
+  "tags": {
+    "highway": "unclassified"
+  }
+},
+{
+  "type": "way",
+  "id": 1206009873,
+  "center": {
+    "lat": 48.9072423,
+    "lon": 9.9117291
+  },
+  "tags": {
+    "fixme": "Straßenbelag?",
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 1248858566,
+  "center": {
+    "lat": 48.9121531,
+    "lon": 9.9109966
+  },
+  "tags": {
+    "highway": "footway",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1248858567,
+  "center": {
+    "lat": 48.9114081,
+    "lon": 9.9090942
+  },
+  "tags": {
+    "highway": "unclassified",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1248858568,
+  "center": {
+    "lat": 48.9115900,
+    "lon": 9.9086480
+  },
+  "tags": {
+    "bicycle": "use_sidepath",
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed:backward": "50",
+    "ref": "B 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1248858569,
+  "center": {
+    "lat": 48.9130106,
+    "lon": 9.9128844
+  },
+  "tags": {
+    "highway": "unclassified"
+  }
+},
+{
+  "type": "way",
+  "id": 1248858570,
+  "center": {
+    "lat": 48.9130510,
+    "lon": 9.9133573
+  },
+  "tags": {
+    "highway": "primary",
+    "lanes": "2",
+    "maxspeed:backward": "70",
+    "ref": "B 19",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1276411368,
+  "center": {
+    "lat": 48.9164597,
+    "lon": 9.8998343
+  },
+  "tags": {
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1276411369,
+  "center": {
+    "lat": 48.9171105,
+    "lon": 9.9014561
+  },
+  "tags": {
+    "highway": "path"
+  }
+},
+{
+  "type": "way",
+  "id": 1312343824,
+  "center": {
+    "lat": 48.9178639,
+    "lon": 9.8961149
+  },
+  "tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "name": "Sonnenhalde"
+  }
+},
+{
+  "type": "way",
+  "id": 1312343825,
+  "center": {
+    "lat": 48.9177212,
+    "lon": 9.8964761
+  },
+  "tags": {
+    "highway": "footway"
+  }
+},
+{
+  "type": "way",
+  "id": 1338088257,
+  "center": {
+    "lat": 48.9182731,
+    "lon": 9.9038315
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Steinburrweg",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1338088270,
+  "center": {
+    "lat": 48.9173261,
+    "lon": 9.9061088
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Martinswald"
+  }
+},
+{
+  "type": "way",
+  "id": 1349101527,
+  "center": {
+    "lat": 48.9193295,
+    "lon": 9.9035638
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade5"
+  }
+},
+{
+  "type": "way",
+  "id": 1453330773,
+  "center": {
+    "lat": 48.9148773,
+    "lon": 9.8991174
+  },
+  "tags": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "oneway": "no",
+    "segregated": "no",
+    "surface": "asphalt",
+    "traffic_sign": "DE:240"
+  }
+},
+{
+  "type": "way",
+  "id": 1453330774,
+  "center": {
+    "lat": 48.9140110,
+    "lon": 9.9056378
+  },
+  "tags": {
+    "highway": "track",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1453330775,
+  "center": {
+    "lat": 48.9154373,
+    "lon": 9.9028654
+  },
+  "tags": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "oneway": "no",
+    "segregated": "no",
+    "surface": "asphalt",
+    "traffic_sign": "DE:240"
+  }
+},
+{
+  "type": "way",
+  "id": 1511643756,
+  "center": {
+    "lat": 48.9215769,
+    "lon": 9.9229996
+  },
+  "tags": {
+    "access": "private",
+    "bridge": "yes",
+    "highway": "service",
+    "layer": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 1511643757,
+  "center": {
+    "lat": 48.9215545,
+    "lon": 9.9229366
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1511643758,
+  "center": {
+    "lat": 48.9215575,
+    "lon": 9.9230736
+  },
+  "tags": {
+    "access": "private",
+    "highway": "service"
+  }
+},
+{
+  "type": "way",
+  "id": 1511643759,
+  "center": {
+    "lat": 48.9211215,
+    "lon": 9.9234146
+  },
+  "tags": {
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 1511643760,
+  "center": {
+    "lat": 48.9211032,
+    "lon": 9.9235149
+  },
+  "tags": {
+    "layer": "-1",
+    "tunnel": "culvert",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 1511643761,
+  "center": {
+    "lat": 48.9211681,
+    "lon": 9.9234886
+  },
+  "tags": {
+    "highway": "track",
+    "tracktype": "grade1"
+  }
+},
+{
+  "type": "way",
+  "id": 1528964117,
+  "center": {
+    "lat": 48.9143821,
+    "lon": 9.8978989
+  },
+  "tags": {
+    "access": "agricultural",
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "oneway": "no",
+    "segregated": "no",
+    "surface": "asphalt",
+    "traffic_sign": "DE:240,1026-36"
+  }
+}
+
+  ]
+}

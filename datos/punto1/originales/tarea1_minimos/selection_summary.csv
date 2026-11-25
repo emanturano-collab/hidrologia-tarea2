@@ -1,0 +1,18 @@
+field,value,source_file,source_column
+gauge_id,PE_200907,01_metadata/stations.csv,gauge_id
+gauge_name,Racarumi,01_metadata/stations.csv,gauge_name
+official_catchment_name,Cuenca Chancay-Lambayeque,01_metadata/stations.csv,name_cat
+hydrographic_region,Pacific,01_metadata/stations.csv,gauge_region
+latitude_wgs84,-6.633,01_metadata/stations.csv,gauge_lat
+longitude_wgs84,-79.317,01_metadata/stations.csv,gauge_lon
+station_elevation_masl,265,01_metadata/stations.csv,gauge_elev
+area_km2,2363.302,02_attributes/topographic_attributes.csv,area
+common_period_start,1981-01-01,data/derived/camels_pe_final_candidates.csv,common_period_start
+common_period_end,2023-08-31,data/derived/camels_pe_final_candidates.csv,common_period_end
+common_period_years,42.66,data/derived/camels_pe_final_candidates.csv,duration_years
+prec_missing_pct,0.00,data/derived/camels_pe_final_candidates.csv,prec_missing_pct
+flow_obs_missing_pct,0.32,data/derived/camels_pe_final_candidates.csv,flow_obs_missing_pct
+both_valid_days,15533,data/derived/camels_pe_final_candidates.csv,both_valid_days
+daily_timeseries,CAMELS-PE/03_timeseries/by_catchment/PE_200907.csv,03_timeseries/by_catchment/PE_200907.csv,"date; prec; flow_obs"
+catchment_geometry,CAMELS-PE/04_geospatial/by_catchment/PE_200907/PE_200907_catchment.gpkg,04_geospatial/by_catchment/PE_200907/PE_200907_catchment.gpkg,geometry
+station_outlet,CAMELS-PE/04_geospatial/by_catchment/PE_200907/PE_200907_outlet.gpkg,04_geospatial/by_catchment/PE_200907/PE_200907_outlet.gpkg,geometry

@@ -1,0 +1,8 @@
+{
+  "n_resamples": 10000,
+  "seed": 20261121,
+  "bias_PI_minus_PL_mm_year": -530.0533333333333,
+  "bootstrap95_low_mm_year": -604.1480952380952,
+  "bootstrap95_high_mm_year": -458.93954761904763,
+  "limitation": "i.i.d. annual bootstrap; does not quantify instrumental uncertainty or serial/common-mode errors."
+}

@@ -1,0 +1,35 @@
+{
+  "n_complete_common_years": 20,
+  "omega_source": "Tarea 02\\Punto 1\\1.3 - Regimen evaporativo\\1.3.3 - Budyko\\Tablas\\1_3_3_budyko_sensibilidad_Fu_y_verificacion_matematica.csv",
+  "omega_constant": 1.7563109279522524,
+  "periods": [
+    {
+      "subperiodo": "Temprano",
+      "definicion": "10 primeras observaciones completas",
+      "anios_incluidos": "2002, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012",
+      "n_anios": 10,
+      "PISCOp_PL_mm_anio": 1095.726,
+      "ETo_FAO56_mm_anio": 1194.738747387776,
+      "Q_observado_mm_anio": 496.39900000000006,
+      "omega_Fu_constante": 1.7563109279522524,
+      "phi_ETo_sobre_P": 1.0903626886537108,
+      "Q_Fu_mm_anio": 505.8502656418463
+    },
+    {
+      "subperiodo": "Tardío",
+      "definicion": "10 últimas observaciones completas",
+      "anios_incluidos": "2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022",
+      "n_anios": 10,
+      "PISCOp_PL_mm_anio": 1079.776,
+      "ETo_FAO56_mm_anio": 1193.9948059091603,
+      "Q_observado_mm_anio": 504.049,
+      "omega_Fu_constante": 1.7563109279522524,
+      "phi_ETo_sobre_P": 1.1057800931944775,
+      "Q_Fu_mm_anio": 494.6169928879945
+    }
+  ],
+  "delta_q_observed_mm_year": 7.64999999999992,
+  "delta_q_fu_mm_year": -11.233272753851793,
+  "residual_mm_year": 18.883272753851713,
+  "contribution_sum_minus_delta_fu": 0.0
+}

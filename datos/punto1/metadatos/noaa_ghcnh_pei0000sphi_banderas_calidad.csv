@@ -1,0 +1,16 @@
+variable,quality_code,count
+temperature,1.0,100874
+temperature,4.0,133
+temperature,2.0,5
+dew_point_temperature,1.0,100849
+dew_point_temperature,4.0,129
+dew_point_temperature,2.0,7
+dew_point_temperature,<blank>,1
+station_level_pressure,1.0,29641
+station_level_pressure,4.0,18
+station_level_pressure,2.0,9
+wind_speed,1.0,100863
+wind_speed,4.0,22
+wind_speed,2.0,18
+relative_humidity,<blank>,100969
+relative_humidity,f,9

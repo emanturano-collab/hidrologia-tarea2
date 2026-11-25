@@ -1,0 +1,25 @@
+{
+  "script": "codigo/punto1/1_2_evapotranspiracion_real/02_propagacion_error/run_1_2_2_propagacion_error.py",
+  "tables": [
+    "1_2_2_discrepancia_PL_PI_anios_secos_humedos.csv",
+    "1_2_2_estacionalidad_discrepancia_PL_PI.csv",
+    "1_2_2_resumen_propagacion_error_principal.csv"
+  ],
+  "figures": [
+    "1_2_2_contribucion_varianza_P_Q.pdf",
+    "1_2_2_contribucion_varianza_P_Q.png",
+    "1_2_2_diferencia_anual_PI_menos_PL.pdf",
+    "1_2_2_diferencia_anual_PI_menos_PL.png",
+    "1_2_2_ET_anual_barras_incertidumbre.pdf",
+    "1_2_2_ET_anual_barras_incertidumbre.png",
+    "1_2_2_ET_balance_PL_PI.pdf",
+    "1_2_2_ET_balance_PL_PI.png",
+    "1_2_2_incertidumbre_relativa_ET.pdf",
+    "1_2_2_incertidumbre_relativa_ET.png",
+    "1_2_2_PL_PI_anual.pdf",
+    "1_2_2_PL_PI_anual.png",
+    "1_2_2_sensibilidad_Q.pdf",
+    "1_2_2_sensibilidad_Q.png"
+  ],
+  "status": "PRELIMINAR: Q uncertainty is literature-based scenario, not Racarumi-specific."
+}

@@ -1,0 +1,4 @@
+class_code,landcover,area_pct,C_assigned,weighted_contribution
+10,Arboles,56.17000,0.30000,0.16851
+30,Pastizal,32.10000,0.35000,0.11235
+40,Cultivo,11.74000,0.45000,0.05283

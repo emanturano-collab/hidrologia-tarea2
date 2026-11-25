@@ -1,0 +1,9 @@
+{
+  "file": "datos\\punto1\\procesados\\1_5_paisaje\\mod16a2gf_bandas_altitudinales_composites_raw.csv",
+  "sha256": "8daf1f010e3db0f23d97a1b2e8d8058889c87d73b863958dafb61fb9139afcf5",
+  "rows": 9408,
+  "duplicate_keys": 5376,
+  "unique_keys": 4032,
+  "status": "INVALIDADO_NO_USAR",
+  "cause": "escritura concurrente de m\u00faltiples procesos de extracci\u00f3n"
+}

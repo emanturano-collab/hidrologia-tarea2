@@ -1,0 +1,3 @@
+source,group,period_type,period,method,slope_decade,ci_low_decade,ci_high_decade,p,n,unit
+CAMELS-PE,Caudal,Período común,2000-06 a 2020-12,OLS estacional,0.0040969489462711,-0.15086182366845,0.159055721560992,0.958500888617296,245,mm/día/década
+CAMELS-PE,Caudal,Período común,2000-06 a 2020-12,Sen estacional,-0.0052764285714282,-0.0615872222222222,0.0431818181818183,0.785469026111535,245,mm/día/década

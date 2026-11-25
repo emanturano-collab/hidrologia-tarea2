@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-11-22T05:26:20.366931+00:00",
+  "radiation_source": "productos\\punto1\\punto_1_2_3_radiacion_neta_real_era5land_mensual.csv",
+  "balance_hydrological_source": "productos\\punto1\\punto_1_2_anios_hidrologicos_sep_ago.csv",
+  "monthly_radiation_months": 276,
+  "monthly_radiation_period": [
+    "2000-09",
+    "2023-08"
+  ],
+  "complete_energy_hydrological_years": 23,
+  "complete_balance_hydrological_years": 21,
+  "common_hydrological_years": [
+    "AH 2002",
+    "AH 2004",
+    "AH 2005",
+    "AH 2006",
+    "AH 2007",
+    "AH 2008",
+    "AH 2009",
+    "AH 2010",
+    "AH 2011",
+    "AH 2012",
+    "AH 2013",
+    "AH 2014",
+    "AH 2015",
+    "AH 2016",
+    "AH 2017",
+    "AH 2018",
+    "AH 2019",
+    "AH 2020",
+    "AH 2021",
+    "AH 2022",
+    "AH 2023"
+  ],
+  "excluded_balance_years": [
+    "AH 2001",
+    "AH 2003"
+  ],
+  "units": {
+    "rn_annual_energy": "J m-2 year-1",
+    "rn_lambda_et_differences": "mm year-1"
+  },
+  "conversion": "rn_lambda_mm_year = rn_annual_energy_j_m2 / 2450000",
+  "checks": {
+    "all_months_complete_with_33_weights": true,
+    "annual_conversion_identity_checked": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "station_id": "00020",
+  "station_lat": 48.9219,
+  "station_lon": 9.9129,
+  "station_elevation_m": 432.0,
+  "outlet_lat": "48.918194444444445",
+  "outlet_lon": "9.91236111111111",
+  "outlet_distance_m": 414.4,
+  "basin_area_km2": "0.12315",
+  "basin_mean_elevation_m": 417.09,
+  "station_minus_basin_mean_elevation_m": 14.910000000000025,
+  "station_inside_drainage": "False",
+  "spatial_status": "nearby_same_regional_climate_but_outlet_visual_check_pending"
+}

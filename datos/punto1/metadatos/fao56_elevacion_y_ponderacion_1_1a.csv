@@ -1,0 +1,2 @@
+era5land_cells_intersecting_catchment,total_catchment_weight,selected_eight_point_weight,weighted_srtm_elevation_m,weighted_era5land_native_elevation_m,era5land_minus_srtm_m,spatial_average_applied,reason
+33,0.9999999999999983,0.32583635173883463,2348.9755380864453,2367.1686106444004,18.19307255795502,False,Los ocho puntos solo cubren una fracción de las ponderaciones de la Tarea 1; no se aplica promedio espacial.

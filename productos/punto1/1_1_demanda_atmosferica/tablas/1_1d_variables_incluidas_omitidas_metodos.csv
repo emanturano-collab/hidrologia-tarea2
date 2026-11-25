@@ -1,0 +1,7 @@
+method,included_forcings,omitted_direct_forcings,sensitivity_note
+Thornthwaite,"T media, latitud/duración día","Rs,Rn,ea,u",Respuesta directa a T; índice anual recalculado
+Hargreaves-Samani,"Tmin,Tmax,Tmedia,Ra","Rs,Rn,ea,u",Rs y ea no producen respuesta directa
+Priestley-Taylor,"T,Rn,G,presión","u,ea (salvo efecto indirecto en Rnl)",α=1.26 fijo
+Meyer,"T,ea,u10","Rs,Rn",Agua libre; T agua aproximada por T aire
+Makkink,"T,Rs,presión","ea,u,Rn","Radiación solar, no radiación neta"
+Rohwer,"T,ea,presión,u0.6","Rs,Rn",Agua libre; proxies de T agua y viento bajo

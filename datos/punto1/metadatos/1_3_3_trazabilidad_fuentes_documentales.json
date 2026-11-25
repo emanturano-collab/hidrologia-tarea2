@@ -1,0 +1,37 @@
+{
+  "scope": "Evidencia documental complementaria para 1.3.3; sin recálculo de Budyko ni elasticidad.",
+  "pdfs": [
+    {
+      "path_relative": "tarea 02\\anexos\\punto1\\1_3_regimen_evaporativo\\fuentes_documentales\\PEOT_Bocatoma_Racarumi.pdf",
+      "sha256": "C07720437C037ECA4509E9CCE536DA730B205F6DE14876BF008E0C78F9B48DFA",
+      "bytes": 2352134,
+      "physical_pdf_pages": 23,
+      "key_pages": [
+        3,
+        5,
+        12
+      ]
+    },
+    {
+      "path_relative": "tarea 02\\anexos\\punto1\\1_3_regimen_evaporativo\\fuentes_documentales\\PEOT_Trasvases_Chotano_Conchano_2025.pdf",
+      "sha256": "ADB9BC4CEBC6F928E5455FBE529DE7B02DF6A0D1EE2EA6BD5A36B118F9DB73A1",
+      "bytes": 1643831,
+      "physical_pdf_pages": 2,
+      "key_pages": [
+        1,
+        2
+      ]
+    }
+  ],
+  "camels_local_sources": [
+    "tarea 01/ENTREGA FINAL HIDROLOGIA/DATOS PARA EL PUNTO 1 - TAREA 02/Metadatos y documentacion/selection_summary.csv",
+    "tarea 01/ENTREGA FINAL HIDROLOGIA/ENTREGA PREFINAL HIDROLOGIA/03_DATOS_UTILIZADOS/CAMELS_PE_y_IMERG/selected/PE_200907/metadata/station.csv",
+    "tarea 01/ENTREGA FINAL HIDROLOGIA/DATOS PARA EL PUNTO 1 - TAREA 02/Metadatos y documentacion/data_dictionary.csv",
+    "tarea 01/ENTREGA FINAL HIDROLOGIA/ENTREGA PREFINAL HIDROLOGIA/03_DATOS_UTILIZADOS/Delimitacion_Cuenca_y_Elevacion/PE_200907_ERA5Land_cells_SRTM_elevation.csv"
+  ],
+  "limitations": [
+    "La evidencia PEOT prueba infraestructura/operación contextual, no el efecto cuantitativo en la estación.",
+    "La metadata CAMELS-PE local no documenta naturalización de flow_obs.",
+    "Los atributos estáticos de vegetación, suelo, bosque, nieve y glaciares no están conservados en el paquete local inspeccionado."
+  ]
+}

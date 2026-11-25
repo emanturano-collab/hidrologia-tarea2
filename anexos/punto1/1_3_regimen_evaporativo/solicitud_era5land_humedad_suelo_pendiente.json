@@ -1,0 +1,24 @@
+{
+  "status": "PENDIENTE POR DATOS: no hay humedad del suelo, ET real ni Rn superficial real en el proyecto.",
+  "dataset": "reanalysis-era5-land-monthly-means",
+  "variables": [
+    "volumetric_soil_water_layer_1",
+    "volumetric_soil_water_layer_2",
+    "volumetric_soil_water_layer_3",
+    "volumetric_soil_water_layer_4"
+  ],
+  "period": "1981-01 through 2023-08",
+  "format": "netcdf",
+  "area_N_W_S_E": [
+    -6.350416666666668,
+    -79.32208333366667,
+    -6.917916666666667,
+    -78.62708333333333
+  ],
+  "polygon_crs": "EPSG:4326",
+  "aggregation": "área ponderada por polígono; 0–100 cm = 0.07*swvl1 + 0.21*swvl2 + 0.72*swvl3",
+  "filename": "ERA5Land_monthly_soilwater_Racarumi_198101_202308.nc",
+  "destination": "tarea 02/datos/punto1/originales/1_3_humedad_suelo/",
+  "official_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means?tab=download",
+  "warning": "No usar Rn de pasto FAO-56 para FE; faltan ET real y radiación neta superficial real."
+}

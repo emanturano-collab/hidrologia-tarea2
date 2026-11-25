@@ -1,0 +1,10 @@
+{
+  "status": "PENDIENTE POR DATOS",
+  "formula": "FE = lambda_ET / Rn_superficial",
+  "available": "theta_rz monthly area-weighted",
+  "missing": [
+    "ET real mensual coincidente",
+    "radiación neta superficial real coincidente"
+  ],
+  "prohibition": "No sustituir FE por ET/ETo ni usar Rn de pasto FAO-56. No se define umbral crítico de humedad."
+}

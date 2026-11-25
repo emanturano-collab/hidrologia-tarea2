@@ -1,0 +1,6 @@
+requirement,status
+Seis métodos / cuatro familias obligatorias + dos adicionales,complete
+"20 celdas, ponderación después de cálculo, cobertura 90.1264%",complete_preliminary
+"Comparación mensual, anual y por mes calendario",complete
+"Amplitud/fase, control manual, pyet QA, figuras y documentación",complete
+ETo definitiva de Racarumi,not_complete: falta 9.8736% de cobertura espacial

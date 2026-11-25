@@ -1,0 +1,13 @@
+month,month_name,pl_mean_mm_month,r_mean_mm_month,tmean_c,moisture_class,runoff_class,thermal_class,hydroclimatic_class
+1,Ene,102.5016,41.6577,15.4935,húmedo,escorrentía media,cálido,húmedo / cálido / escorrentía media
+2,Feb,168.7858,62.3115,15.9397,húmedo,escorrentía alta,cálido,húmedo / cálido / escorrentía alta
+3,Mar,225.8317,98.5303,15.8547,húmedo,escorrentía alta,cálido,húmedo / cálido / escorrentía alta
+4,Abr,158.0072,85.3461,15.4841,húmedo,escorrentía alta,cálido,húmedo / cálido / escorrentía alta
+5,May,71.2462,51.9995,15.0202,transición,escorrentía alta,templado,transición / templado / escorrentía alta
+6,Jun,27.8782,24.4908,14.6768,seco,escorrentía media,fresco,seco / fresco / escorrentía media
+7,Jul,24.0508,14.0293,14.3842,seco,escorrentía baja,fresco,seco / fresco / escorrentía baja
+8,Ago,15.9214,8.3169,14.7777,seco,escorrentía baja,fresco,seco / fresco / escorrentía baja
+9,Sep,54.6365,8.5377,15.0955,seco,escorrentía baja,templado,seco / templado / escorrentía baja
+10,Oct,97.7837,19.7982,14.9887,transición,escorrentía baja,templado,transición / templado / escorrentía baja
+11,Nov,85.5350,25.7060,14.8251,transición,escorrentía media,fresco,transición / fresco / escorrentía media
+12,Dic,79.4362,32.8945,15.1871,transición,escorrentía media,templado,transición / templado / escorrentía media

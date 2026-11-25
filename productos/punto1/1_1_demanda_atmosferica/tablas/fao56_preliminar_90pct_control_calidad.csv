@@ -1,0 +1,2 @@
+scope,coverage_weight,pending_weight,daily_records,daily_start,daily_end,all_days_have_24_hourly_records,all_eto_finite,all_eto_nonnegative,max_equation_reconstruction_abs_mm_d,months_compared,max_monthly_method_abs_difference_mm,month_max_difference
+PRELIMINAR_NO_FINAL,0.9012637836877098,0.0987362163122902,15582,1981-01-01,2023-08-30,True,True,True,3.552713678800501e-15,510,0.8886356776830127,1997-12

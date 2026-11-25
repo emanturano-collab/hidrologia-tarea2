@@ -1,0 +1,13 @@
+# Extracción y procesamiento de GLEAM4.3a y MOD16A2GF para el numeral 1.2.4.
+# Las credenciales de GLEAM y Earth Engine no se almacenan en este repositorio.
+earthengine-api
+geopandas
+netCDF4
+numpy
+pandas
+paramiko
+shapely
+xarray
+
+# Cierre, estadísticos y figuras.
+matplotlib==3.11.2

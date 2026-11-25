@@ -1,0 +1,8 @@
+{
+  "source": "MODIS/061/MOD16A2GF",
+  "composites": 968,
+  "bands": 8,
+  "rows": 7744,
+  "periods": "AH2002 y AH2004-AH2023",
+  "ET_units": "mm per MOD16 composite; scale factor 0.1"
+}

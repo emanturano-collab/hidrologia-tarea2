@@ -1,0 +1,7 @@
+column,required,purpose
+date,True,month start
+hydro_year,True,Sep–Aug closing year
+product,True,product identity
+ET_mm_month,True,actual ET only
+Rn_surface_MJ_m2_day,False,needed for FE
+quality_flag,False,source/coverage notes

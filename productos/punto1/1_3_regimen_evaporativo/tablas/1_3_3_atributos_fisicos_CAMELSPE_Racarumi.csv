@@ -1,0 +1,14 @@
+atributo,valor,unidad_o_categoria,fuente_local,estado,nota
+Identificador CAMELS-PE,PE_200907,—,selection_summary.csv; station.csv,verificado,Estación Racarumi.
+Nombre oficial de cuenca,Cuenca Chancay-Lambayeque,—,selection_summary.csv,verificado,Nombre contenido en la metadata seleccionada de CAMELS-PE.
+Área,2363.302,km²,selection_summary.csv (topographic_attributes.csv),verificado,Atributo topográfico preservado localmente.
+Cota de estación,265,m s.n.m.,station.csv,verificado,No representa la elevación media de toda la cuenca.
+Elevación media ponderada de celdas SRTM,2348.98,m,PE_200907_ERA5Land_cells_SRTM_elevation.csv,verificado,Media ponderada con los 33 pesos espaciales de Tarea 1.
+Rango altitudinal SRTM en celdas intersectadas,264–4084,m,PE_200907_ERA5Land_cells_SRTM_elevation.csv,verificado,Extremos de las celdas; no se presenta como atributo estático CAMELS.
+Cobertura vegetal / uso del suelo,No disponible,—,Paquete CAMELS-PE local preservado,no verificado,No se halló tabla local de atributos de cobertura/uso para PE_200907.
+Cobertura forestal,No disponible,—,Paquete CAMELS-PE local preservado,no verificado,No inferir a partir de la altitud ni de los documentos PEOT.
+Nieve y glaciares,No disponible,—,Paquete CAMELS-PE local preservado,no verificado,No se encontró atributo o inventario local que permita afirmarlo o descartarlo.
+Características del suelo,No disponible,—,Paquete CAMELS-PE local preservado,no verificado,La humedad ERA5-Land no sustituye atributos edáficos observados.
+Tipo de caudal CAMELS-PE,flow_obs: Observed streamflow,mm/día,data_dictionary.csv; daily_audit_summary.json,verificado,La metadata local no dice que esté naturalizado.
+Naturalización del caudal,No documentada,—,Metadata CAMELS-PE local,no verificado,No es válido afirmar que Q sea naturalizado ni que incluya trasvases sin metadatos de estación/operación.
+Intervención hidráulica contextual,Bocatoma Racarumi y Sistema Hidráulico Mayor Tinajones operado por PEOT; trasvase Chotano–Chancay-Lambayeque documentado,evidencia documental,Dos documentos PEOT incorporados,verificado como contexto,No cuantifica ni prueba el efecto en la serie de la estación.

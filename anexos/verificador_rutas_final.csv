@@ -1,0 +1,176 @@
+﻿script,linea,funcion,ruta,estado,detalle
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_fao56_preliminar_90pct_products.py,23,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,existe,"OUT / ""fao56_eto_diaria_preliminar_90pct.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_fao56_preliminar_90pct_products.py,24,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_mensual_preliminar_90pct.csv,existe,"OUT / ""fao56_eto_mensual_preliminar_90pct.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_fao56_preliminar_90pct_products.py,26,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/era5land_33_celdas_pesos_y_elevacion.csv,existe,GRID
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_fao56_preliminar_90pct_products.py,25,pd.read_csv,datos/punto1/metadatos/fao56_preliminar_90pct_cobertura_y_limitacion.csv,existe,"META / ""fao56_preliminar_90pct_cobertura_y_limitacion.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_spatial_inventory_1_1a.py,56,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_ERA5Land_Copernicus_grid_weights.csv,existe,WEIGHTS
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_spatial_inventory_1_1a.py,57,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_ERA5Land_cells_SRTM_elevation.csv,existe,SRTM
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_spatial_inventory_1_1a.py,54,gpd.read_file,datos/punto1/originales/tarea1_minimos/PE_200907_catchment.gpkg,existe,CATCHMENT
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/build_spatial_inventory_1_1a.py,58,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_ERA5Land_native_orography.csv,existe,OROGRAPHY
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/download_era5land_25_celdas.py,244,pd.read_csv,datos/punto1/metadatos/era5land_25_celdas_pendientes_CDS.csv,existe,PENDING_CSV
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/download_era5land_25_celdas.py,65,path.open,,dinamica_controlada,path
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/download_era5land_25_celdas.py,114,zipfile.ZipFile,,dinamica_controlada,path
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/download_era5land_25_celdas.py,248,pd.read_csv,datos/punto1/metadatos/era5land_25_celdas_manifest.csv,existe,MANIFEST
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/download_era5land_25_celdas.py,273,pd.read_csv,datos/punto1/metadatos/era5land_25_celdas_manifest.csv,existe,MANIFEST
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/run_fao56_1_1a.py,317,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_ERA5Land_cells_SRTM_elevation.csv,existe,ELEVATION
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/run_fao56_1_1a.py,76,path.open,,dinamica_controlada,path
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/run_fao56_1_1a.py,87,zipfile.ZipFile,,dinamica_controlada,zip_path
+codigo/punto1/1_1_demanda_atmosferica/1_1_a_fao56/run_fao56_1_1a_preliminar_90pct.py,111,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/era5land_33_celdas_pesos_y_elevacion.csv,existe,GRID
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,16,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_metricas_terraclimate_y_productos_demanda.csv,existe,"TABLES / ""1_1b_metricas_terraclimate_y_productos_demanda.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,18,pd.read_csv,datos/punto1/procesados/1_1_b_pruebas_referencia/noaa_ghcnh_pei0000sphi_meteorologia_y_eto_diaria.csv,existe,"DATA / ""noaa_ghcnh_pei0000sphi_meteorologia_y_eto_diaria.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,19,pd.read_csv,datos/punto1/procesados/1_1_b_pruebas_referencia/noaa_ghcnh_pei0000sphi_eto_mensual_completo.csv,existe,"DATA / ""noaa_ghcnh_pei0000sphi_eto_mensual_completo.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,21,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_metricas_estacion_noaa_vs_era5land_chiclayo.csv,existe,"TABLES / ""1_1b_metricas_estacion_noaa_vs_era5land_chiclayo.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,44,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_metricas_consolidadas_preliminares.csv,existe,"TABLES / ""1_1b_metricas_consolidadas_preliminares.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,15,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_metricas_pet_piscoeopm_vs_eto.csv,existe,"TABLES / ""1_1b_metricas_pet_piscoeopm_vs_eto.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,17,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_comprobacion_fisica_resumen.csv,existe,"TABLES / ""1_1b_comprobacion_fisica_resumen.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/build_1_1b_integrated_status.py,20,pd.read_csv,anexos/punto1/1_1_b_pruebas_referencia/solicitud_era5land_puntual_estacion_pei0000sphi.csv,existe,"ANNEX / ""solicitud_era5land_puntual_estacion_pei0000sphi.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_camels_pet_y_balance.py,100,pd.read_csv,datos/punto1/tarea1/PE_200907.csv,existe,CAMELS_DAILY
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_camels_pet_y_balance.py,101,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,existe,ETO_DAILY
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_camels_pet_y_balance.py,203,pd.read_csv,datos/punto1/originales/tarea1_minimos/station.csv,existe,STATION_METADATA
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_noaa_ghcnh_station.py,284,pd.read_csv,datos/punto1/metadatos/era5land_disponibilidad_1_1a.csv,existe,ERA_AVAILABLE
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_noaa_ghcnh_station.py,40,path.open,,dinamica_controlada,path
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_noaa_ghcnh_station.py,154,pd.read_csv,,dinamica_controlada,file
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_noaa_ghcnh_station.py,329,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_metricas_pet_piscoeopm_vs_eto.csv,existe,PISCO_METRICS
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_noaa_ghcnh_station.py,329,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1b_metricas_terraclimate_y_productos_demanda.csv,existe,TERRA_METRICS
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_station_vs_era5_chiclayo.py,111,pd.read_csv,datos/punto1/procesados/1_1_b_pruebas_referencia/noaa_ghcnh_pei0000sphi_meteorologia_y_eto_diaria.csv,existe,STATION_DAILY
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_station_vs_era5_chiclayo.py,123,pd.read_csv,datos/punto1/procesados/1_1_b_pruebas_referencia/noaa_ghcnh_pei0000sphi_eto_mensual_completo.csv,existe,STATION_MONTHLY
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_station_vs_era5_chiclayo.py,48,path.open,,dinamica_controlada,path
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_terraclimate_pet.py,185,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,existe,ETO_DAILY
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_terraclimate_pet.py,187,pd.read_csv,datos/punto1/procesados/1_1_b_pruebas_referencia/camels_pet_piscoeopm_vs_eto_preliminar_mensual.csv,existe,PISCO_VS_ETO
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_terraclimate_pet.py,51,path.open,,dinamica_controlada,path
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_terraclimate_pet.py,106,xr.open_dataset,datos/punto1/originales/terraclimate/TerraClimate_v1_1_PET_Racarumi_198101_202308.nc,existe,TERRACLIMATE
+codigo/punto1/1_1_demanda_atmosferica/1_1_b_pruebas_referencia/run_1_1b_terraclimate_pet.py,100,gpd.read_file,datos/punto1/originales/tarea1_minimos/PE_200907_catchment.gpkg,existe,CATCHMENT
+codigo/punto1/1_1_demanda_atmosferica/1_1_c_metodos_alternativos/run_1_1c_metodos_alternativos.py,111,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1c_metricas_mes_calendario.csv,existe,"OUT_TABLES / ""1_1c_metricas_mes_calendario.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_c_metodos_alternativos/run_1_1c_metodos_alternativos.py,177,pd.read_csv,productos/punto1/1_1_a/fao56_eto_diaria_por_celda_preliminar_90pct.csv,existe,DAILY_IN
+codigo/punto1/1_1_demanda_atmosferica/1_1_c_metodos_alternativos/run_1_1c_metodos_alternativos.py,178,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/era5land_33_celdas_pesos_y_elevacion.csv,existe,WEIGHTS_IN
+codigo/punto1/1_1_demanda_atmosferica/1_1_c_metodos_alternativos/run_1_1c_metodos_alternativos.py,110,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/1_1c_metricas_mes_calendario.csv,existe,"OUT_TABLES / ""1_1c_metricas_mes_calendario.csv"""
+codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/run_1_1d_explicacion_fisica.py,95,pd.read_csv,productos/punto1/1_1_a/fao56_eto_diaria_por_celda_preliminar_90pct.csv,existe,DAILY
+codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/run_1_1d_explicacion_fisica.py,95,pd.read_csv,productos/punto1/1_1_demanda_atmosferica/tablas/era5land_33_celdas_pesos_y_elevacion.csv,existe,WEIGHTS
+codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/run_1_1d_explicacion_fisica.py,117,pd.read_csv,datos/punto1/originales/tarea1_minimos/1_1b_pet_piscoeopm_vs_eto_preliminar_mensual.csv,existe,PISCO
+codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/run_1_1d_explicacion_fisica.py,117,pd.read_csv,datos/punto1/originales/tarea1_minimos/1_1b_terraclimate_pet_vs_eto_preliminar_mensual.csv,existe,TERRA
+codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/run_1_1d_explicacion_fisica.py,121,pd.read_csv,datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv,existe,CMASTER
+codigo/punto1/1_2_evapotranspiracion_real/02_propagacion_error/run_1_2_2_propagacion_error.py,24,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_master_monthly.csv,existe,MASTER
+codigo/punto1/1_2_evapotranspiracion_real/02_propagacion_error/run_1_2_2_propagacion_error.py,29,pd.read_csv,datos/punto1/originales/1_2_balance_hidrico/Racarumi_balance_anual_2001_2023.csv,existe,PACHO
+codigo/punto1/1_2_evapotranspiracion_real/cierre_punto_1_2_4.py,13,pd.read_csv,productos/punto1/punto_1_2_4_comparacion_anual_productos_y_balance.csv,existe,"PROD / ""punto_1_2_4_comparacion_anual_productos_y_balance.csv"""
+codigo/punto1/1_2_evapotranspiracion_real/cierre_punto_1_2_4.py,14,pd.read_csv,productos/punto1/punto_1_2_4_gleam_et_mensual.csv,existe,"PROD / ""punto_1_2_4_gleam_et_mensual.csv"""
+codigo/punto1/1_2_evapotranspiracion_real/cierre_punto_1_2_4.py,15,pd.read_csv,productos/punto1/punto_1_2_4_mod16_et_mensual.csv,existe,"PROD / ""punto_1_2_4_mod16_et_mensual.csv"""
+codigo/punto1/1_2_evapotranspiracion_real/extraer_mod16a2gf_racarumi.py,56,gpd.read_file,datos/punto1/PE_200907_catchment_T1_original.gpkg,existe,GPKG
+codigo/punto1/1_2_evapotranspiracion_real/extraer_mod16a2gf_racarumi.py,88,pd.read_csv,datos/punto1/mod16a2gf_racarumi_composites_raw.csv,existe,RAW
+codigo/punto1/1_2_evapotranspiracion_real/extraer_mod16a2gf_racarumi.py,129,pd.read_csv,datos/punto1/mod16a2gf_racarumi_composites_raw.csv,existe,RAW
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,180,pd.read_csv,productos/punto1/punto_1_2_4_mod16_et_anual_hidrologico.csv,existe,"OUT / ""punto_1_2_4_mod16_et_anual_hidrologico.csv"""
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,181,pd.read_csv,productos/punto1/punto_1_2_anios_hidrologicos_sep_ago.csv,existe,"OUT / ""punto_1_2_anios_hidrologicos_sep_ago.csv"""
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,35,INV.read_text,datos/punto1/gleam4_3a_sftp_inventory.json,existe,INV
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,98,xr.open_dataset,datos/punto1/gleam4_3a_raw/E_2001..E_2023_GLEAM_v4.3a_MO.nc,faltante_patron,Los NetCDF globales no se entregan; se conserva el recorte de cuenca y periodo.
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,58,checkpoint_path.read_text,datos/punto1/gleam4_3a_raw/validacion_transfer_checkpoint.json,opcional_ausente,checkpoint_path
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,143,xr.open_dataset,datos/punto1/gleam4_3a_raw/E_2001..E_2023_GLEAM_v4.3a_MO.nc,faltante_patron,Los NetCDF globales no se entregan; se conserva el recorte de cuenca y periodo.
+codigo/punto1/1_2_evapotranspiracion_real/procesar_gleam43a_racarumi.py,95,gpd.read_file,datos/punto1/PE_200907_catchment_T1_original.gpkg,existe,GPKG
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_fraccion_evaporativa.py,36,read_csv,productos/punto1/punto_1_2_3_techo_energetico_vs_balance_anual.csv,existe,SOURCE
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_fraccion_evaporativa.py,22,path.open,,dinamica_controlada,path
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_radiacion_neta_era5land.py,36,path.open,,dinamica_controlada,path
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_radiacion_neta_era5land.py,43,path.open,,dinamica_controlada,path
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_radiacion_neta_era5land.py,103,xr.open_dataset,,dinamica_controlada,path
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_techo_energetico.py,54,read_csv,productos/punto1/punto_1_2_3_radiacion_neta_real_era5land_mensual.csv,existe,RADIATION_MONTHLY
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_techo_energetico.py,95,read_csv,productos/punto1/punto_1_2_anios_hidrologicos_sep_ago.csv,existe,BALANCE_HYDROLOGICAL
+codigo/punto1/1_2_evapotranspiracion_real/punto_1_2_3_techo_energetico.py,30,path.open,,dinamica_controlada,path
+codigo/punto1/1_3_regimen_evaporativo/02_humedad_suelo/process_1_3_2_humedad_suelo.py,31,zipfile.ZipFile,datos/punto1/originales/era5land_humedad_suelo/ERA5_Land_Racarumi_Humedad_Suelo_1981_2023.zip,faltante,ZIP
+codigo/punto1/1_3_regimen_evaporativo/02_humedad_suelo/process_1_3_2_humedad_suelo.py,69,pd.read_csv,datos/punto1/procesados/1_3_regimen_evaporativo/1_3_serie_mensual_PL_PI_ETo_preliminar_90_1264pct.csv,existe,SERIES
+codigo/punto1/1_3_regimen_evaporativo/02_humedad_suelo/process_1_3_2_humedad_suelo.py,50,gpd.read_file,datos/punto1/originales/tarea1_minimos/PE_200907_catchment.gpkg,existe,GPKG
+codigo/punto1/1_3_regimen_evaporativo/03_budyko/build_1_3_3_evidencia_documental.py,23,path.open,,dinamica_controlada,path
+codigo/punto1/1_3_regimen_evaporativo/03_budyko/run_1_3_3_1_3_4_consolidacion.py,10,pd.read_csv,datos/punto1/procesados/1_3_regimen_evaporativo/1_3_serie_anual_hidrologica_P_Q_ETo_y_diagnosticos.csv,existe,OUT/'1_3_serie_anual_hidrologica_P_Q_ETo_y_diagnosticos.csv'
+codigo/punto1/1_3_regimen_evaporativo/03_budyko/run_1_3_3_1_3_4_consolidacion.py,10,pd.read_csv,productos/punto1/1_3_regimen_evaporativo/tablas/1_3_elasticidad_historica_y_sensibilidad_anual.csv,existe,TAB/'1_3_elasticidad_historica_y_sensibilidad_anual.csv'
+codigo/punto1/1_3_regimen_evaporativo/03_budyko/run_1_3_3_1_3_4_consolidacion.py,32,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_mensual_preliminar_90pct.csv,existe,FAO
+codigo/punto1/1_3_regimen_evaporativo/03_budyko/run_1_3_3_1_3_4_consolidacion.py,10,pd.read_csv,productos/punto1/1_3_regimen_evaporativo/tablas/1_3_budyko_y_elasticidad_resumen_preliminar.csv,existe,TAB/'1_3_budyko_y_elasticidad_resumen_preliminar.csv'
+codigo/punto1/1_3_regimen_evaporativo/05_relacion_complementaria/run_1_3_3_1_3_4_1_3_5_complementos.py,11,pd.read_csv,datos/punto1/procesados/1_3_regimen_evaporativo/1_3_serie_anual_hidrologica_P_Q_ETo_y_diagnosticos.csv,existe,OUT/'1_3_serie_anual_hidrologica_P_Q_ETo_y_diagnosticos.csv'
+codigo/punto1/1_3_regimen_evaporativo/05_relacion_complementaria/run_1_3_3_1_3_4_1_3_5_complementos.py,11,pd.read_csv,datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv,existe,ROOT/'datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv'
+codigo/punto1/1_3_regimen_evaporativo/05_relacion_complementaria/run_1_3_3_1_3_4_1_3_5_complementos.py,11,pd.read_csv,datos/punto1/procesados/1_3_regimen_evaporativo/1_3_2_humedad_suelo_mensual_ponderada_198101_202308.csv,existe,OUT/'1_3_2_humedad_suelo_mensual_ponderada_198101_202308.csv'
+codigo/punto1/1_3_regimen_evaporativo/05_relacion_complementaria/run_1_3_3_1_3_4_1_3_5_complementos.py,11,pd.read_csv,datos/punto1/procesados/1_1_d_explicacion_fisica/1_1d_componentes_y_alpha_mensuales_preliminar_90pct.csv,existe,ROOT/'datos/punto1/procesados/1_1_d_explicacion_fisica/1_1d_componentes_y_alpha_mensuales_preliminar_90pct.csv'
+codigo/punto1/1_3_regimen_evaporativo/05_relacion_complementaria/run_1_3_3_1_3_4_1_3_5_complementos.py,11,pd.read_csv,productos/punto1/1_2_evapotranspiracion_real/tablas/1_2_2_resumen_propagacion_error_principal.csv,existe,ROOT/'productos/punto1/1_2_evapotranspiracion_real/tablas/1_2_2_resumen_propagacion_error_principal.csv'
+codigo/punto1/1_3_regimen_evaporativo/05_relacion_complementaria/run_1_3_3_1_3_4_1_3_5_complementos.py,12,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_mensual_preliminar_90pct.csv,existe,ROOT/'datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_mensual_preliminar_90pct.csv'
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,88,pd.read_csv,productos/punto1/punto_1_2_4_gleam_et_mensual.csv,existe,"required(ROOT / ""productos/punto1/punto_1_2_4_gleam_et_mensual.csv"")"
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,89,pd.read_csv,productos/punto1/punto_1_2_4_mod16_et_mensual.csv,existe,"required(ROOT / ""productos/punto1/punto_1_2_4_mod16_et_mensual.csv"")"
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,90,pd.read_csv,productos/punto1/punto_1_2_3_radiacion_neta_real_era5land_mensual.csv,existe,"required(ROOT / ""productos/punto1/punto_1_2_3_radiacion_neta_real_era5land_mensual.csv"")"
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,93,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_master_monthly.csv,existe,required(T1)
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,91,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_mensual_preliminar_90pct.csv,existe,required(ETO)
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,94,pd.read_csv,datos/punto1/originales/tarea1_minimos/point1_monthly_hydroclimatic_classification.csv,existe,required(T1_SEASONS)
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,222,read_text,datos/punto1/originales/1_2_intercambio_pacho/MANIFIESTO_COPIA_INTEGRACION.json,existe,"INTEGRACION / ""MANIFIESTO_COPIA_INTEGRACION.json"""
+codigo/punto1/1_3_regimen_evaporativo/06_integracion_1_2_pacho/run_1_3_integracion_ET_real.py,92,pd.read_csv,datos/punto1/procesados/1_3_regimen_evaporativo/1_3_2_humedad_suelo_mensual_ponderada_198101_202308.csv,existe,required(SOIL)
+codigo/punto1/1_3_regimen_evaporativo/run_1_3_regimen_evaporativo.py,38,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_master_monthly.csv,existe,MASTER
+codigo/punto1/1_3_regimen_evaporativo/run_1_3_regimen_evaporativo.py,38,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_mensual_preliminar_90pct.csv,existe,E1
+codigo/punto1/1_3_regimen_evaporativo/run_1_3_regimen_evaporativo.py,50,pd.read_csv,datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv,existe,ALT
+codigo/punto1/1_3_regimen_evaporativo/run_1_3_regimen_evaporativo.py,31,pd.read_csv,datos/punto1/originales/1_2_balance_hidrico/Racarumi_balance_anual_2001_2023.csv,existe,CSV
+codigo/punto1/1_3_regimen_evaporativo/run_1_3_regimen_evaporativo.py,31,pd.read_excel,datos/punto1/originales/tarea1_minimos/Racarumi_balance_anual_2001_2023.xlsx,existe,XLSX
+codigo/punto1/1_4_cambios_demanda_evaporativa/run_1_4.py,22,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,existe,DAILY
+codigo/punto1/1_4_cambios_demanda_evaporativa/run_1_4.py,25,pd.read_csv,datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv,existe,MASTER
+codigo/punto1/1_4_cambios_demanda_evaporativa/run_1_4_1_auditoria.py,180,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,existe,DAILY
+codigo/punto1/1_4_cambios_demanda_evaporativa/run_1_4_1_auditoria.py,185,pd.read_csv,datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv,existe,MASTER
+codigo/punto1/1_5_paisaje/01_construir_bandas_altitudinales.py,71,gpd.read_file,datos/punto1/PE_200907_catchment_T1_original.gpkg,existe,GPKG
+codigo/punto1/1_5_paisaje/01_construir_bandas_altitudinales.py,44,zipfile.ZipFile,,dinamica_controlada,source_zip
+codigo/punto1/1_5_paisaje/01_construir_bandas_altitudinales.py,56,gzip.open,,dinamica_controlada,path
+codigo/punto1/1_5_paisaje/02_extraer_mod16_por_bandas.py,67,pd.read_csv,datos/punto1/procesados/1_5_paisaje/mod16a2gf_bandas_altitudinales_composites_controlado.csv,existe,RAW
+codigo/punto1/1_5_paisaje/02_extraer_mod16_por_bandas.py,43,pd.read_csv,datos/punto1/procesados/1_5_paisaje/mod16a2gf_bandas_altitudinales_composites_controlado.csv,existe,RAW
+codigo/punto1/1_5_paisaje/02_extraer_mod16_por_bandas.py,27,gpd.read_file,datos/punto1/procesados/1_5_paisaje/PE_200907_bandas_altitudinales_SRTM_500m.gpkg,existe,BANDS
+codigo/punto1/1_5_paisaje/03_procesar_gleam_por_bandas.py,14,gpd.read_file,datos/punto1/procesados/1_5_paisaje/PE_200907_bandas_altitudinales_SRTM_500m.gpkg,existe,BANDS
+codigo/punto1/1_5_paisaje/04_reconstruir_eto_fao56_por_celda_y_banda.py,22,pd.read_csv,datos/punto1/originales/tarea1_minimos/PE_200907_ERA5Land_cells_SRTM_elevation.csv,existe,ELEV
+codigo/punto1/1_5_paisaje/04_reconstruir_eto_fao56_por_celda_y_banda.py,22,pd.read_csv,datos/punto1/metadatos/era5land_25_celdas_manifest.csv,existe,MAN
+codigo/punto1/1_5_paisaje/04_reconstruir_eto_fao56_por_celda_y_banda.py,27,pd.read_csv,datos/punto1/procesados/1_1_a_fao56/fao56_eto_mensual_por_punto_validado.csv,existe,P_MONTH
+codigo/punto1/1_5_paisaje/04_reconstruir_eto_fao56_por_celda_y_banda.py,44,gpd.read_file,datos/punto1/procesados/1_5_paisaje/PE_200907_bandas_altitudinales_SRTM_500m.gpkg,existe,BANDS
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,34,pd.read_csv,datos/punto1/procesados/1_5_paisaje/mod16a2gf_bandas_altitudinales_composites_controlado.csv,existe,MOD
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,34,pd.read_csv,datos/punto1/mod16a2gf_racarumi_composites_raw.csv,existe,BASIN_RAW
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,34,pd.read_csv,productos/punto1/1_5_paisaje/1_5_bandas_altitudinales_SRTM.csv,existe,BANDS_CSV
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,49,pd.read_csv,productos/punto1/punto_1_2_4_mod16_et_anual_hidrologico.csv,existe,BASIN_ANNUAL
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,51,pd.read_csv,productos/punto1/1_5_paisaje/1_5_eto_fao56_mensual_por_banda.csv,existe,ETO
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,51,pd.read_csv,productos/punto1/1_5_paisaje/1_5_gleam4_3a_ET_mensual_por_banda.csv,existe,GLEAM
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,56,pd.read_csv,datos/punto1/procesados/1_5_paisaje/mod16a2gf_bandas_altitudinales_composites_raw.csv,existe,INVALID
+codigo/punto1/1_5_paisaje/05_cierre_tecnico_1_5.py,61,gpd.read_file,datos/punto1/procesados/1_5_paisaje/PE_200907_bandas_altitudinales_SRTM_500m.gpkg,existe,BANDS_GPKG
+codigo/punto1/1_6_frecuencia/02_descargar_y_calcular_eto_era5land.py,16,zipfile.ZipFile,datos/punto1/1_6_frecuencia/originales_era5land/ERA5Land_DWD00020_20050101_20251231.zip,generada_por_descarga,ZIP
+codigo/punto1/1_6_frecuencia/03_evaluar_temporada_seca.py,8,pd.read_csv,datos/punto1/procesados/1_6_frecuencia/dwd_00020_precipitacion_mensual_2005_2025.csv,existe,P
+codigo/punto1/1_6_frecuencia/03_evaluar_temporada_seca.py,8,pd.read_csv,datos/punto1/procesados/1_6_frecuencia/era5land_dwd00020_eto_fao56_mensual_2005_2025.csv,existe,E
+codigo/punto1/1_6_frecuencia/04_verificar_recuperacion_dwd_horaria.py,17,pd.read_csv,datos/punto1/procesados/1_6_frecuencia/dwd_00020_precipitacion_mensual_2005_2025.csv,existe,P
+codigo/punto1/1_6_frecuencia/04_verificar_recuperacion_dwd_horaria.py,12,zipfile.ZipFile,datos/punto1/1_6_frecuencia/originales_dwd_00020/stundenwerte_RR_00020_20040814_20251231_hist.zip,generada_por_descarga,zpath
+codigo/punto1/organizar_consulta_punto_1_4.py,23,path.open,,dinamica_controlada,path
+codigo/punto1/render_auditoria_1_4_1.py,10,pd.read_csv,productos/punto1/1_4_cambios_demanda_evaporativa/tablas/1_4_1_tendencias_estacionales_mensuales.csv,existe,TABLE
+codigo/punto1/run_1_4.py,14,pd.read_csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,existe,DAILY
+codigo/punto1/run_1_4.py,17,pd.read_csv,datos/punto1/procesados/1_1_c_metodos_alternativos/1_1c_tabla_maestra_mensual_preliminar_90pct.csv,existe,MASTER
+codigo/punto2/ajustar_2_2.py,20,read_csv,,dinamica_controlada,"require_input(DATA / ""abtsgmuend_precipitation_10min.csv"")"
+codigo/punto2/ajustar_2_2_completo.py,76,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/ams_hydrological_oct_sep.csv,existe,INP
+codigo/punto2/auditar_pre_informe.py,16,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/cuenca_preparada/cuenca_resumen.csv,existe,"BASE / ""cuenca_preparada"" / ""cuenca_resumen.csv"""
+codigo/punto2/auditar_pre_informe.py,28,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/geometria_alcantarilla.csv,existe,"BASE / ""diseno_2_4"" / ""geometria_alcantarilla.csv"""
+codigo/punto2/auditar_pre_informe.py,33,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/geometria_tanque.csv,existe,"BASE / ""diseno_2_4"" / ""geometria_tanque.csv"""
+codigo/punto2/bonificacion_pot_2_5.py,23,read_csv,,dinamica_controlada,"require_input(BASE / ""abtsgmuend_precipitation_10min.csv"")"
+codigo/punto2/bootstrap_2_2.py,9,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/ams_hydrological_oct_sep.csv,existe,"DATA / ""extremos_2_2"" / ""ams_hydrological_oct_sep.csv"""
+codigo/punto2/comparar_kostra_2_3.py,25,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/idf_2_3/idf_gev_mle.csv,existe,OUT/'idf_gev_mle.csv'
+codigo/punto2/comparar_kostra_2_3.py,21,loadtxt,,dinamica_controlada,K/f'Hn_KOSTRA-DWD-2020_{code}_T{T:03d}.asc'
+codigo/punto2/construir_2_3_idf.py,19,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/quantiles_3methods.csv,existe,"INP / ""quantiles_3methods.csv"""
+codigo/punto2/construir_2_3_idf.py,37,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/ams_hydrological_oct_sep.csv,existe,"INP / ""ams_hydrological_oct_sep.csv"""
+codigo/punto2/diseno_2_4_provisional.py,8,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/idf_2_3/idf_powerlaw_parameters.csv,existe,DATA/'idf_2_3'/'idf_powerlaw_parameters.csv'
+codigo/punto2/diseno_2_4_provisional.py,12,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/cuenca_preparada/cuenca_resumen.csv,existe,DATA/'cuenca_preparada'/'cuenca_resumen.csv'
+codigo/punto2/diseno_2_4_provisional.py,12,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/cobertura_2_4/weighted_runoff_coefficient.csv,existe,DATA/'cobertura_2_4'/'weighted_runoff_coefficient.csv'
+codigo/punto2/extraer_cobertura_2_4.py,25,Open,datos/punto2/Abtsgmuend_Untergroeningen/cobertura_2_4/worldcover_microcuenca.tif,generada_por_script,CLIP
+codigo/punto2/extraer_cobertura_2_4.py,9,gdal.Warp entrada,datos/punto2/Abtsgmuend_Untergroeningen/ESA_WorldCover_10m_2021_v200_N48E009_Map.tif,faltante,SRC
+codigo/punto2/finalizar_2_4.py,9,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/idf_2_3/idf_powerlaw_parameters.csv,existe,DATA/'idf_2_3'/'idf_powerlaw_parameters.csv'
+codigo/punto2/finalizar_2_4.py,8,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/cuenca_preparada/cuenca_resumen.csv,existe,DATA/'cuenca_preparada'/'cuenca_resumen.csv'
+codigo/punto2/finalizar_2_4.py,8,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/cobertura_2_4/weighted_runoff_coefficient.csv,existe,DATA/'cobertura_2_4'/'weighted_runoff_coefficient.csv'
+codigo/punto2/geometria_obra_2_4.py,11,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/problema_A_escenarios.csv,existe,"OUT / ""problema_A_escenarios.csv"""
+codigo/punto2/geometria_obra_2_4.py,16,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/monte_carlo_A.csv,existe,"OUT / ""monte_carlo_A.csv"""
+codigo/punto2/geometria_obra_2_4.py,24,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/diseno_2_4/tanque_escenarios.csv,existe,"OUT / ""tanque_escenarios.csv"""
+codigo/punto2/graficar_pot_2_5.py,8,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/bonificacion_2_5_pot/pot_vs_gev_1h.csv,existe,BASE/'pot_vs_gev_1h.csv'
+codigo/punto2/graficas_2_2.py,20,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/ams_hydrological_oct_sep.csv,existe,INP/'ams_hydrological_oct_sep.csv'
+codigo/punto2/graficas_2_2.py,20,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/fit_summary_3methods.csv,existe,INP/'fit_summary_3methods.csv'
+codigo/punto2/graficas_2_2.py,20,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/bootstrap_ci_gev.csv,existe,INP/'bootstrap_ci_gev.csv'
+codigo/punto2/mapa_revision_visual.py,45,open,datos/punto2/Abtsgmuend_Untergroeningen/N48E009_entorno_microcuenca.tif,existe,DEM
+codigo/punto2/mapa_revision_visual.py,156,open,,dinamica_controlada,"""w"""
+codigo/punto2/preparar_2_1.py,21,read_csv,,dinamica_controlada,"require_input(DATA / ""abtsgmuend_precipitation_10min.csv"")"
+codigo/punto2/preparar_2_1.py,63,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/cuenca_preparada/cuenca_resumen.csv,existe,"DATA / ""cuenca_preparada"" / ""cuenca_resumen.csv"""
+codigo/punto2/preparar_cuenca.py,38,open,,dinamica_controlada,path
+codigo/punto2/preparar_cuenca.py,232,open,,dinamica_controlada,"""w"""
+codigo/punto2/preparar_cuenca.py,236,open,,dinamica_controlada,"""w"""
+codigo/punto2/preparar_cuenca.py,241,open,,dinamica_controlada,"""w"""
+codigo/punto2/preparar_cuenca.py,243,open,,dinamica_controlada,"""w"""
+codigo/punto2/preparar_lluvia.py,16,read_csv,,dinamica_controlada,src
+codigo/punto2/reconstruir_evidencias_finales.py,21,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/abtsgmuend_precipitation_10min.csv,existe,"BASE / ""abtsgmuend_precipitation_10min.csv"""
+codigo/punto2/reconstruir_evidencias_finales.py,48,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/extremos_2_2/ams_hydrological_oct_sep.csv,existe,"EXT / ""ams_hydrological_oct_sep.csv"""
+codigo/punto2/reconstruir_precipitacion.py,8,read_csv,,dinamica_controlada,f
+codigo/punto2/revisar_lluvia.py,16,read_csv,,dinamica_controlada,"require_input(DATA / ""abtsgmuend_precipitation_10min.csv"")"
+codigo/punto2/revisar_lluvia.py,25,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/ams_precipitation.csv,existe,"DATA / ""ams_precipitation.csv"""
+codigo/punto2/sensibilidad_pot_2_5.py,21,read_csv,,dinamica_controlada,"require_input(BASE / ""abtsgmuend_precipitation_10min.csv"")"
+codigo/punto2/sensibilidad_pot_2_5.py,40,read_csv,datos/punto2/Abtsgmuend_Untergroeningen/idf_2_3/idf_gev_mle.csv,existe,"BASE/""idf_2_3""/""idf_gev_mle.csv"""

@@ -1,0 +1,22 @@
+{
+  "source": "SRTM 1 arc-second; S07W080 y S07W079 de Tarea 1",
+  "catchment": "PE_200907",
+  "input_crs": "EPSG:4326",
+  "area_crs": "EPSG:32717",
+  "band_edges_m": [
+    250,
+    750,
+    1250,
+    1750,
+    2250,
+    2750,
+    3250,
+    3750,
+    4250
+  ],
+  "srtm_min_m": 264,
+  "srtm_max_m": 4084,
+  "srtm_mean_m_unweighted_pixels": 2349.238561947998,
+  "area_km2_utm17s": 2364.6382039173495,
+  "bands": 8
+}

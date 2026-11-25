@@ -1,0 +1,25 @@
+{
+  "csv_sha256": "cf84cb58e4232ee57d58ad76712eec8a33a20acc58bd3141467a616ef15c3aa5",
+  "xlsx_sha256": "60fce52c312593c273c9721c511a9cfec2a86072b2f69f4294e033bdd8808d6a",
+  "rows": 23,
+  "distinct_hydrological_years": 23,
+  "year_first": 2001,
+  "year_last": 2023,
+  "duplicate_years": 0,
+  "complete_Q_years": 21,
+  "missing_Q_years": [
+    2001,
+    2003
+  ],
+  "csv_xlsx_max_abs_difference": 0.0,
+  "max_balance_residual_PL_minus_Q_mm": 0.010000000000104592,
+  "max_balance_residual_PI_minus_Q_mm": 0.010000000000019327,
+  "negative_PI_minus_Q_years": [
+    2009,
+    2012,
+    2019,
+    2021,
+    2022
+  ],
+  "provenance": "Información compartida por Pacho; digitalizada desde capturas, pendiente de contrastar con su archivo fuente."
+}

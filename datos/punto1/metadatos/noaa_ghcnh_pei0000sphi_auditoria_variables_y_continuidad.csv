@@ -1,0 +1,7 @@
+variable,raw_nonmissing_records,accepted_qc_records,rejected_qc_records,selected_unique_local_hours,notes
+temperature,101012,101007,5,100633,
+dew_point_temperature,100986,100979,7,100606,
+station_level_pressure,29668,29659,9,29659,Presión adicionalmente restringida a 900-1050 hPa para uso físico.
+wind_speed,100903,100885,18,100512,
+relative_humidity,100978,100969,9,100596,
+temporal_index,101108,101108,0,12844,Última columna = horas UTC ausentes entre primer y último registro; no son valores rellenados.

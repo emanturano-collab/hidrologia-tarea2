@@ -1,0 +1,2 @@
+station,station_name,latitude,longitude,elevation_m,raw_period_utc_start,raw_period_utc_end,raw_records,duplicate_utc_timestamps,time_reference,wind_measurement_height,radiation
+PEI0000SPHI,CAPT JOSE A  QUINONES GONZALES,-6.7875,-79.8281,29.6,2010-01-01T00:00:00,2022-12-31T23:00:00,101108,0,UTC in GHCNh; processed UTC-05:00,No documentada en PSV/GHCNh; producto principal asume convencionalmente 10 m y reporta sensibilidad sin ajuste.,No observada; FAO-56 eq. 50 con kRs 0.19 costero y sensibilidad 0.16.

@@ -1,0 +1,13 @@
+﻿archivo,existe_producto_entregado,comparacion,diferencia_maxima_numerica,detalle
+productos/punto1/1_3_regimen_evaporativo/figuras/1_3_budyko_exploratorio.pdf,True,binario_distinto,,Las figuras pueden diferir en metadatos del formato; la reproducibilidad numerica se evalua en CSV.
+productos/punto1/1_3_regimen_evaporativo/figuras/1_3_budyko_exploratorio.png,True,identico_binario,,Las figuras pueden diferir en metadatos del formato; la reproducibilidad numerica se evalua en CSV.
+productos/punto1/1_3_regimen_evaporativo/figuras/1_3_climatologia_mensual_P_ETo_preliminar.pdf,True,binario_distinto,,Las figuras pueden diferir en metadatos del formato; la reproducibilidad numerica se evalua en CSV.
+productos/punto1/1_3_regimen_evaporativo/figuras/1_3_climatologia_mensual_P_ETo_preliminar.png,True,identico_binario,,Las figuras pueden diferir en metadatos del formato; la reproducibilidad numerica se evalua en CSV.
+productos/punto1/1_3_regimen_evaporativo/figuras/1_3_elasticidad_dispersion_PL_PI.pdf,True,binario_distinto,,Las figuras pueden diferir en metadatos del formato; la reproducibilidad numerica se evalua en CSV.
+productos/punto1/1_3_regimen_evaporativo/figuras/1_3_elasticidad_dispersion_PL_PI.png,True,identico_binario,,Las figuras pueden diferir en metadatos del formato; la reproducibilidad numerica se evalua en CSV.
+productos/punto1/1_3_regimen_evaporativo/tablas/1_3_budyko_y_elasticidad_resumen_preliminar.csv,True,reproducido,0,tolerancia=1e-9; texto_igual=True; patron_NaN_igual=True
+productos/punto1/1_3_regimen_evaporativo/tablas/1_3_clasificacion_anual_seco_normal_humedo_y_demanda.csv,True,reproducido,0,tolerancia=1e-9; texto_igual=True; patron_NaN_igual=True
+productos/punto1/1_3_regimen_evaporativo/tablas/1_3_climatologia_mensual_PL_PI_ETo_preliminar_90_1264pct.csv,True,reproducido,0,tolerancia=1e-9; texto_igual=True; patron_NaN_igual=True
+productos/punto1/1_3_regimen_evaporativo/tablas/1_3_contraste_pacho_con_tarea1_mensual.csv,True,reproducido,0,tolerancia=1e-9; texto_igual=True; patron_NaN_igual=True
+productos/punto1/1_3_regimen_evaporativo/tablas/1_3_demanda_por_clase_hidrologica_preliminar.csv,True,reproducido,0,tolerancia=1e-9; texto_igual=True; patron_NaN_igual=True
+productos/punto1/1_3_regimen_evaporativo/tablas/1_3_elasticidad_historica_y_sensibilidad_anual.csv,True,reproducido,0,tolerancia=1e-9; texto_igual=True; patron_NaN_igual=True

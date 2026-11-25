@@ -1,0 +1,142 @@
+﻿[
+    {
+        "relative_path":  "README.md",
+        "sha256":  "60451A5AE5AF36D78EB3BBF41AA213532A2CA81E369FC62F114402F2F559AD93",
+        "bytes":  7418
+    },
+    {
+        "relative_path":  "AUDITORIA_PUBLICACION.md",
+        "sha256":  "A0B6EB6CBAC6CEC824DCE673375E0566D319E7337D167CD4DC8D3B2BE1807C9E",
+        "bytes":  5163
+    },
+    {
+        "relative_path":  "INTERCAMBIO_COMPANERO_1_3_Y_1_4\\README.md",
+        "sha256":  "AD982B1FD63E19E2A31A8C794B87FE2C0CB0AF261EB562871EE1C043D66D218C",
+        "bytes":  9867
+    },
+    {
+        "relative_path":  "datos\\punto1\\PE_200907_GLEAM_grid_weights.csv",
+        "sha256":  "1F24752E1570271F5BAEF69559812825115BD1C036BE1D6487BE636659ED2991",
+        "bytes":  3086
+    },
+    {
+        "relative_path":  "datos\\punto1\\punto_1_2_3_era5land_radiacion_fuente.json",
+        "sha256":  "D2B7F4938519763510698F71B7B35041AC15F01515B02123C6861AD01A415F35",
+        "bytes":  1437
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_radiacion_neta_real_era5land_mensual.csv",
+        "sha256":  "DC057CBEF8504B7D376EBEC23B8AD53777B43276612FE4C06413D3FF44FEAC00",
+        "bytes":  56721
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_fraccion_evaporativa_anual.csv",
+        "sha256":  "65E0F7DFD5E2802E931F9BFF693CFB6B78B8268774A1ECF75FCF77967CC3ED19",
+        "bytes":  3853
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_fraccion_evaporativa_resumen.csv",
+        "sha256":  "504316CDFE452DB1D5495F40F30F3287BD72A746BE6B4A1864262ECF70AB4CF9",
+        "bytes":  771
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_techo_energetico_anual.csv",
+        "sha256":  "2A9211E2DF3A5476981D6D0D0BBFFD828C3EBF61F165EFD1BCE45ECF4AE45955",
+        "bytes":  1601
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_techo_energetico_verificacion.json",
+        "sha256":  "175F80329A22B9DC31C239D78F613DF2FF10A4CEF516E4441BF8D8960612000C",
+        "bytes":  1142
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_techo_energetico_vs_balance_anual.csv",
+        "sha256":  "F827EF50B9324F244058D41F433F474B13EDCB360F239ED998ADF21A5E8A789C",
+        "bytes":  2900
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_3_techo_energetico_vs_balance_resumen.csv",
+        "sha256":  "1158AD887FE34DC10A44D5EF3847CE3A4A09824856B0DDBED4D74EED7822A3C6",
+        "bytes":  543
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_gleam_et_mensual.csv",
+        "sha256":  "B8FD20B7ABFD3A2865825C995F9B695421EAE8BF56FF24F73F3F77186EBA9B03",
+        "bytes":  17788
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_gleam_et_anual_hidrologico.csv",
+        "sha256":  "3D892194384F34350511452C7A395CC6FD818C3C2D81938908B1C0B39A87DC1C",
+        "bytes":  1087
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_gleam_control_calidad.json",
+        "sha256":  "101C098FA46CF3441E8CE4BFE12E4BF41795A796B25E6D6D0DC224B4BAA1DA84",
+        "bytes":  727
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_gleam_metodo_y_control.md",
+        "sha256":  "CB27F46D0B7410CEC8E1CEE80100719344068FE888B3A953C06CE30EFC9E1DA6",
+        "bytes":  3153
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_mod16_et_mensual.csv",
+        "sha256":  "940F277529ED3F87F62BD683BDDF323DE192D3C4751087453F2341839C07CE65",
+        "bytes":  14700
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_mod16_et_anual_hidrologico.csv",
+        "sha256":  "58022DD2B81C3F5FABF7EE1BBA87D216013DC9AA0A8DED2BF59777E5867BCD71",
+        "bytes":  995
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_mod16_control_calidad.json",
+        "sha256":  "80F8ED5A73CA25729713617867B55FC16EFB6915C1D80E61DC00D74557A82761",
+        "bytes":  577
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_mod16_metodo_y_control.md",
+        "sha256":  "FF7E16A33471F41F6FB7C93B76600280B80BEA72A8A33711E5ABB5BA72086F3F",
+        "bytes":  2101
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_comparacion_anual_productos_y_balance.csv",
+        "sha256":  "98FD072E424357C268052B0C84D78F74B632DE2A4E8C1B50D5702137D07395D6",
+        "bytes":  3337
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_comparacion_multianual.csv",
+        "sha256":  "57F62A0EB450CA264A5933D898608E8F8690B35DCFD9A9F81F96D9E91FEB979F",
+        "bytes":  252
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_diferencias_entre_metodos.csv",
+        "sha256":  "73509E158131A1622490836EDB955CD5C4F68874CE5DA7C3156D0EA502404017",
+        "bytes":  1019
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_4_estadisticos_anuales.csv",
+        "sha256":  "1C4DC1FF916A2418CF3863726B75F5680954D6EDC4960A13F61EED67FCBCA71E",
+        "bytes":  423
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_anios_hidrologicos_sep_ago.csv",
+        "sha256":  "3719912AA4E4618AB1205D10E93ACC1EBE5B82077960810817CCD3D78090348D",
+        "bytes":  3176
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_balance_largo_plazo_resumen.csv",
+        "sha256":  "2C6019B642D63379D278D0AA759721CBDCC721E51F05F4A653763727E8EE054C",
+        "bytes":  208
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_climatologia_mensual_periodo_comun.csv",
+        "sha256":  "37BA7FBB0053CB1D340A8B5BFA348D265347BB35B0EB30AFA4310CB20E91BCD2",
+        "bytes":  819
+    },
+    {
+        "relative_path":  "productos\\punto1\\punto_1_2_totales_anuales_periodo_comun.csv",
+        "sha256":  "497C75923AE51E29057A049FC454969FF359633FBABE5E4E746CD768FAB6A8BD",
+        "bytes":  1701
+    }
+]

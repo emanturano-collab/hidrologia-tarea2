@@ -1,0 +1,59 @@
+{
+  "monthly_comparison": {
+    "n": 279,
+    "bias_PI_minus_PL_mm": -42.75870741492589,
+    "sd_difference_mm": 49.69326427993588,
+    "MAE_mm": 43.61078295414092,
+    "RMSE_mm": 65.48951522956716,
+    "Pearson": 0.9085650386816142,
+    "Spearman": 0.9266236780161126,
+    "mean_relative_difference_PI_minus_PL_pct": -31.200924469940375,
+    "period": "2000-06 to 2023-08",
+    "n_expected_reference": 279
+  },
+  "annual_all": {
+    "n": 23,
+    "bias_PI_minus_PL_mm": -517.8791304347826,
+    "sd_difference_mm": 174.92919835057015,
+    "MAE_mm": 517.8791304347826,
+    "RMSE_mm": 545.4067964691883,
+    "Pearson": 0.6037139642568558,
+    "Spearman": 0.5602766798418972,
+    "mean_relative_difference_PI_minus_PL_pct": -46.110257183443785,
+    "n_years": 23,
+    "n_q_complete": 21,
+    "missing_Q_years": [
+      2001,
+      2003
+    ],
+    "negative_PI_minus_Q_years": [
+      2009,
+      2012,
+      2019,
+      2021,
+      2022
+    ]
+  },
+  "annual_common": {
+    "n": 21,
+    "bias_PI_minus_PL_mm": -530.0533333333333,
+    "sd_difference_mm": 175.3657208046468,
+    "MAE_mm": 530.0533333333333,
+    "RMSE_mm": 556.9966222176798,
+    "Pearson": 0.6232031934473619,
+    "Spearman": 0.5623376623376624,
+    "mean_relative_difference_PI_minus_PL_pct": -46.94604467067694
+  },
+  "sigmaP_definition": "SD of annual (PI−PL) for 21 Q-complete years; indirect between-product discrepancy proxy, not PL or PI instrument sigma.",
+  "Q_scenarios": "Benchmark bounds ±10/±15/±20% converted to approximate 1-sigma by dividing 1.96; hypothetical for Racarumi, not station-specific.",
+  "independence": "Primary propagation assumes independent P and Q measurement errors; observed P-Q covariance is not substituted for measurement-error covariance.",
+  "multiyear": "No 1/sqrt(n) reduction is applied in principal summary because rating/discrepancy components may be systematic or temporally dependent.",
+  "duplicates_annual": 0,
+  "units": "mm per hydrological year",
+  "dependencies": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2"
+  }
+}

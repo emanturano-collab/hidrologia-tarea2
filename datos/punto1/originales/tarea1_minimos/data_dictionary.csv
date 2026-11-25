@@ -1,0 +1,7 @@
+folder,file,category,variable,description,unit,source
+03_timeseries,timeseries.csv,timeseries,date,Date (YYYY-MM-DD),,Derived
+03_timeseries,timeseries.csv,timeseries,prec,Daily precipitation,mm/day,PISCOp v2.1
+03_timeseries,timeseries.csv,timeseries,flow_obs,Observed streamflow,mm/day,Observed stations
+03_timeseries,timeseries.csv,timeseries,tmin,Minimum air temperature,degC,PISCOt v1.2
+03_timeseries,timeseries.csv,timeseries,tmean,Mean air temperature,degC,PISCOt v1.2
+03_timeseries,timeseries.csv,timeseries,tmax,Maximum air temperature,degC,PISCOt v1.2

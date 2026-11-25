@@ -1,0 +1,2 @@
+scope,cells_used,cells_pending,weight_covered,weight_pending,spatial_method,limitation
+PRELIMINAR_NO_FINAL,20,13,0.9012637836877098,0.09873621631229024,Variables horarias ponderadas y normalizadas sobre cobertura disponible; magnitud de viento formada por celda antes de ponderar.,No representa el 100 % de la ponderación de Tarea 1; no reportar como ETo definitiva de Racarumi.

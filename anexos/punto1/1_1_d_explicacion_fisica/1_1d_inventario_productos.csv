@@ -1,0 +1,26 @@
+path,bytes
+tarea 02\datos\punto1\procesados\1_1_d_explicacion_fisica\1_1d_componentes_y_alpha_diarios_preliminar_90pct.csv,2202995
+tarea 02\datos\punto1\procesados\1_1_d_explicacion_fisica\1_1d_componentes_y_alpha_mensuales_preliminar_90pct.csv,184698
+tarea 02\datos\punto1\procesados\1_1_d_explicacion_fisica\1_1d_sensibilidad_mensual_todos_metodos_preliminar_90pct.csv,1532045
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_controles_calidad.csv,166
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_control_sobresaturacion_escenarios.csv,303
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_dispersion_empirica_1_1b_por_mes.csv,2722
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_estado_cumplimiento_preliminar.csv,322
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_metodos_vs_dispersion_1_1b.csv,13615
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_sensibilidad_climatologia_mensual.csv,31118
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_sensibilidad_resumen_anual.csv,7399
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_variables_incluidas_omitidas_metodos.csv,579
+tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1d_verificacion_unidades.csv,321
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_alpha_star_vpd_viento.pdf,20011
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_alpha_star_vpd_viento.png,180677
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_calentamiento_ea_vs_hr.pdf,19132
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_calentamiento_ea_vs_hr.png,180613
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_ciclo_anual_metodos.pdf,21749
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_ciclo_anual_metodos.png,310124
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_fao56_sensibilidad_mensual.pdf,21497
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_fao56_sensibilidad_mensual.png,100878
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_fracciones_componentes.pdf,16415
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_fracciones_componentes.png,75279
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_sensibilidad_anual_heatmap.pdf,22496
+tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1d_sensibilidad_anual_heatmap.png,162898
+tarea 02\anexos\punto1\1_1_d_explicacion_fisica\1_1d_inventario_productos.csv,2553

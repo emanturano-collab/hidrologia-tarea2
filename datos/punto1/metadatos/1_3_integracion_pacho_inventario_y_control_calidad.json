@@ -1,0 +1,27 @@
+{
+  "pacho_commit": "588ff16b91d5c3533dc7077e72cd809bf3f20768",
+  "source_branch": "punto-1.2",
+  "source_zip_sha256": "F03FBA8DE7074D70D5BD6F93A05A7A0DF02DD4157FCC069FC4222707A6CEBB33",
+  "integration_input_folder": "datos\\punto1\\originales\\1_2_intercambio_pacho",
+  "source_qc": {
+    "gleam_rows": 252,
+    "mod16_rows": 252,
+    "rn_rows": 276,
+    "gleam_duplicate_months": 0,
+    "mod16_duplicate_months": 0,
+    "rn_duplicate_months": 0,
+    "gleam_units": [
+      "mm/month"
+    ],
+    "rn_units": [
+      "J m**-2"
+    ],
+    "rn_complete_all": true,
+    "rn_spatial_coverage_min_pct": 100.0,
+    "gleam_coverage_min_pct": 100.00000000000004,
+    "mod16_coverage_min_pct": 99.86305443210829
+  },
+  "common_months": 252,
+  "common_hydrological_years": 21,
+  "limitation": "ETo FAO-56 remains preliminary with 90.1264% spatial coverage; product ET and Rn are distinct products; no annual storage or operations closure."
+}

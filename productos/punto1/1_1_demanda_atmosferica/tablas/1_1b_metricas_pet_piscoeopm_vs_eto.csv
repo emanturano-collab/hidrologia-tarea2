@@ -1,0 +1,2 @@
+n_months,pearson_r,spearman_rho,bias_pet_minus_eto_mm_month,mae_mm_month,rmse_mm_month,comparison,period_start,period_end,units,eto_spatial_coverage_pct,status
+432,0.6971603062538362,0.6946301536099727,-0.9840968291612167,7.969904292966432,9.045985923732262,PISCOeo_pm (CAMELS-PE pet) menos ETo FAO-56 ERA5-Land,1981-01-01,2016-12-01,mm/month,90.12637836877099,PRELIMINAR: la ETo ERA5-Land conserva 9.8736 % de cobertura espacial pendiente

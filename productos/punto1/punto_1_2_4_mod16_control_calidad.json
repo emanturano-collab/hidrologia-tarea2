@@ -1,0 +1,33 @@
+{
+  "collection": "MODIS/061/MOD16A2GF",
+  "project": "hidrologia-racarumi",
+  "et_units": "mm por compuesto; convertido a mm/mes y mm/ano",
+  "scale_factor": 0.1,
+  "allocation": "uniforme por dia dentro de cada compuesto",
+  "months": 252,
+  "hydrological_years": [
+    2002,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "mean_et_mm_year": 795.5487452938396,
+  "minimum_valid_coverage_percent": 99.86305443210827
+}

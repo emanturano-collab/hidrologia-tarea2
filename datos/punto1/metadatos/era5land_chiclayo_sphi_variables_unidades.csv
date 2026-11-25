@@ -1,0 +1,7 @@
+member,variable,units,long_name,step_type,records,missing_values
+reanalysis-era5-land-timeseries-sfc-windk8t5q9po.nc,u10,m s**-1,10 metre U wind component,instant,113976,0
+reanalysis-era5-land-timeseries-sfc-windk8t5q9po.nc,v10,m s**-1,10 metre V wind component,instant,113976,0
+reanalysis-era5-land-timeseries-sfc-2m-temperaturejkz6g5gb.nc,d2m,K,2 metre dewpoint temperature,instant,113976,0
+reanalysis-era5-land-timeseries-sfc-2m-temperaturejkz6g5gb.nc,t2m,K,2 metre temperature,instant,113976,0
+reanalysis-era5-land-timeseries-sfc-radiation-heati7_w2jo9.nc,ssrd,J m**-2,Surface solar radiation downwards,accum,113976,0
+reanalysis-era5-land-timeseries-sfc-pressure-precipitationvh79mqle.nc,sp,Pa,Surface pressure,instant,113976,0

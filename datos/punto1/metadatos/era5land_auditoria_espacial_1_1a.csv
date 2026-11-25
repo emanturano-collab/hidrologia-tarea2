@@ -1,0 +1,2 @@
+catchment_crs,geometry_type,catchment_area_km2_utm17s,era5land_intersecting_cells,spatial_weights_sum,selected_hourly_cells,selected_hourly_weight,missing_hourly_cells,missing_hourly_weight,weighted_srtm_elevation_m,weighted_era5land_orography_m,orography_minus_srtm_m
+EPSG:4326,MultiPolygon,2364.3729721191407,33,0.9999999999999983,8,0.32583635173883463,25,0.6741636482611654,2348.9755380864453,2367.1686106444004,18.19307255795502

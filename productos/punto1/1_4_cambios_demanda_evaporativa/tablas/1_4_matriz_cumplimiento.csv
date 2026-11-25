@@ -1,0 +1,10 @@
+numeral,requisito,evidencia,estado,limitacion
+1.4.1,Tendencias anuales,"1_4_1_tendencias_anuales.csv; periodo 1981-2022",CUMPLIDO,"ETo FAO-56 ponderada con cobertura espacial 90.1264 %."
+1.4.1,Tendencias por mes y Mann-Kendall estacional,"1_4_1_tendencias_estacionales_mensuales.csv; 1_4_1_autocorrelacion_y_correcciones.csv",CUMPLIDO,"La inferencia mensual usa 42 observaciones por mes calendario."
+1.4.1,Corrección FDR,"q_fdr_bh_tfpw en 1_4_1_tendencias_estacionales_mensuales.csv",CUMPLIDO,"FDR BH aplicado por separado a los 12 meses de cada método."
+1.4.1,Autocorrelación y significancia corregida,"Diagnóstico residual, TFPW y OLS HAC en 1_4_1_autocorrelacion_y_correcciones.csv",CUMPLIDO,"TFPW se activa solo cuando el r1 detrendido supera el límite definido."
+1.4.1,Sensibilidad a extremos e influencia,"1_4_1_robustez_extremos.csv; 1_4_1_influencia_anual_cooks.csv",CUMPLIDO,"No se eliminó ningún dato real de las series fuente."
+1.4.2,Atribución con T ea u2 y Rs,"1_4_2_atribucion_fao56.csv",CUMPLIDO,"Descomposición local de primer orden; no demuestra causalidad."
+1.4.3,FAO-56 frente a Thornthwaite,"1_4_3_paradoja_tanque_interpretacion.md",CUMPLIDO,"Métodos con forzantes y supuestos distintos."
+1.4.3,Paradoja del tanque,"1_4_3_paradoja_tanque_interpretacion.md",CUMPLIDO_COMO_MARCO_CONCEPTUAL,"No existen registros locales de evaporación de tanque."
+Bonificación Budyko,Descomposición de cambio de caudal,No ejecutada,OPCIONAL_PENDIENTE,"No es requisito para cerrar los tres numerales obligatorios."

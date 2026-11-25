@@ -1,0 +1,2 @@
+period,monthly_records,annual_records,source_daily,source_thornthwaite,method,limits
+1981-2022,504,42,datos\punto1\procesados\1_1_a_fao56_preliminar_90pct\fao56_eto_diaria_preliminar_90pct.csv,datos\punto1\procesados\1_1_c_metodos_alternativos\1_1c_tabla_maestra_mensual_preliminar_90pct.csv,"MK/Sen mensual, FDR BH por método, TFPW cuando |r1 detrendido| supera 1.96/sqrt(n); OLS HAC Newey-West para comparación.",Cobertura ETo 90.1264 %; el borde incompleto de 31-08-2023 no está en 1981-2022.

@@ -1,0 +1,6 @@
+numeral,estado,evidencia,pendiente
+1.3.1,completado preliminar,ET/ETo y ET/P de GLEAM y MOD16 para 12 meses; criterios explícitos; cruce con clase húmedo/seco de Tarea 1.,Reducir incertidumbre de ETo (cobertura 90.1264%) y validar productos ET.
+1.3.2,completado preliminar,FE=λET/Rn mensual para GLEAM/MOD16 frente a θ radicular; correlaciones y ajuste segmentado exploratorio.,No declarar umbral físico sin validación independiente y análisis de resolución.
+1.3.3,actualizado preliminar,"Budyko con ET de productos, trayectorias anuales y documentos de regulación/trasvases.","ΔS, operación/derivaciones, naturalización y ET/ETo con cobertura final."
+1.3.4,actualizado preliminar,Elasticidad Fu por producto y comparación con la elasticidad empírica existente.,"Incertidumbre conjunta de P, ET, ETo y Q regulado."
+1.3.5,completado descriptivo preliminar,ET y ETo por terciles secos/normales/húmedos; correlaciones descriptivas.,No interpretar correlación como causalidad; validar demanda y productos.

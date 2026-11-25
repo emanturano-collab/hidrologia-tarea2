@@ -1,0 +1,13 @@
+{
+  "criterion": "Meses calendario con promedio climatol\u00f3gico ETo FAO-56 - P DWD > 0 mm y >=20 a\u00f1os mensuales v\u00e1lidos",
+  "dry_months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "valid_months_total": 246,
+  "status": "TEMPORADA_SECA_CLIMATICAMENTE_DEFINIDA"
+}

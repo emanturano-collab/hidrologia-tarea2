@@ -1,0 +1,9 @@
+{
+  "cells": 33,
+  "zip_files_cds": 25,
+  "existing_validated_P_series": 8,
+  "period": "AH2002 and AH2004-AH2023",
+  "months_per_band": 252,
+  "units": "mm/month and mm/year",
+  "method": "FAO-56 daily ETo summed to month; meteorological grid cells intersected with SRTM bands"
+}

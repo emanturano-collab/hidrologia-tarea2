@@ -1,0 +1,7 @@
+apartado,requisito_ejecutable,producto_demostrativo,ruta_relativa,estado,limitacion
+1.1.a,FAO-56 diario/mensual ponderado 20 celdas,fao56_eto_diaria_preliminar_90pct.csv,datos/punto1/procesados/1_1_a_fao56_preliminar_90pct/fao56_eto_diaria_preliminar_90pct.csv,completo_preliminar,Cobertura espacial 90.1264%; faltan 13 celdas
+1.1.a,Controles y documentación,seguimiento_1_1a.md,anexos/punto1/seguimiento_1_1a.md,completo_preliminar,Cobertura espacial 90.1264%
+1.1.b,Pruebas de referencia y control físico,resumen_integral_final_1_1b_preliminar.md,anexos/punto1/1_1_b_pruebas_referencia/resumen_integral_final_1_1b_preliminar.md,completo_preliminar,PISCOeo_pm/TerraClimate son productos; Chiclayo es externo a la cuenca
+1.1.c,Seis métodos y comparación mensual,metodos_ecuaciones_referencias_y_respuestas_1_1c.md,anexos/punto1/1_1_c_metodos_alternativos/metodos_ecuaciones_referencias_y_respuestas_1_1c.md,completo_preliminar,Cobertura espacial 90.1264%; Meyer/Rohwer son agua libre
+1.1.d,Ciclo/dispersión componentes alpha sensibilidad unidades,resumen_tecnico_interpretacion_1_1d.md,anexos/punto1/1_1_d_explicacion_fisica/resumen_tecnico_interpretacion_1_1d.md,completo_preliminar,Faltan notas de curso sección 7 para aplicar su árbol de decisión
+1.1,Conclusión integral,estado integral y síntesis,productos/punto1/1_1_demanda_atmosferica/tablas/1_1_estado_integral_preliminar.csv,completo_preliminar,No definitivo hasta cubrir 100% de celdas y revisar árbol de notas

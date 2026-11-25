@@ -1,0 +1,13 @@
+{
+  "year": 2002,
+  "PL_mm": 1144.99,
+  "PI_mm": 587.38,
+  "Q_mm": 496.58,
+  "ET_PL_mm": 648.4,
+  "ET_PI_mm": 90.8,
+  "sigmaP_proxy_mm": 175.3657208046468,
+  "sigmaQ_main_mm": 38.003571428571426,
+  "sigmaET_main_mm": 179.4363605144171,
+  "equation": "sigmaET=sqrt(sigmaP^2+sigmaQ^2); ET=P-Q",
+  "units_check": "all terms mm per hydrological year; variances mm² per hydrological year²"
+}

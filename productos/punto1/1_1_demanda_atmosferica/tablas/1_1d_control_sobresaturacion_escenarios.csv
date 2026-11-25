@@ -1,0 +1,9 @@
+scenario,ea_capped_cell_days,total_cell_days,fraction_pct
+base,0,311640,0.0
+T_plus1_ea_const,0,311640,0.0
+T_plus2_ea_const,0,311640,0.0
+T_plus1_RH_const,0,311640,0.0
+T_plus2_RH_const,0,311640,0.0
+u2_plus10pct,0,311640,0.0
+Rs_minus10pct,0,311640,0.0
+ea_plus10pct,1013,311640,0.32505455012193557

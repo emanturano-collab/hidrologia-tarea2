@@ -1,0 +1,20 @@
+{
+  "source_raw_bytes": 2090653377,
+  "subset_bytes": 581416,
+  "records_compared": 252,
+  "max_abs_difference_mm": 4.263256414560601e-14,
+  "same_within_1e-9": true,
+  "lat_index_range": [
+    963,
+    969
+  ],
+  "lon_index_range": [
+    1006,
+    1013
+  ],
+  "weighted_cells": 35,
+  "periodo": "2001-09 a 2002-08 y 2003-09 a 2023-08",
+  "months": 252,
+  "folder_name_consistent": true,
+  "note": "La igualdad de cuenca se verifica en comparacion_valor_cuenca.csv con pesos espaciales; no con media simple del bloque."
+}

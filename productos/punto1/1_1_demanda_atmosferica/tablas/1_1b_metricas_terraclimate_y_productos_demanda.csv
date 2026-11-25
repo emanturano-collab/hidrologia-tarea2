@@ -1,0 +1,4 @@
+comparison,n_months,pearson_r,spearman_rho,bias_left_minus_right_mm_month,mae_mm_month,rmse_mm_month,eto_spatial_coverage_pct,status
+TerraClimate PET - ETo FAO-56 ERA5-Land preliminar,511,0.8991622240552338,0.8882092134799122,1.3608144623819651,4.0165074433341195,4.903204944484305,90.12637836877099,PRELIMINAR: ETo ERA5-Land con 9.8736 % de cobertura espacial pendiente
+TerraClimate PET - PISCOeo_pm,432,0.8867176368143396,0.8964819931270385,2.4396850249714483,4.989340390252774,6.2260585499380054,90.12637836877099,PRELIMINAR: ETo ERA5-Land con 9.8736 % de cobertura espacial pendiente
+TerraClimate PET - ETo FAO-56 ERA5-Land preliminar (triple periodo),432,0.9051300667330964,0.8933455861996289,1.4555881958102321,3.970841486971324,4.815317735385952,90.12637836877099,PRELIMINAR: ETo ERA5-Land con 9.8736 % de cobertura espacial pendiente

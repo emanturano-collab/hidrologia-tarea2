@@ -1,0 +1,8 @@
+requirement,status,evidence
+Producto independiente de demanda,COMPLETADO,PISCOeo_pm y TerraClimate v1.1 ponderado; no se cuentan como dos categorías.
+Comprobación física P-Q,COMPLETADO,26 años completos; P-Q no se usó como ETo.
+Estación meteorológica: inventario y metadatos,COMPLETADO,"NOAA GHCNh PEI0000SPHI, Chiclayo; PSV y SHA-256 auditados."
+Estación meteorológica: ETo FAO-56,COMPLETADO CON SUPUESTOS DECLARADOS,3690 días válidos y 101 meses completos; Rs ec.50 y altura de viento con sensibilidad.
+Comparación puntual estación - ERA5-Land,COMPLETADO,"Celda -6.8, -79.8 validada; 3690 días y 101 meses comunes."
+Segunda categoría de prueba,COMPLETADO CON LIMITACIÓN ESPACIAL,Prueba local costera Chiclayo-ERA5; no valida por sí sola el relieve andino de Racarumi.
+ETo representativa final de Racarumi,PENDIENTE,La ETo de cuenca sigue preliminar: 90.1264 % de cobertura espacial ERA5-Land.

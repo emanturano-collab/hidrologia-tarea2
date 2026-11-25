@@ -1,0 +1,2 @@
+file,sha256,returned_latitude,returned_longitude,period_start_utc,period_end_utc,hourly_records_per_variable,variables,all_variables_complete,role,station_distance_to_era5_cell_km
+ERA5_Land_Chiclayo_SPHI_20100101_20230101.zip,BBEB30FC97A918FCCB8749884C1813DE7D5E642E5831A625319926756EF4EC9C,-6.799999999999157,-79.80000000000479,2010-01-01 00:00,2023-01-01 23:00,113976,d2m;sp;ssrd;t2m;u10;v10,True,Validación local de estación; excluida de ponderación Racarumi,3.3997526258600104

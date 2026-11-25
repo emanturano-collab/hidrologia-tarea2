@@ -1,0 +1,26 @@
+{
+  "script": "codigo\\punto1\\1_3_regimen_evaporativo\\run_1_3_regimen_evaporativo.py",
+  "tables": [
+    "1_3_budyko_y_elasticidad_resumen_preliminar.csv",
+    "1_3_clasificacion_anual_seco_normal_humedo_y_demanda.csv",
+    "1_3_climatologia_mensual_PL_PI_ETo_preliminar_90_1264pct.csv",
+    "1_3_contraste_pacho_con_tarea1_mensual.csv",
+    "1_3_demanda_por_clase_hidrologica_preliminar.csv",
+    "1_3_elasticidad_historica_y_sensibilidad_anual.csv"
+  ],
+  "figures": [
+    "1_3_budyko_exploratorio.pdf",
+    "1_3_budyko_exploratorio.png",
+    "1_3_climatologia_mensual_P_ETo_preliminar.pdf",
+    "1_3_climatologia_mensual_P_ETo_preliminar.png",
+    "1_3_elasticidad_dispersion_PL_PI.pdf",
+    "1_3_elasticidad_dispersion_PL_PI.png"
+  ],
+  "annexes": [
+    "control_calidad_fuentes_pacho_1_3.json",
+    "inventario_productos_1_3.json",
+    "resumen_tecnico_preliminar_1_3.md",
+    "solicitud_era5land_humedad_suelo_pendiente.json"
+  ],
+  "status": "PRELIMINAR: faltan ET real, Rn superficial real y humedad del suelo."
+}

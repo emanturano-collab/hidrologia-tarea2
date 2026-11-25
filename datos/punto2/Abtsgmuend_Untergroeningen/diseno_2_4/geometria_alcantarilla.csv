@@ -1,0 +1,2 @@
+obra,diameter_m,length_m,slope_m_m,manning_n,capacity_m3s,design_Qp_m3s,safety_factor,mc_annual_failure,mc_life_risk_30yr,freeboard_note
+alcantarilla circular,1.50000,30,0.01000,0.01300,7.07600,3.57173,1.98111,0.00000,0.00000,"verificar entrada, salida y control de remanso"

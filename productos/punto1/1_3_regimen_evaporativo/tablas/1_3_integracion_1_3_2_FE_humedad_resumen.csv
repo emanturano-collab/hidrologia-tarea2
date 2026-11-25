@@ -1,0 +1,3 @@
+ET_product,n_months,FE_mean,FE_min,FE_max,pearson_FE_theta,spearman_FE_theta,piecewise_knot_theta_m3_m3_exploratory,piecewise_slope_below,piecewise_slope_above,piecewise_SSE,interpretation
+GLEAM,252,0.42692470621034995,0.2180678990500159,0.6902788484692686,0.9196384991252722,0.9146841956472997,0.3104872541829463,1.8240454149011252,2.152573197713867,0.382654321380863,Exploratory segmented fit; it is not a physical critical threshold without independent validation.
+MOD16,252,0.45975174176607864,0.2477027422478743,0.6562134609005037,0.9092464209347954,0.9162956680711748,0.36085974670542564,2.4318087308041187,1.0969272125424283,0.4359442426464961,Exploratory segmented fit; it is not a physical critical threshold without independent validation.

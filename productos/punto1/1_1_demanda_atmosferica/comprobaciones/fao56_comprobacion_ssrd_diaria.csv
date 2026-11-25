@@ -1,0 +1,9 @@
+point,ssrd_step_type,ssrd_hourly_min_j_m2,ssrd_hourly_max_j_m2,daily_rs_min_mj_m2_d,daily_rs_max_mj_m2_d,conversion
+P1,accum,0.0,4027712.0,4.47926,30.162032,"sum(ssrd hourly) / 1,000,000"
+P2,accum,0.0,4098124.0,4.634462,30.685612,"sum(ssrd hourly) / 1,000,000"
+P3,accum,0.0,4119886.0,4.52287,30.802804,"sum(ssrd hourly) / 1,000,000"
+P4,accum,0.0,4117798.0,4.82279,30.925612,"sum(ssrd hourly) / 1,000,000"
+P5,accum,0.0,4175380.0,4.9989765,31.466256,"sum(ssrd hourly) / 1,000,000"
+P6,accum,0.0,4231664.0,4.9618565,32.067088,"sum(ssrd hourly) / 1,000,000"
+P7,accum,0.0,4209838.0,5.1345185,31.769288,"sum(ssrd hourly) / 1,000,000"
+P8,accum,0.0,4176116.0,5.3381665,31.381404,"sum(ssrd hourly) / 1,000,000"

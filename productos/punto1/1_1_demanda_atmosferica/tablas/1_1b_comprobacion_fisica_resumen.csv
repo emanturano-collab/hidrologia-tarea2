@@ -1,0 +1,2 @@
+period_start,period_end,n_complete_years,mean_annual_p_mm,mean_annual_q_mm,mean_annual_p_minus_q_mm,mean_annual_eto_preliminar_mm,mean_annual_eto_minus_p_minus_q_mm,eto_less_than_p_minus_q,eto_spatial_coverage_pct,interpretation
+1982-01-01,2021-12-31,26,1082.6458076923077,477.2724230769231,605.3733846153846,1181.7147453845412,576.3413607691568,False,90.12637836877099,P-Q aproxima ET real de largo plazo sólo si cambios de almacenamiento y transferencias son despreciables; no es una referencia directa de ETo.

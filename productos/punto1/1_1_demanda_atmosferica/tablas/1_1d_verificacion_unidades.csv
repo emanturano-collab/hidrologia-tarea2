@@ -1,0 +1,2 @@
+latent_heat_flux_W_m2,seconds_per_hour,energy_J_m2_h,lambda_J_kg,correct_mm_h,correct_mm_d,claimed_mm_h,factor_claimed_over_correct,watts_per_mm_d,interpretation
+146,3600,525600,2450000.0,0.21453061224489797,5.148734693877551,3.52,16.40791476407915,28.35648148148148,"3.52 corresponde aproximadamente a mm/d, no mm/h."

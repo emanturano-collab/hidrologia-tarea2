@@ -1,0 +1,4 @@
+check,n,max_abs_difference_mm_d,explanation
+hargreaves_formula_vs_pyet_one_cell,15582,0.03787504590846069,Difference expected: exact guide uses lambda=2.45; pyet uses temperature-dependent lambda.
+priestley_taylor_used_pyet,311640,0.0,"Direct pyet output, alpha=1.26."
+makkink_used_pyet,311640,0.0,"Direct pyet output, k=0.65."

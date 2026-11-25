@@ -1,0 +1,2 @@
+gauge_id,gauge_name,gauge_region,gauge_lat,gauge_lon,gauge_elev,gauge_record_start,gauge_record_end,gauge_perc_obs,name_cat,area_km2
+PE_200907,Racarumi,Pacific,-6.633,-79.317,265,1981-01-01,2023-08-31,94.51,Cuenca Chancay-Lambayeque,2363.302

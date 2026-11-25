@@ -1,0 +1,7 @@
+precipitation,period,n_years,omega_Fu_exploratory,phi,elasticity_theoretical_Fu,elasticity_empirical_Sankarasubramanian,empirical_CI95_low,empirical_CI95_high,theory_minus_empirical,Q_change_plus10pct_P_theory_pct,Q_change_minus10pct_P_theory_pct,Q_change_plus10pct_P_empirical_pct,Q_change_minus10pct_P_empirical_pct
+PL,2002–2022 hydrological years; 20 common complete years (2003 excluded for Q),20,1.7563109279522524,1.0980148734852626,1.5550576065537722,1.4876308440384474,0.9270392263227965,1.7863950327691405,0.06742676251532487,15.550576065537722,-15.550576065537722,14.876308440384474,-14.876308440384474
+PI,2002–2022 hydrological years; 20 common complete years (2003 excluded for Q),20,1.075365922978542,2.0726052867281513,1.062128497266508,1.4746477712421575,0.4731232900444206,2.215521077772338,-0.4125192739756496,10.62128497266508,-10.62128497266508,14.746477712421575,-14.746477712421575
+PL,historical hydrological_Sep_Aug: 1986–2021; not directly comparable to Fu fit,26,,,,1.1848969352238417,0.8475715322429119,1.5647556625250472,,,,,
+PI,historical hydrological_Sep_Aug: 1986–2021; not directly comparable to Fu fit,26,,,,-0.0096044774414163,-0.1744662384919583,0.189834737508878,,,,,
+PL,historical calendar_Jan_Dec: 1982–2021; not directly comparable to Fu fit,26,,,,1.0803577983938868,0.9036768786230964,1.4700156522835248,,,,,
+PI,historical calendar_Jan_Dec: 1982–2021; not directly comparable to Fu fit,26,,,,0.0994388051961149,-0.1767232713614845,0.2072329284011394,,,,,

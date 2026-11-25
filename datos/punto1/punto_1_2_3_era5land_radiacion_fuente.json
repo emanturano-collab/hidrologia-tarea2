@@ -1,0 +1,31 @@
+{
+  "dataset": "reanalysis-era5-land-monthly-means",
+  "variables": {
+    "ssr": "surface_net_solar_radiation",
+    "str": "surface_net_thermal_radiation"
+  },
+  "period": "2000-09 through 2023-08",
+  "spatial_resolution": "0.1 degree CDS regular lat-lon grid; native ERA5-Land about 9 km",
+  "spatial_weights": {
+    "file": "PE_200907_ERA5Land_grid_weights_T1_original.csv",
+    "cells": 33,
+    "sum": 1.0,
+    "method": "Reused exactly from Tarea 1: 0.005-degree subgrid fractional coverage and cos(latitude) area adjustment."
+  },
+  "affected_months_solution": "2022-09 through 2023-08 use monthly_averaged_reanalysis_by_hour_of_day at 00:00, the official ECMWF recovery method for erroneous accumulated monthly fields.",
+  "sign_convention": "ECMWF native signs retained: Rn = ssr + str. No FAO-56 reference-grass radiation is used.",
+  "energy_to_water_conversion": {
+    "lambda_j_kg": 2450000.0,
+    "equivalence": "1 kg m-2 = 1 mm"
+  },
+  "catchment_file_sha256": "9757a55e33d06b5d0cb401a65f03da596a4efa305b285396fa90d982eb0f93fe",
+  "weights_file_sha256": "b5db051a8a57c7d33dde574374ce2fefbde809ae430d355dc4c8146e4f588143",
+  "raw_files": [
+    "era5land_radiation_moda_2000_09_12.nc",
+    "era5land_radiation_moda_2001_2021.nc",
+    "era5land_radiation_moda_2022_01_08.nc",
+    "era5land_radiation_mnth00_2022_09_12.nc",
+    "era5land_radiation_mnth00_2023_01_08.nc"
+  ],
+  "created_utc": "2026-11-22T05:11:04.593434+00:00"
+}

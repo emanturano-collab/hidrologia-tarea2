@@ -1,0 +1,5 @@
+factor,cambio_factor,unidad_factor,contribucion_DeltaQ_mm_anio,metodo
+Precipitación P (PISCOp),-15.950000000000045,mm/año,-11.406214521807811,Shapley contrafactual Fu (6 permutaciones)
+Demanda ETo FAO-56,-0.7439414786156249,mm/año,0.17294176795601857,Shapley contrafactual Fu (6 permutaciones)
+Parámetro omega,0.0,adimensional,0.0,Shapley contrafactual Fu (6 permutaciones)
+Total reconstruido por Fu,,mm/año,-11.233272753851793,Suma exacta de contribuciones
