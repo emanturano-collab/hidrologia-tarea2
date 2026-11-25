@@ -1,0 +1,144 @@
+% Presentacion oral (10 minutos). Compilar desde esta carpeta: pdflatex presentacion.tex
+% Formato 16:9, una diapositiva por pagina. Las cifras salen de los mismos archivos que el informe.
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot,es-noshorthands]{babel}
+\usepackage{newtxtext,newtxmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage[paperwidth=25.4cm,paperheight=14.29cm,margin=1cm,top=0.8cm,bottom=0.8cm]{geometry}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\input{../../productos/punto1/cifras_punto1.tex}
+\input{../../productos/punto2/final/cifras_punto2.tex}
+\graphicspath{{../../productos/punto1/}{../../productos/punto2/final/figuras/}{../../datos/punto2/Abtsgmuend_Untergroeningen/control_2_1/}}
+\definecolor{acento}{RGB}{0,84,147}
+\newcommand{\slide}[1]{\newpage{\color{acento}\Large\bfseries #1}\par\vspace{0.25cm}{\color{acento}\rule{\linewidth}{0.6pt}}\par\vspace{0.3cm}}
+\newcommand{\grande}{\large}
+
+\begin{document}
+\thispagestyle{empty}
+\vspace*{2.5cm}
+\begin{center}
+{\color{acento}\huge\bfseries Evapotranspiración y diseño hidrológico}\par\vspace{0.5cm}
+{\Large Tarea 2 · Hidrología 202602}\par\vspace{0.8cm}
+{\large Andrés Francisco Idrobo Hidrobo · Enmaly Aleli Manturano Grajeda · Jeyson Cristian Javier Irpanoca}\par\vspace{0.3cm}
+{\large Grupo \textcolor{red}{GXX} · Universidad Nacional de Colombia, Sede Medellín}
+\end{center}
+
+\slide{Dos preguntas}
+\grande
+\begin{minipage}[t]{0.48\linewidth}
+\textbf{Punto 1. Cuenca Racarumi (Perú), 2363 km$^2$}\\[4pt]
+¿Cuánta agua devuelve a la atmósfera, qué la limita en cada época y qué ha cambiado?\\[6pt]
+264--4084 m · temporada húmeda ene--abr · $P$ = \PL\ mm/año · $Q$ = \Qmed\ mm/año
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\textbf{Punto 2. Abtsgmünd (Alemania), DWD 00020}\\[4pt]
+¿Qué lluvia debe soportar una alcantarilla, con qué riesgo real y con qué incertidumbre?\\[6pt]
+Lluvia cada 10 min · \NAnios\ años hidrológicos válidos · microcuenca de \AreaMicro\ km$^2$
+\end{minipage}
+
+\slide{La demanda la manda la radiación}
+\begin{minipage}[c]{0.55\linewidth}
+\includegraphics[width=\linewidth]{1_1_demanda_atmosferica/figuras/1_1d_alpha_star_vpd_viento.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.42\linewidth}
+\grande
+ETo FAO-56 $\approx$ \EToAnual\ mm/año\\[6pt]
+Término radiativo: \FracRadMin--\FracRadMax\,\% de la ETo\\[6pt]
+$R_s-10$\,\% $\Rightarrow$ \SensRs\ mm/año\\
+$u_2+10$\,\% $\Rightarrow$ +\SensUdos\ mm/año\\[6pt]
+Mejor método simple: Makkink (MAE \MAEMakk\ mm/mes)\\
+Thornthwaite: sesgo \SesgoThorn\,\% y exagera el calentamiento
+\end{minipage}
+
+\slide{Cuánta agua vuelve y con qué incertidumbre}
+\grande
+\begin{minipage}[c]{0.5\linewidth}
+Balance $P_L-Q$: \textbf{\ETbalL\ $\pm$ \SigmaET\ mm/año} (\SigmaETpct\,\%)\\[4pt]
+$\sigma_P$ = \SigmaP\ mm/año frente a $\sigma_Q$ = \SigmaQ: manda la lluvia\\[4pt]
+IMERG da \DifPLPI\ mm/año menos que PISCOp: no sirve aquí\\[4pt]
+GLEAM \ETgleam\ y MOD16 \ETmod\ mm/año: +\SobreGleam\ a +\SobreMod\,\%\\[4pt]
+Hipótesis: PISCOp bajo en las cumbres y trasvases Chotano--Conchano\\[4pt]
+Techo $R_n/\lambda$ = \RnLambda\ mm/año, nunca superado
+\end{minipage}\hfill
+\begin{minipage}[c]{0.46\linewidth}
+\includegraphics[width=\linewidth]{1_3_regimen_evaporativo/figuras/1_3_integracion_1_3_3_Budyko_ET_real.png}
+\end{minipage}
+
+\slide{Energía en la temporada húmeda, agua en la seca}
+\begin{minipage}[c]{0.55\linewidth}
+\includegraphics[width=\linewidth]{1_3_regimen_evaporativo/figuras/1_3_integracion_1_3_1_ET_sobre_ETo_mensual.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.42\linewidth}
+\grande
+Ene--abr: $ET/\mathrm{ETo}$ = \EToHumMin--\EToHumMax\\
+Jun--sep: \EToSecMin--\EToSecMax\ y $ET>P$\\[6pt]
+El suelo pasa de 0,39 a 0,26 m$^3$/m$^3$\\[6pt]
+Budyko: $\phi$ = \PhiAr, $\omega$ = \OmG--\OmM\\[6pt]
+Años secos: más demanda (\EToSeco\ frente a \EToHumedo\ mm)
+\end{minipage}
+
+\slide{Qué cambió y qué distingue a la cuenca}
+\begin{minipage}[c]{0.48\linewidth}
+\includegraphics[width=\linewidth]{1_4_cambios_demanda_evaporativa/figuras/1_4_2_contribuciones.png}\\
+\grande ETo: +\TendETo\ mm/año por año ($p$ = \pETo)\\
+$T$ +\AtrT, $R_s$ +\AtrRs, $e_a$ \AtrEa
+\end{minipage}\hfill
+\begin{minipage}[c]{0.48\linewidth}
+\includegraphics[width=\linewidth]{1_5_paisaje/1_5_gradiente_multianual_productos.png}\\
+\grande ETo baja con la altura; MOD16 tiene un máximo a \ModMaxBanda
+\end{minipage}
+
+\slide{Punto 2: extremos de una serie corta}
+\begin{minipage}[c]{0.5\linewidth}
+\includegraphics[width=\linewidth]{idf_bandas_kostra.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.47\linewidth}
+\grande
+Weiss: $\times$\WeissDiez\ para 10 min\\[6pt]
+GEV-GMLE: la MV clásica da formas inestables con $N$ = 20\\[6pt]
+Evento del 24/07/2013: 81 mm en 1 h ($T\approx$ \TeventoTrece\ años)\\[6pt]
+1 h, $T$ = 100: local/KOSTRA = \RazonHoraTcien; sin 2013, dentro de la incertidumbre de KOSTRA
+\end{minipage}
+
+\slide{Problema A: el riesgo real es mayor que el nominal}
+\begin{minipage}[c]{0.5\linewidth}
+\includegraphics[width=\linewidth]{tornado_2_4A.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.47\linewidth}
+\grande
+$t_c$ SCS = \tcSCS\ min · $C$ = \Cpre · $T$ = \Tdis\ años\\
+$Q_p$ = \Qp\ m$^3$/s $\Rightarrow$ $D$ = \Dcalc\ m $\Rightarrow$ \Dcom\ m\\[6pt]
+Monte Carlo con \Dcom\ m: $T$ efectivo $\approx$ \Teff\ años\\[6pt]
+\textbf{Recomendación: \Drec\ m}\\
+$T$ efectivo $\approx$ \TeffRec\ años · riesgo en \Vida\ años \RiesgoEffRec\,\%\\[6pt]
+Mayor incertidumbre: $t_c$, luego la IDF y $C$
+\end{minipage}
+
+\slide{Problema B: tanque de detención}
+\begin{minipage}[c]{0.6\linewidth}
+\includegraphics[width=\linewidth]{hidrogramas_tanque_2_4B.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.37\linewidth}
+\grande
+Urbanizado: $C$ \Cpre $\to$ \Curb, $t_c$ \tcSCS $\to$ \tcUrb\ min\\[6pt]
+Salida $\le Q_{pre}$ = \Qpre\ m$^3$/s\\[6pt]
+Trapezoidal: \VolTrap\ m$^3$\\
+Bloques alternos: \VolCentro\ m$^3$\\[6pt]
+\textbf{Tanque \LadoTanque\ $\times$ \LadoTanque\ $\times$ \Hutil\ m, orificio \DOrif\ m}
+\end{minipage}
+
+\slide{Conclusiones}
+\grande
+\begin{itemize}
+\item La radiación controla la demanda; los métodos térmicos exageran la respuesta al calentamiento.
+\item La cuenca devuelve algo más de la mitad de su lluvia, con una incertidumbre que viene de la lluvia.
+\item Energía en la temporada húmeda, agua en la seca: la humedad del suelo sostiene la ET.
+\item Con 20 años de registro, el riesgo nominal subestima el real: el diseño debe usar el riesgo efectivo.
+\item Límites: 90\,\% de cobertura de ERA5-Land, trasvases sin cuantificar, salida sintética.
+\end{itemize}
+\end{document}

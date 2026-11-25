@@ -1,0 +1,6 @@
+# Auxiliares de LaTeX
+anexos/informe_fuente/*.aux
+anexos/informe_fuente/*.log
+anexos/informe_fuente/*.out
+anexos/informe_fuente/*.toc
+__pycache__/

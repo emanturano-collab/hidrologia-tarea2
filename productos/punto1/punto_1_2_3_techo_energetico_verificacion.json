@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-22T05:26:20.366931+00:00",
+  "created_utc": "2026-11-25T01:34:26.204019+00:00",
   "radiation_source": "productos\\punto1\\punto_1_2_3_radiacion_neta_real_era5land_mensual.csv",
   "balance_hydrological_source": "productos\\punto1\\punto_1_2_anios_hidrologicos_sep_ago.csv",
   "monthly_radiation_months": 276,

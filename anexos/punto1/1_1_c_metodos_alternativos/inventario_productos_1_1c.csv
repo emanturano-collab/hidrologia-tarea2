@@ -1,27 +1,27 @@
 path,bytes
-tarea 02\datos\punto1\procesados\1_1_c_metodos_alternativos\1_1c_series_mensuales_por_celda_preliminar_90pct.csv,1738422
-tarea 02\datos\punto1\procesados\1_1_c_metodos_alternativos\1_1c_tabla_maestra_mensual_preliminar_90pct.csv,100654
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_amplitud_fase_ciclo_anual.csv,933
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_comprobacion_manual.csv,800
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_contexto_dispersion_1_1b.csv,399
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_control_pyET.csv,332
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_estado_cumplimiento_preliminar.csv,398
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_metricas_anuales.csv,1308
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_metricas_mes_calendario.csv,13537
-tarea 02\productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_metricas_serie_mensual.csv,1309
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_amplitud_fase.pdf,17458
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_amplitud_fase.png,174257
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_cajas_errores.pdf,18719
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_cajas_errores.png,121361
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_climatologia_mensual.pdf,24718
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_climatologia_mensual.png,282347
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_contexto_dispersion_1_1b.pdf,18299
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_contexto_dispersion_1_1b.png,149083
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_dispersion_vs_fao56.pdf,68443
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_dispersion_vs_fao56.png,920497
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_mapa_calor_sesgo_mes.pdf,22284
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_mapa_calor_sesgo_mes.png,94557
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_metricas_sesgo_mae_rmse.pdf,17599
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_metricas_sesgo_mae_rmse.png,178239
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_serie_mensual.pdf,47596
-tarea 02\productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_serie_mensual.png,1241172
+datos\punto1\procesados\1_1_c_metodos_alternativos\1_1c_series_mensuales_por_celda_preliminar_90pct.csv,1738422
+datos\punto1\procesados\1_1_c_metodos_alternativos\1_1c_tabla_maestra_mensual_preliminar_90pct.csv,100654
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_amplitud_fase_ciclo_anual.csv,933
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_comprobacion_manual.csv,800
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_contexto_dispersion_1_1b.csv,399
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_control_pyET.csv,332
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_estado_cumplimiento_preliminar.csv,398
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_metricas_anuales.csv,1308
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_metricas_mes_calendario.csv,13537
+productos\punto1\1_1_demanda_atmosferica\tablas\1_1c_metricas_serie_mensual.csv,1309
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_amplitud_fase.pdf,15998
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_amplitud_fase.png,153895
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_cajas_errores.pdf,17227
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_cajas_errores.png,139941
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_climatologia_mensual.pdf,23251
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_climatologia_mensual.png,290028
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_contexto_dispersion_1_1b.pdf,17598
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_contexto_dispersion_1_1b.png,172109
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_dispersion_vs_fao56.pdf,67766
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_dispersion_vs_fao56.png,857866
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_mapa_calor_sesgo_mes.pdf,21252
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_mapa_calor_sesgo_mes.png,97089
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_metricas_sesgo_mae_rmse.pdf,16534
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_metricas_sesgo_mae_rmse.png,159747
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_serie_mensual.pdf,48490
+productos\punto1\1_1_demanda_atmosferica\figuras\1_1c_serie_mensual.png,1243138

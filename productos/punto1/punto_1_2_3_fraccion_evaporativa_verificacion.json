@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-22T05:31:51.005708+00:00",
+  "created_utc": "2026-11-25T01:34:26.586376+00:00",
   "source": "productos\\punto1\\punto_1_2_3_techo_energetico_vs_balance_anual.csv",
   "formula": "f_ET = ET / (Rn/lambda) = lambda*ET/Rn",
   "number_of_common_hydrological_years": 21,

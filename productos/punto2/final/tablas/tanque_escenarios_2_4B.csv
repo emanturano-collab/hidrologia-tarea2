@@ -1,0 +1,15 @@
+metodo,escenario,Q_entrada_max_m3s,volumen_entrada_m3,area_tanque_m2,volumen_requerido_m3
+trapezoidal,d=10 min,2.982,1789.020,448.637,897.275
+trapezoidal,d=15 min,2.413,2171.732,496.429,992.859
+trapezoidal,d=20 min,2.039,2446.882,478.340,956.680
+trapezoidal,d=30 min,1.573,2831.441,291.197,582.395
+trapezoidal,d=45 min,1.188,3207.641,5.602,11.203
+trapezoidal,d=60 min,0.964,3469.285,5.500,11.001
+trapezoidal,d=90 min,0.710,3833.027,5.324,10.647
+trapezoidal,d=120 min,0.568,4089.927,4.260,8.521
+trapezoidal,d=180 min,0.412,4454.594,3.093,6.187
+trapezoidal,d=240 min,0.328,4717.856,2.457,4.914
+trapezoidal,d=360 min,0.236,5099.255,1.771,3.541
+bloques alternos + tiempo-area,pico al inicio,3.386,4089.927,489.331,978.661
+bloques alternos + tiempo-area,pico al centro,3.386,4074.388,674.797,1349.594
+bloques alternos + tiempo-area,pico al final,3.386,4089.927,644.134,1288.268
