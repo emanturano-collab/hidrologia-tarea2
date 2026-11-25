@@ -50,3 +50,7 @@ Meyer y Rohwer son los más alejados: subestiman porque representan una superfic
 
 ## Limitaciones decisivas
 Meyer y Rohwer dependen de temperatura de agua y alturas de viento que ERA5-Land no aporta en esta serie; por ello son escenarios de evaporación de agua libre con proxies, no estimaciones de ETo. La referencia FAO-56 y todos estos resultados siguen siendo preliminares por la cobertura espacial incompleta.
+
+## Nota de la revisión final (24/11/2026)
+
+La fórmula de Makkink aplicada (`pyet.makkink`, k = 0,65, sin constante) es la variante de de Bruin (1987), no la forma original de Makkink (1957), `0,61 Δ/(Δ+γ) Rs/λ − 0,12` mm/d. La forma original se calcula como sensibilidad en `codigo/punto1/1_1_demanda_atmosferica/1_1_d_explicacion_fisica/calibrar_hargreaves_1_1d.py`: sesgo de −5 % frente a +5 % de la variante. El mismo script calibra Hargreaves contra FAO-56, como pide el árbol de decisión de la sección 7 de las notas del curso.

@@ -71,6 +71,27 @@ for k, sc in [("Rs", "Rs_minus10pct"), ("TunoEa", "T_plus1_ea_const"), ("TunoHR"
 th = sen[(sen["method"] == "thornthwaite_1948") & (sen["scenario"] == "T_plus1_ea_const")].iloc[0]
 m["SensThornTuno"] = fmt(th["change_annual_pct"], 1)
 
+# 1.1.d: calibracion de Hargreaves y Makkink original (calibrar_hargreaves_1_1d.py)
+ch = pd.read_csv(T11 / "1_1d_calibracion_hargreaves.csv").set_index("caso")
+fila = lambda prefijo: ch.loc[[c for c in ch.index if c.startswith(prefijo)][0]]
+m["HSkCal"] = fmt(fila("Hargreaves calibrado 1981-2001").coeficiente, 6)
+m["HSkTot"] = fmt(fila("Hargreaves calibrado 1981-2022").coeficiente, 6)
+m["HSmaeValOrig"] = fmt(fila("Hargreaves original, validacion").MAE_mm_mes, 1)
+m["HSmaeValCal"] = fmt(fila("Hargreaves calibrado 1981-2001").MAE_mm_mes, 1)
+m["HSsesgoValCal"] = fmt(fila("Hargreaves calibrado 1981-2001").sesgo_pct, 1)
+m["HSmaeTot"] = fmt(fila("Hargreaves calibrado 1981-2022").MAE_mm_mes, 1)
+m["MakkOrigSesgo"] = fmt(fila("Makkink original").sesgo_pct, 0)
+m["MakkOrigMAE"] = fmt(fila("Makkink original").MAE_mm_mes, 1)
+pmh = pd.read_csv(T11 / "1_1d_calibracion_hargreaves_por_mes.csv")
+m["HSsesgoSecoMin"] = fmt(pmh.loc[pmh.mes.between(6, 9), "sesgo_original_mm"].min(), 1)
+m["HSsesgoSecoMax"] = fmt(pmh.loc[pmh.mes.between(6, 9), "sesgo_original_mm"].max(), 1)
+m["HSsesgoHumMin"] = fmt(pmh.loc[pmh.mes.between(1, 3), "sesgo_original_mm"].min(), 1)
+m["HSsesgoHumMax"] = fmt(pmh.loc[pmh.mes.between(1, 3), "sesgo_original_mm"].max(), 1)
+m["HScalHum"] = fmt(pmh.loc[pmh.mes.between(1, 3), "sesgo_calibrado_mm"].mean(), 1)
+m["HScalSeco"] = fmt(pmh.loc[pmh.mes.between(6, 9), "sesgo_calibrado_mm"].mean(), 1)
+cr = pd.read_csv(T11 / "1_1d_calibracion_hargreaves_correlaciones.csv").set_index("variable")
+m["HSrhoAero"] = fmt(cr.loc["fraccion_aerodinamica_pct", "spearman_rho"], 2)
+
 # 1.2
 bal = pd.read_csv(P / "punto_1_2_4_comparacion_multianual.csv").set_index("series")
 m["ETgleam"], m["ETmod"] = fmt(bal.loc["GLEAM4.3a", "mean_mm_year"], 0), fmt(bal.loc["MOD16A2GF v6.1", "mean_mm_year"], 0)
